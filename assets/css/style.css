@@ -63,10 +63,31 @@
     display: table;
 }
 
+
 .section-column{
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
+}
+
+/* --------------------------------------------------------------------------------------------------------header */
+
+.no-gutter{
+
+}
+
+.resturant-name{
+    font-family: "Baloo Bhaina", sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.welcome-note{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    text-align: center;
 }
 
 .section-heading{
@@ -138,28 +159,68 @@ header{
 }
 
 /* -------------------------------------------------------------------------------------------------footer */
-
-footer{
-    color: #fafafa;
-    min-height: 120px;
-}
-
-.social-links{
-    padding-bottom: 15px;
-}
-
-.social-links li a i{
-    width: 50px;
-    height: 50px;
-    padding: 20px 0 0px;
+ footer{
+     height: 150px;
+     bottom: 0;
+     color: #fafafa;
+ }
+.social-links a i{
+    width: 40px;
+    height: 40px;
+    padding: 17px 0 0px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 22px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background-color: rgb(121, 116, 116)
 }
 
 .social-links li a i:hover{
     background:  rgb(104, 100, 100)
 }
+
+.general-sub{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#my-app {
+    width: 40px;
+    height: 40px;
+    padding: 17px 0 15p 0;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    margin-left: 10px;
+    background-color: #fafafa;
+}
+
+#my-app a i{
+    color:#fafafa;
+}
+
+.fa-utensils{
+    color: gray;
+}
+
+#my-app:hover{
+    background:  rgb(104, 100, 100)
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        display: none;
+    }
+
+    #my-app{
+        margin-left: 135px;
+    }
+
+    footer{
+        height: 100%;
+        bottom: 0;
+    }
+}
+
