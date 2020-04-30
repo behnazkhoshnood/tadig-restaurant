@@ -1,226 +1,290 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500&family=Roboto+Condensed:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500&family=Roboto+Condensed:wght@300;400&display=swap");
 
 /* ---------------------------------------------------------------------------------------------------Colors */
 
-.ui-menu-color-home{
-    background-color: rgb(44, 138, 167)
+.ui-menu-color-home {
+  background-color: rgb(44, 138, 167);
 }
 
-.home-footer{
-    background-color: rgb(44, 138, 167)
+.home-footer {
+  background-color: rgb(44, 138, 167);
 }
 
-.ui-menu-color-order{
-    background-color: rgb(99, 143, 33)
+.ui-menu-color-order {
+  background-color: rgb(99, 143, 33);
 }
 
-.order-footer{
-    background-color: rgb(99, 143, 33)
+.order-footer {
+  background-color: rgb(99, 143, 33);
 }
 
-.ui-menu-color-reservation{
-    background-color: rgb(170, 88, 170)
+.ui-menu-color-reservation {
+  background-color: rgb(170, 88, 170);
 }
 
-.reservation-footer{
-    background-color: rgb(170, 88, 170)
+.reservation-footer {
+  background-color: rgb(170, 88, 170);
 }
 
-
-.ui-menu-color-rate-us{
-    background-color: rgb(187, 99, 99)
+.ui-menu-color-rate-us {
+  background-color: rgb(187, 99, 99);
 }
 
-.rate-us-footer{
-    background-color: rgb(187, 99, 99)
+.rate-us-footer {
+  background-color: rgb(187, 99, 99);
 }
 
 /* ---------------------------------------------------------------------------------------------------:Menu */
 
-.logo{
-    background: url("../images/persian-food.jpg");
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    min-height: 360px;
-    padding-left: 0;
-    padding-right: 0;
-    transition: all0.5s ease-in-out;
-    -moz-transition: all0.5s ease-in-out;
-    -webkit-transition: all0.5s ease-in-out;
-    -o-transition: all0.5s ease-in-out;
+#picture {
+  background: url("../images/persian-food.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 360px;
+  padding-left: 0;
+  padding-right: 0;
+  transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -webkit-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
+  overflow: hidden;
 }
 
-.uppercase{
-    text-transform: uppercase;
+.logo {
+  background: url("../images/persian-food.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 360px;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -webkit-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
 }
 
-.inline-block{
-    display: inline-block;
+.uppercase {
+  text-transform: uppercase;
 }
 
-.row-table{
-    display: table;
+.inline-block {
+  display: inline-block;
+  color: #fafafa;
 }
 
+.inline-block p {
+  margin-bottom: 40px;
+}
 
-.section-column{
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+.inline {
+  display: inline;
+}
+
+.row-table {
+  display: table;
+}
+
+.section-column {
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
 }
 
 /* --------------------------------------------------------------------------------------------------------header */
 
-.no-gutter{
-
+.resturant-name {
+  font-family: "Baloo Bhaina", sans-serif;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-.resturant-name{
-    font-family: "Baloo Bhaina", sans-serif;
-    font-weight: 400;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    text-align: center;
+.welcome-note {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  justify-content: safe;
 }
 
-.welcome-note{
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    text-align: center;
+.section-heading {
+  font-family: "Baloo Bhaina", sans-serif;
+  font-weight: 300;
+  margin-top: 24px;
+  margin-bottom: 40px;
 }
 
-.section-heading{
-    font-family: "Baloo Bhaina", sans-serif;
-    font-weight: 300;
-    margin-top: 24px;
-    margin-bottom: 40px;
+header {
+  margin: 0;
 }
 
-header{
-    margin: 0;
+.heading {
+  margin: 50px;
 }
 
-.heading{
-    margin: 50px;
+.list-inline-item:not(:last-child) {
+  margin: 0;
 }
 
-.list-inline-item:not(:last-child){
-    margin: 0;
+.list-inline-item {
+  margin-top: 0;
+  padding-left: 15px;
 }
 
-.menucontainer{
-    font-size: 0;
+.menucontainer {
+  font-size: 0;
 }
 
-#nav{
-    margin: 0;
+#nav {
+  margin: 0;
 }
 
-#nav li{
-    padding: 0;
-    font-size: 14px;
+#nav li {
+  padding: 0;
+  font-size: 14px;
 }
 
-.menuitem{
-    height: 120px;
-    text-align: center;
-    padding: 0;
+.menuitem {
+  height: 120px;
+  text-align: center;
+  padding: 0;
 }
 
-.menuitem a{
-    width: 100%;
-    text-decoration: none;
-    color: white;
-    height: 120px;
+.menuitem a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  height: 120px;
 }
 
-.menu item a i{
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
+.menu item a i {
+  padding-top: 22px;
+  display: block;
+  color: #fafafa;
+  font-size: 26px;
 }
 
-.menuitem span{
-    display: block;
-    width: 100%;
-    padding-top: 50px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+.menuitem span {
+  display: block;
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
-.hvr-sweep-to-bottom:before{
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+.hvr-sweep-to-bottom:before {
+  background: rgba(0, 0, 0, 0.2);
+  height: 120px;
 }
 
-/* -------------------------------------------------------------------------------------------------footer */
- footer{
-     height: 150px;
-     bottom: 0;
-     color: #fafafa;
- }
-.social-links a i{
-    width: 40px;
-    height: 40px;
-    padding: 17px 0 0px;
-    border-radius: 50%;
-    font-size: 22px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
+/* -------------------------------------------------------------------------------------------------footer */ 
+
+.my-app{
+    border-radius: 10%;
+    background-color: goldenrod;
+    height: 50px;
 }
 
-.social-links li a i:hover{
-    background:  rgb(104, 100, 100)
+footer {
+  height: 100%;
+  bottom: 0;
+  color: #fafafa;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
-.general-sub{
-    padding-top: 15px;
-    padding-bottom: 15px;
+.footer-details {
+  text-align: center;
 }
 
-#my-app {
-    width: 40px;
-    height: 40px;
-    padding: 17px 0 15p 0;
-    border-radius: 50%;
-    font-size: 22px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    margin-left: 10px;
-    background-color: #fafafa;
+.contacts {
+  padding-right: 10px;
 }
 
-#my-app a i{
-    color:#fafafa;
+.contacts p{
+    width: 205px;
+    padding-left: 10px;
 }
 
-.fa-utensils{
-    color: gray;
+.social-links {
+  margin-bottom: 40px;
+  padding-left: 0;
+  margin-top: 40px;
 }
 
-#my-app:hover{
-    background:  rgb(104, 100, 100)
+.social-links a i {
+  width: 40px;
+  height: 40px;
+  padding: 17px 2px 20px 2px;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+}
+
+.social-links li a i:hover {
+  background: rgb(104, 100, 100);
+}
+
+.general-sub {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 300px;
+  padding-left: 50px;
+}
+
+.general-sub p {
+  font-weight: bold;
+}
+
+
+.contacts i {
+  width: 26px;
+  padding-left: 5px;
+}
+
+.contacts p{
+    padding-left: 20px;
+}
+
+.contacts{
 }
 
 @media only screen and (max-width: 600px) {
-    .logo{
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    #my-app{
-        margin-left: 135px;
-    }
+  footer {
+    max-height: 100%;
+    bottom: 0;
+    padding: 0;
+  }
 
-    footer{
-        height: 100%;
-        bottom: 0;
-    }
+  .social-links {
+    margin-top: 0;
+    padding-left: 0px;
+  }
+
+  .general-sub {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left:0px;
+  }
+
+  .list-inline-item{
+      padding-left: 7px;
+  }
+
+  .contacts i {
+    width: 26px;
+    padding-left: 10px;
 }
 
