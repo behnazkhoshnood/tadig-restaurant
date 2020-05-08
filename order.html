@@ -19,6 +19,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
       type="text/css"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Tadig Resturant</title>
   </head>
@@ -60,21 +66,24 @@
         </div>
       </div>
     </header>
-    <section class="container-fluid main">
-      <div class="row no-gutter">
-        <a href="order.html" class="col-md-6 logo"></a>
-        <div class="col-md-6">
-          <div class="row bg-color-name-title no-gutter">
-            <div class="col heading">
-              <h1 class="resturant-name">Tadig Resturant</h1>
-              <p class="welcome-note">
-                Thanks for choosing us. Tadig is a persian resturant with a warm
-                and friendly invironment located in heart of stockholm.
-                Introducing the persian signsture foods to the world and
-                providing the best quality food with the best service is our top
-                goal. Enjoy your meal.
-              </p>
-            </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="heading uppercase">Starters</h3>
+        </div>
+      </div>
+      <div class="foods">
+        <div class="row kashke-bademjan">
+          <div class="col-12 food-name">
+            <h4>Kashke bademjan</h4>
+            <p class="price">price:56kr</p>
+            <label for="kashkebademjan" class="amount">Amount:</label>
+            <input
+              type="number"
+              name="amount"
+              id="kashkebademjan"
+              class="amount"
+            />
           </div>
         </div>
       </div>
@@ -152,5 +161,20 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

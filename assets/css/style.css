@@ -34,7 +34,10 @@
   background-color: rgb(187, 99, 99);
 }
 
-/* ---------------------------------------------------------------------------------------------------:Menu */
+/* ----------------------------------------------------------------------------------------------------general */
+
+
+/* ---------------------------------------------------------------------------------------------------:Menu */ 
 
 #picture {
   background: url("../images/persian-food.jpg");
@@ -72,15 +75,20 @@
 
 .inline-block {
   display: inline-block;
-  color: #fafafa;
 }
 
 .inline-block p {
   margin-bottom: 40px;
+  color: #fafafa;
 }
 
 .inline {
   display: inline;
+}
+
+.block{
+    display: block;
+    clear: both;
 }
 
 .row-table {
@@ -119,10 +127,12 @@
 
 header {
   margin: 0;
+  text-align: center;
 }
 
 .heading {
   margin: 50px;
+  text-align: center;
 }
 
 .list-inline-item:not(:last-child) {
@@ -183,12 +193,12 @@ header {
   height: 120px;
 }
 
-/* -------------------------------------------------------------------------------------------------footer */ 
+/* -------------------------------------------------------------------------------------------------footer */
 
-.my-app{
-    border-radius: 10%;
-    background-color: goldenrod;
-    height: 50px;
+.my-app {
+  border-radius: 10%;
+  background-color: goldenrod;
+  height: 50px;
 }
 
 footer {
@@ -207,9 +217,9 @@ footer {
   padding-right: 10px;
 }
 
-.contacts p{
-    width: 205px;
-    padding-left: 10px;
+.contacts p {
+  width: 205px;
+  padding-left: 10px;
 }
 
 .social-links {
@@ -244,17 +254,20 @@ footer {
   font-weight: bold;
 }
 
-
 .contacts i {
   width: 26px;
   padding-left: 5px;
 }
 
-.contacts p{
-    padding-left: 20px;
+.contacts p {
+  padding-left: 20px;
 }
 
-.contacts{
+.contacts {
+}
+
+.center{
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -276,15 +289,52 @@ footer {
   .general-sub {
     padding-top: 20px;
     padding-bottom: 15px;
-    padding-left:0px;
+    padding-left: 0px;
   }
 
-  .list-inline-item{
-      padding-left: 7px;
+  .list-inline-item {
+    padding-left: 7px;
   }
 
   .contacts i {
     width: 26px;
     padding-left: 10px;
+  }
+
+  .food-images{
+      display: none;
+  }
 }
 
+/* ----------------------------------------------------------------------------------food-menu */
+
+.food-images{
+    width: 150px;
+    height: 150px;
+}
+
+.food-description{
+    display: inline-block;
+    text-align: center;
+}
+
+.amount{
+    width: 70px;
+    border-left-width: 3px;
+    float: left;
+}
+
+.price{
+    float: right;
+    font-weight: bold;
+}
+
+.food-name{
+    padding-left: 30px;
+    float: right;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
