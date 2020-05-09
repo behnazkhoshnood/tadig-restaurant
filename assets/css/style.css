@@ -36,23 +36,27 @@
 
 /* ----------------------------------------------------------------------------------------------------general */
 
+.inline {
+  display: inline;
+}
+
+.block{
+    display: block;
+}
+
+.center{
+    text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.inline-block {
+  display: inline-block;
+}
 
 /* ---------------------------------------------------------------------------------------------------:Menu */ 
-
-#picture {
-  background: url("../images/persian-food.jpg");
-  background-position: center;
-  background-repeat: none;
-  background-size: cover;
-  min-height: 360px;
-  padding-left: 0;
-  padding-right: 0;
-  transition: all 0s ease-in-out;
-  -moz-transition: all 0s ease-in-out;
-  -webkit-transition: all 0s ease-in-out;
-  -o-transition: all 0s ease-in-out;
-  overflow: hidden;
-}
 
 .logo {
   background: url("../images/persian-food.jpg");
@@ -69,36 +73,9 @@
   -o-transition: all 0s ease-in-out;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
 .inline-block p {
   margin-bottom: 40px;
   color: #fafafa;
-}
-
-.inline {
-  display: inline;
-}
-
-.block{
-    display: block;
-    clear: both;
-}
-
-.row-table {
-  display: table;
-}
-
-.section-column {
-  display: table-cell;
-  padding: 0 30px 30px;
-  float: none;
 }
 
 /* --------------------------------------------------------------------------------------------------------header */
@@ -106,8 +83,8 @@
 .resturant-name {
   font-family: "Baloo Bhaina", sans-serif;
   font-weight: 400;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -116,22 +93,12 @@
   font-weight: 200;
   text-align: center;
   justify-content: safe;
+  padding: 20px;
 }
 
-.section-heading {
-  font-family: "Baloo Bhaina", sans-serif;
-  font-weight: 300;
-  margin-top: 24px;
-  margin-bottom: 40px;
-}
 
 header {
   margin: 0;
-  text-align: center;
-}
-
-.heading {
-  margin: 50px;
   text-align: center;
 }
 
@@ -219,7 +186,7 @@ footer {
 
 .contacts p {
   width: 205px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .social-links {
@@ -259,26 +226,9 @@ footer {
   padding-left: 5px;
 }
 
-.contacts p {
-  padding-left: 20px;
-}
-
-.contacts {
-}
-
-.center{
-    text-align: center;
-}
-
 @media only screen and (max-width: 600px) {
   .logo {
     display: none;
-  }
-
-  footer {
-    max-height: 100%;
-    bottom: 0;
-    padding: 0;
   }
 
   .social-links {
@@ -300,18 +250,11 @@ footer {
     width: 26px;
     padding-left: 10px;
   }
-
-  .food-images{
-      display: none;
-  }
 }
 
 /* ----------------------------------------------------------------------------------food-menu */
 
-.food-images{
-    width: 150px;
-    height: 150px;
-}
+.food-menu-images{}
 
 .food-description{
     display: inline-block;
@@ -321,7 +264,6 @@ footer {
 .amount{
     width: 70px;
     border-left-width: 3px;
-    float: left;
 }
 
 .price{
@@ -335,6 +277,6 @@ footer {
 }
 
 .btn-link:hover {
-    color: #0056b3;
+    color: #000;
     text-decoration: none;
 }

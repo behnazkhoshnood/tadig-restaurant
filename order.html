@@ -19,19 +19,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
       type="text/css"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Tadig Resturant</title>
   </head>
 
   <body>
     <header>
-      <div class="row no-gutter">
+      <div class="row no-gutters">
         <div class="col">
           <ul id="nav" class="list-inline menucontainer">
             <li
@@ -66,25 +60,23 @@
         </div>
       </div>
     </header>
-    <section class="container">
+    <section class="food-menu container-fluid">
       <div class="row">
-        <div class="col-12">
-          <h3 class="heading uppercase">Starters</h3>
-        </div>
-      </div>
-      <div class="foods">
-        <div class="row kashke-bademjan">
-          <div class="col-12 food-name">
-            <h4>Kashke bademjan</h4>
-            <p class="price">price:56kr</p>
-            <label for="kashkebademjan" class="amount">Amount:</label>
-            <input
-              type="number"
-              name="amount"
-              id="kashkebademjan"
-              class="amount"
-            />
-          </div>
+        <img
+          src="https://i.pinimg.com/236x/84/b3/d3/84b3d3d3f99efba53aeddc949613d2e6.jpg"
+          class="d-block w-100 food-menu-images col-md-6 no-gutters"
+          alt="Kashke bademjan"
+        />
+        <div class="col-md-6 no-gutters">
+          <h5 class="list-inline-item">Kashke bademjan</h5><span class="price list-inline-item">price: 59kr</span>
+          <br>
+          <label for="amount">Amount:</label>
+          <input type="number" name="Amount" id="amount" class="amount list-inline-item" />
+          <p>
+            A simple but tasty appetizer. It's main ingrediant is eggplant with
+            caramelized onions, roasted nuts, herbs and spices and sour yogurt
+            souce.
+          </p>
         </div>
       </div>
     </section>
