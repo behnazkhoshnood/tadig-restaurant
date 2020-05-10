@@ -88,14 +88,20 @@
   text-align: center;
 }
 
-.welcome-note {
+welcome-note {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
   text-align: center;
   justify-content: safe;
-  padding: 20px;
+  padding: 10px;
 }
 
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  justify-content: safe;
+  padding: 10px;
+}
 
 header {
   margin: 0;
@@ -163,7 +169,7 @@ header {
 /* -------------------------------------------------------------------------------------------------footer */
 
 .my-app {
-  border-radius: 10%;
+  border-radius:5px;
   background-color: goldenrod;
   height: 50px;
 }
@@ -254,29 +260,56 @@ footer {
 
 /* ----------------------------------------------------------------------------------food-menu */
 
-.food-menu-images{}
-
-.food-description{
-    display: inline-block;
-    text-align: center;
-}
-
-.amount{
-    width: 70px;
-    border-left-width: 3px;
+.food-menu-images{
+    width: 150px;
+    height: 150px;
 }
 
 .price{
-    float: right;
     font-weight: bold;
 }
 
-.food-name{
-    padding-left: 30px;
+.food-menu-header{
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.food-menu-header-btn{
+   text-transform: uppercase;
+   background-color: white;
+   margin: 10px;
+   color: black;
+   border-radius: 0px;
+}
+
+.food-menu-header-btn:hover{
+    background-color: rgb(84, 117, 34);
+}
+
+.active-btn{
+    background-color: rgb(99, 143, 33);
+    border-color: #4e555b;
+    color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------------------reservation */
+
+.views{
+    margin: 10px;
+}
+
+.reservation-submit-btn{
+    background-color: rgb(170, 88, 170);
+    border-radius: 5px;
+    display: block;
+    clear: both;
+    margin: 10px;
     float: right;
 }
 
-.btn-link:hover {
-    color: #000;
-    text-decoration: none;
+.reservation-submit-btn:hover{
+    background-color: rgb(128, 69, 128);
+    border-radius: 5px;
 }
+ 

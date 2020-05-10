@@ -62,21 +62,75 @@
     </header>
     <section class="container-fluid">
       <div class="row">
-        <a href="order.html" class="col-md-6 logo"></a>
-        <div class="col-md-6">
-          <div class="row bg-color-name-title no-gutters">
-            <div class="col">
-              <h1 class="resturant-name">Tadig Resturant</h1>
-              <p class="welcome-note">
-                Thanks for choosing us. Tadig is a persian resturant with a warm
-                and friendly invironment located in heart of stockholm.
-                Introducing the persian signsture foods to the world and
-                providing the best quality food with the best service is our top
-                goal.Order your favorite foods and find out about new dishes by just on click. By downloading our app you can unlock your loyality card and get an even better experience from our resturant.
-                Enjoy your meal.
-              </p>
+        <div class="col">
+          <h4 class="resturant-name">
+            Would you like to reserve a table?
+          </h4>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputPhoneNumber">Phone Number</label>
+              <input
+                type="number"
+                class="form-control"
+                id="exampleInputPhoneNumber"
+                aria-describedby="phoneHelp"
+              />
+              <small id="phoneHelp" class="form-text text-muted"
+                >We'll never share your number with anyone else.</small
+              >
             </div>
-          </div>
+            <h4>How many chairs do you like to reserve?</h4>
+            <label class="sits" for="sits"></label>
+            <h4>Where do you like to sit?</h4>
+            <div class="row"></div>
+            
+            <div class="custom-control custom-switch">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitch1"
+              />
+              <label class="custom-control-label views" for="customSwitch1"
+                >Shiraz</label
+              >
+            </div>
+            <div class="custom-control custom-switch">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitch2"
+              />
+              <label class="custom-control-label views offset-3" for="customSwitch2"
+                >Tehran</label
+              >
+            </div>
+            <div class="custom-control custom-switch">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitch3"
+              />
+              <label class="custom-control-label views" for="customSwitch3"
+                >Kashan</label
+              >
+            </div>
+            <div class="custom-control custom-switch">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitch4"
+              />
+              <label class="custom-control-label views" for="customSwitch4"
+                >Tabriz</label
+              >
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary reservation-submit-btn"
+            >
+              Submit
+            </button>
+          </form>
         </div>
       </div>
     </section>
@@ -153,7 +207,7 @@
         </div>
       </div>
     </footer>
-      <script
+    <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
@@ -170,4 +224,3 @@
     ></script>
   </body>
 </html>
-
