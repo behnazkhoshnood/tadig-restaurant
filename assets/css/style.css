@@ -36,6 +36,15 @@
 
 /* ----------------------------------------------------------------------------------------------------general */
 
+html{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 .inline {
   display: inline;
 }
@@ -165,7 +174,7 @@ header {
   border-radius: 5px;
   background-color: goldenrod;
   height: 70px;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 0px;
 }
 
@@ -257,14 +266,13 @@ footer {
     padding-left: 0px;
   }
 
-  .my-app{
-      margin-left: 20px;
+  .my-app {
+    margin-left: 20px;
   }
 
-  .personal-info label{
-      display: none;
+  .personal-info label {
+    display: none;
   }
-
 }
 
 /* ----------------------------------------------------------------------------------food-menu */
@@ -276,7 +284,6 @@ footer {
 
 .price {
   font-weight: bold;
-  float: right;
 }
 
 .food-menu-header {
@@ -310,7 +317,7 @@ ul {
 /* -------------------------------------------------------------------------------------------------------------reservation */
 
 .views {
-  margin: 10px;
+  margin-top: 20px;
 }
 
 .reservation-submit-btn {
@@ -350,6 +357,7 @@ form {
   text-align: center;
 }
 
-.custom-switch{
-    margin-bottom: 30px;
+.custom-switch {
+  margin-bottom: 35px;
+  padding: 35px;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -61,7 +61,8 @@
       </div>
     </header>
     <section class="container-fluid">
-      <form>
+    <div class="row">
+      <form class="col-10">
         <h4 class="page-heading">
           Would you like to reserve a table?
         </h4>
@@ -142,58 +143,57 @@
             favorite spot in the resturant.Feel free to choose more than one if
             you have more than on favorite spot.
           </p>
-          <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="customSwitch1"
-            />
-            <label class="custom-control-label views" for="customSwitch1"
-              >Shiraz</label
-            >
-          </div>
-          <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="customSwitch2"
-            />
-            <label
-              class="custom-control-label views offset-3"
-              for="customSwitch2"
-              >Tehran</label
-            >
-          </div>
-          <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="customSwitch3"
-            />
-            <label class="custom-control-label views" for="customSwitch3"
-              >Kashan</label
-            >
-          </div>
-          <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="customSwitch4"
-            />
-            <label class="custom-control-label views" for="customSwitch4"
-              >Tabriz</label
-            >
+            <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
+              <input
+                type="checkbox"
+                class="custom-control-input col-2"
+                id="customSwitch1"
+              />
+              <label class="custom-control-label views" for="customSwitch1"
+                >Shiraz</label
+              >
+            </div>
+            <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitch2"
+              />
+              <label class="custom-control-label views" for="customSwitch2"
+                >Tehran</label
+              >
+            </div>
+            <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitch3"
+              />
+              <label class="custom-control-label views" for="customSwitch3"
+                >Kashan</label
+              >
+            </div>
+            <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitch4"
+              />
+              <label class="custom-control-label views" for="customSwitch4"
+                >Tabriz</label
+              >
           </div>
           <div class="row-1">
-          <button
-            type="submit"
-            class="btn btn-primary reservation-submit-btn col-5"
-          >
-            Submit
-          </button>
+            <button
+              type="submit"
+              class="btn btn-primary reservation-submit-btn col-4"
+            >
+              Submit
+            </button>
           </div>
         </div>
       </form>
+      </div>
     </section>
     <footer class="container-fluid reservation-footer">
       <div id="footer-details" class="row">
