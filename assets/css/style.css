@@ -65,6 +65,7 @@ p {
 
 header {
   margin: 0 auto;
+  height: 240px;
 }
 
 /* ---------------------------------------------------------------------------------------------------:Menu */
@@ -154,7 +155,7 @@ header {
 
 .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
-  height: 120px;
+  height: 240px;
 }
 
 /* -------------------------------------------------------------------------------------------------footer */
@@ -264,9 +265,6 @@ footer {
     display: none;
   }
 
-  form {
-  max-width: 80%;
-  }
 
 }
 
@@ -337,13 +335,24 @@ ul {
   background-color: rgb(170, 88, 170);
 }
 
+.personal-info{
+    margin: 0 auto;
+}
+
 .personal-info input {
   margin: 0 auto;
   border-width: 3px;
   background-color: rgb(245, 234, 245);
   margin-top: 30px;
   text-align: left;
-  height: 32px;
+  height: 24px;
+}
+
+.personal-info label {
+  margin-top: 30px;
+  padding: 0px;
+  text-align: left;
+  margin-bottom: 0px;
 }
 
 #sits {
@@ -356,16 +365,15 @@ ul {
     margin-top: 0px;
 }
 
-.personal-info label {
-  margin-top: 30px;
-  padding: 10px;
-  text-align: left;
-}
-
 form {
-  max-width: 60%;
+  max-width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+
+.form-p{
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .custom-switch {
