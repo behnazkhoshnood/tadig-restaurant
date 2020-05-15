@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -61,64 +61,62 @@
       </div>
     </header>
     <section class="container-fluid">
-    <div class="row">
-      <form class="col-10">
-        <h4 class="page-heading">
-          Would you like to reserve a table?
-        </h4>
-        <p>
-          Please fill the information needed for reservation. We are going to
-          inform you about your reservation as soon as possible.
-        </p>
+      <div class="row">
+        <form>
+          <h4 class="page-heading">
+            Would you like to reserve a table?
+          </h4>
+          <p>
+            Please fill the information needed for reservation. We are going to
+            inform you about your reservation as soon as possible.
+          </p>
+          <div class="form-row personal-info">
+            <label for="fname" class="col-md-4 sm-no-show">First name:</label>
+            <input
+              type="text"
+              placeholder="First name"
+              id="fname"
+              class="col-12 col-md-8"
+            />
 
-        <div class="form-row personal-info">
-          <label for="fname" class="col-5">First name:</label>
-          <input
-            type="text"
-            placeholder="First name"
-            id="fname"
-            class="col-12 col-md-6"
-          />
-          <br />
+            <label for="lname" class="col-md-4 sm-no-show">Last name:</label>
+            <input
+              type="text"
+              placeholder="Last name"
+              id="lname"
+              class="col-12 col-md-8"
+            />
 
-          <label for="lname" class="col-5">Last name:</label>
-          <input
-            type="text"
-            placeholder="Last name"
-            id="lname"
-            class="col-12 col-md-6"
-          />
-          <br />
+            <label for="PhoneNumber" class="col-md-4 sm-no-show"
+              >Phone number:</label
+            >
+            <input
+              type="number"
+              placeholder="Phone Number"
+              id="PhoneNumber"
+              class="col-12 col-md-8"
+            />
+            <small
+              id="phoneHelp"
+              class="form-text text-muted offset-md-5 offset-0"
+              >We'll never share your number with anyone else.</small
+            >
 
-          <label for="PhoneNumber" class="col-5">Phone Number:</label>
-          <input
-            type="number"
-            placeholder="Phone Number"
-            id="PhoneNumber"
-            class="col-12 col-md-6"
-          />
-          <small
-            id="phoneHelp"
-            class="form-text text-muted offset-md-5 offset-0"
-            >We'll never share your number with anyone else.</small
-          >
-          <br />
-
-          <label for="inputEmail" class="col-5">Email address:</label>
-          <input
-            type="email"
-            id="inputEmail"
-            class="col-12 col-md-6"
-            placeholder="Email address"
-          />
-          <small
-            id="EmailHelp"
-            class="form-text text-muted offset-md-5 offset-0"
-            >We'll never share your email with anyone else.</small
-          >
-          <br />
-        </div>
-        <div class="sit-information">
+            <label for="inputEmail" class="col-md-4 sm-no-show"
+              >Email address:</label
+            >
+            <input
+              type="email"
+              id="inputEmail"
+              class="col-12 col-md-8"
+              placeholder="Email address"
+            />
+            <small
+              id="EmailHelp"
+              class="form-text text-muted offset-md-5 offset-0"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
           <h4 class="page-heading">
             How many sits whould you like to reserve?
           </h4>
@@ -127,33 +125,35 @@
             you want to reserve more sits please contact us through the
             resturant phone number.
           </p>
-          <br />
-          <input
-            type="number"
-            placeholder="Amount"
-            id="sits"
-            class="col-6 col-md-3 offset-2"
-            max="20"
-          />
-          <label for="Sits" class="col-2">Sits</label>
-          <br />
+
+          <div class="form-row personal-info">
+            <label for="sits" class="col-md-4 col-2" id="sits-label">Sits:</label>
+            <input
+              type="number"
+              id="sits"
+              class="col-9 col-md-8"
+              placeholder="Amount"
+              max="20"
+            />
+          </div>
           <h4 class="page-heading">Where whould you like to sit?</h4>
           <p>
             Here you can choose where you whould like to sit if you have any
             favorite spot in the resturant.Feel free to choose more than one if
             you have more than on favorite spot.
           </p>
-            <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
+          <div class="row">
+            <div class="custom-control custom-switch col-md-3 col-6">
               <input
                 type="checkbox"
-                class="custom-control-input col-2"
+                class="custom-control-input"
                 id="customSwitch1"
               />
               <label class="custom-control-label views" for="customSwitch1"
                 >Shiraz</label
               >
             </div>
-            <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
+            <div class="custom-control custom-switch col-md-3 col-6">
               <input
                 type="checkbox"
                 class="custom-control-input"
@@ -163,7 +163,7 @@
                 >Tehran</label
               >
             </div>
-            <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
+            <div class="custom-control custom-switch col-md-3 col-6">
               <input
                 type="checkbox"
                 class="custom-control-input"
@@ -173,7 +173,7 @@
                 >Kashan</label
               >
             </div>
-            <div class="custom-control custom-switch col-md-3 col-sm-6 inline">
+            <div class="custom-control custom-switch col-md-3 col-6">
               <input
                 type="checkbox"
                 class="custom-control-input"
@@ -182,26 +182,26 @@
               <label class="custom-control-label views" for="customSwitch4"
                 >Tabriz</label
               >
+            </div>
           </div>
           <div class="row-1">
             <button
               type="submit"
-              class="btn btn-primary reservation-submit-btn col-4"
+              class="btn btn-primary reservation-submit-btn col-6 col-md-3"
             >
               Submit
             </button>
           </div>
-        </div>
-      </form>
+        </form>
       </div>
     </section>
     <footer class="container-fluid reservation-footer">
       <div id="footer-details" class="row">
         <div class="col-sm-4">
           <h5 class="uppercase general-sub">Tadig App</h5>
-          <p>
+          <h5>
             Download our app and track your loyality chart progress.
-          </p>
+          </h5>
           <button type="button" class="btn btn-secondary my-app col-10">
             <a href="#" target="_blank"></a>
             <h5>Download</h5>
@@ -210,55 +210,63 @@
         <div class="col-sm-4">
           <div class="contacts">
             <h5 class="uppercase general-sub">Contact Us</h5>
-            <i class="fa fa-phone contacts" aria-hidden="true"
-              ><span class="sr-only">Phone</span></i
-            >
-            <p class="inline-block">5555 123 456</p>
-            <br />
-            <i class="fa fa-fax contacts" aria-hidden="true"
-              ><span class="sr-only">fax</span></i
-            >
-            <p class="inline-block">5555 123 123</p>
-            <br />
-            <i class="fa fa-envelope-o contacts" aria-hidden="true"
-              ><span class="sr-only">email</span></i
-            >
-            <p class="inline-block">tadig@persianResturant.com</p>
-            <br />
-            <i class="fa fa-map-marker contacts" aria-hidden="true"
-              ><span class="sr-only">address</span></i
-            >
-            <p class="inline-block">Lidingö Baggaby 2A</p>
+            <div class="inline">
+              <i class="fa fa-phone contacts" aria-hidden="true">
+                <span class="sr-only">Phone</span></i
+              >
+              <p class="inline">5555 123 456</p>
+              <br />
+            </div>
+            <div class="inline">
+              <i class="fa fa-fax contacts" aria-hidden="true">
+                <span class="sr-only">fax</span></i
+              >
+              <p class="inline">5555 123 123</p>
+              <br />
+            </div>
+            <div class="inline">
+              <i class="fa fa-envelope-o contacts" aria-hidden="true">
+                <span class="sr-only">email</span></i
+              >
+              <p class="inline">tadig@resturant.com</p>
+              <br />
+            </div>
+            <div class="inline">
+              <i class="fa fa-map-marker contacts" aria-hidden="true">
+                <span class="sr-only">address</span></i
+              >
+              <p class="inline">Lidingö,Baggaby2A</p>
+            </div>
           </div>
         </div>
         <div class="col-sm-4">
           <h5 class="uppercase general-sub">Social</h5>
           <ul class="list-inline-item social-links">
-            <li class="list-inline-item">
+            <li class="list-inline-item col-2">
               <a href="#" target="_blank">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span></a
               >
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item col-2">
               <a href="#" target="_blank">
                 <i class="fa fa-pinterest" aria-hidden="true"></i>
                 <span class="sr-only">Pinterest</span></a
               >
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item col-2">
               <a href="#" target="_blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span></a
               >
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item col-2">
               <a href="#" target="_blank">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span></a
               >
             </li>
-            <li class="list-inline-item">
+            <li class="list-inline-item col-2">
               <a href="#" target="_blank">
                 <i class="fa fa-slack" aria-hidden="true"></i>
                 <span class="sr-only">Slack</span></a

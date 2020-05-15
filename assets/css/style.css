@@ -36,15 +36,6 @@
 
 /* ----------------------------------------------------------------------------------------------------general */
 
-html{
-    min-width: 100%;
-    min-height: 100%;
-}
-
-body {
-  margin: 0;
-}
-
 .inline {
   display: inline;
 }
@@ -63,6 +54,17 @@ body {
 
 .inline-block {
   display: inline-block;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  padding: 10px;
+  text-align: center;
+}
+
+header {
+  margin: 0 auto;
 }
 
 /* ---------------------------------------------------------------------------------------------------:Menu */
@@ -94,19 +96,6 @@ body {
   font-weight: 400;
   padding-top: 30px;
   padding-bottom: 10px;
-  text-align: center;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
-  justify-content: safe;
-  padding: 10px;
-  text-align: center;
-}
-
-header {
-  margin: 0;
   text-align: center;
 }
 
@@ -179,7 +168,6 @@ header {
 }
 
 footer {
-  height: 100%;
   bottom: 0;
   color: #fafafa;
   padding-bottom: 0;
@@ -191,18 +179,27 @@ footer {
 }
 
 .contacts {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .contacts p {
-  width: 205px;
-  padding-left: 20px;
+  width: 80%;
+  text-align: left;
+  line-height: 3;
+}
+
+.contacts i {
+  width: 20px;
+  height: 20px;
+  text-align: right;
+  margin: 5px;
 }
 
 .social-links {
   margin-bottom: 40px;
-  padding-left: 0;
-  margin-top: 40px;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .social-links a i {
@@ -231,34 +228,22 @@ footer {
   font-weight: bold;
 }
 
-.contacts i {
-  width: 26px;
-  padding-left: 5px;
-}
-
 @media only screen and (max-width: 600px) {
   .logo {
     display: none;
   }
 
   .social-links {
-    margin-top: 0;
-    padding-left: 0px;
+    padding: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-right: 30px;
   }
 
   .general-sub {
     padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 0px;
-  }
-
-  .list-inline-item {
-    padding-left: 7px;
-  }
-
-  .contacts i {
-    width: 26px;
-    padding-left: 10px;
   }
 
   .food-menu-header {
@@ -270,9 +255,19 @@ footer {
     margin-left: 20px;
   }
 
-  .personal-info label {
+  .personal-info {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .sm-no-show {
     display: none;
   }
+
+  form {
+  max-width: 80%;
+  }
+
 }
 
 /* ----------------------------------------------------------------------------------food-menu */
@@ -317,14 +312,16 @@ ul {
 /* -------------------------------------------------------------------------------------------------------------reservation */
 
 .views {
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-right: 40px;
 }
 
 .reservation-submit-btn {
   background-color: rgb(170, 88, 170);
   border-radius: 5px;
   padding: 0px;
-  margin: 30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
   height: 60px;
   text-align: center;
 }
@@ -340,24 +337,44 @@ ul {
   background-color: rgb(170, 88, 170);
 }
 
-input {
-  margin-top: 30px;
+.personal-info input {
+  margin: 0 auto;
   border-width: 3px;
   background-color: rgb(245, 234, 245);
-  width: 536px;
+  margin-top: 30px;
+  text-align: left;
+  height: 32px;
 }
 
-label {
+#sits {
+  margin-top: 0px;
+  border-width: 3px;
+  background-color: rgb(245, 234, 245);
+}
+
+#sits-label{
+    margin-top: 0px;
+}
+
+.personal-info label {
   margin-top: 30px;
+  padding: 10px;
+  text-align: left;
 }
 
 form {
-  max-width: 70%;
+  max-width: 60%;
   margin: 0 auto;
   text-align: center;
 }
 
 .custom-switch {
   margin-bottom: 35px;
-  padding: 35px;
+  padding-right: 5px;
+}
+
+small {
+  text-align: center;
+  padding-top: 0;
+  margin: 0 auto;
 }
