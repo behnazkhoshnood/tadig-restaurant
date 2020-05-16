@@ -64,8 +64,8 @@ p {
 }
 
 header {
+  min-height: 120px;
   margin: 0 auto;
-  height: 240px;
 }
 
 /* ---------------------------------------------------------------------------------------------------:Menu */
@@ -155,7 +155,7 @@ header {
 
 .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
-  height: 240px;
+  height: 120px;
 }
 
 /* -------------------------------------------------------------------------------------------------footer */
@@ -169,7 +169,6 @@ header {
 }
 
 footer {
-  bottom: 0;
   color: #fafafa;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -177,6 +176,12 @@ footer {
 
 .footer-details {
   text-align: center;
+}
+
+.footer-details h5 {
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .contacts {
@@ -197,10 +202,8 @@ footer {
 }
 
 .social-links {
+  margin: 0 auto;
   margin-bottom: 40px;
-  padding: 0;
-  margin-top: 10px;
-  text-align: center;
 }
 
 .social-links a i {
@@ -219,10 +222,12 @@ footer {
 }
 
 .general-sub {
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 300px;
   padding-left: 50px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .general-sub p {
@@ -230,20 +235,15 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  header {
+    min-height: 120px;
+  }
+
   .logo {
     display: none;
   }
 
-  .social-links {
-    padding: 0px;
-    margin-bottom: 40px;
-    text-align: center;
-    margin-right: 30px;
-  }
-
   .general-sub {
-    padding-top: 20px;
-    padding-bottom: 15px;
     padding-left: 0px;
   }
 
@@ -264,8 +264,6 @@ footer {
   .sm-no-show {
     display: none;
   }
-
-
 }
 
 /* ----------------------------------------------------------------------------------food-menu */
@@ -335,8 +333,8 @@ ul {
   background-color: rgb(170, 88, 170);
 }
 
-.personal-info{
-    margin: 0 auto;
+.personal-info {
+  margin: 0 auto;
 }
 
 .personal-info input {
@@ -361,8 +359,8 @@ ul {
   background-color: rgb(245, 234, 245);
 }
 
-#sits-label{
-    margin-top: 0px;
+#sits-label {
+  margin-top: 0px;
 }
 
 form {
@@ -371,9 +369,9 @@ form {
   text-align: center;
 }
 
-.form-p{
-    margin: 0 auto;
-    margin-bottom: 20px;
+.form-p {
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .custom-switch {
