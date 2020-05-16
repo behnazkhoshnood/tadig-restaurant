@@ -52,15 +52,10 @@
   text-transform: uppercase;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
   padding: 10px;
-  text-align: center;
 }
 
 header {
@@ -68,26 +63,30 @@ header {
   margin: 0 auto;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* ---------------------------------------------------------------------------------------------------:Menu */
 
 .logo {
-  background: url("../images/persian-food.jpg");
   background-position: center;
-  background-repeat: none;
   background-size: cover;
-  min-height: 360px;
+  height: 500px;
   padding-left: 0;
   padding-right: 0;
-  overflow: hidden;
-  transition: all 0s ease-in-out;
-  -moz-transition: all 0s ease-in-out;
-  -webkit-transition: all 0s ease-in-out;
-  -o-transition: all 0s ease-in-out;
 }
 
-.inline-block p {
-  margin-bottom: 40px;
-  color: #fafafa;
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-item h5{
+  background-color: whitesmoke;
+  color: rgb(62, 63, 77);
+  max-width: 200px;
+  height: 30px;
+  margin: 0 auto;
 }
 
 /* --------------------------------------------------------------------------------------------------------header */
@@ -106,7 +105,7 @@ header {
 
 .list-inline-item {
   margin-top: 0;
-  padding-left: 15px;
+  padding-left: 0px;
 }
 
 .menucontainer {
@@ -163,47 +162,37 @@ header {
 .my-app {
   border-radius: 5px;
   background-color: goldenrod;
-  height: 70px;
-  margin-top: 10px;
-  margin-left: 0px;
+  height: 60px;
 }
 
 footer {
   color: #fafafa;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.footer-details {
-  text-align: center;
-}
-
-.footer-details h5 {
-  text-align: center;
-  margin-right: 15px;
-  margin-left: 15px;
 }
 
 .contacts {
-  padding-right: 5px;
+  margin-bottom: 20px;
 }
 
 .contacts p {
-  width: 80%;
-  text-align: left;
-  line-height: 3;
+  text-align: right;
+  line-height: 20px;
 }
 
 .contacts i {
-  width: 20px;
-  height: 20px;
-  text-align: right;
-  margin: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 17px 2px 20px 2px;
+  text-align: left;
+  font-size: 22px;
+  line-height: 20px;
+  color: #fafafa;
 }
 
 .social-links {
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 .social-links a i {
@@ -225,43 +214,15 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
   width: 300px;
-  padding-left: 50px;
-  text-align: center;
   margin: 0 auto;
 }
 
-.general-sub p {
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 600px) {
-  header {
-    min-height: 120px;
-  }
-
   .logo {
     display: none;
   }
 
-  .general-sub {
-    padding-left: 0px;
-  }
-
-  .food-menu-header {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  .my-app {
-    margin-left: 20px;
-  }
-
-  .personal-info {
-    max-width: 100%;
-    text-align: left;
-  }
-
-  .sm-no-show {
+  .sm-no-label {
     display: none;
   }
 }
@@ -269,7 +230,6 @@ footer {
 /* ----------------------------------------------------------------------------------food-menu */
 
 .food-menu-images {
-  width: 150px;
   height: 150px;
 }
 
@@ -292,24 +252,23 @@ footer {
 
 .active-btn {
   background-color: rgb(99, 143, 33);
-  border-color: #4e555b;
+  border-color: rgb(99, 143, 33);
   color: white;
 }
 
-ul {
-  list-style-type: none;
-}
-
-.food-menu-list {
-  padding-left: 2px;
-  padding-right: 5px;
+.list-group-item h1 {
+  background-color: rgb(99, 143, 33);
+  color: white;
+  max-width: 300px;
+  margin: 0 auto;
+  height: 50px;
 }
 
 /* -------------------------------------------------------------------------------------------------------------reservation */
 
 .views {
-  margin-top: 40px;
-  margin-right: 40px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .reservation-submit-btn {
@@ -338,7 +297,6 @@ ul {
 }
 
 .personal-info input {
-  margin: 0 auto;
   border-width: 3px;
   background-color: rgb(245, 234, 245);
   margin-top: 30px;
