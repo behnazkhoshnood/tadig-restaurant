@@ -67,7 +67,20 @@ ul {
   list-style-type: none;
 }
 
-/* ---------------------------------------------------------------------------------------------------:Menu */
+/* ---------------------------------------------------------------------------------------------------:index */
+
+.extra-note {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  padding: 10px;
+  text-align: unset;
+  line-height: 25px;
+}
+
+.index-section {
+  height: 50vh;
+  position: relative;
+}
 
 .logo {
   background-position: center;
@@ -77,16 +90,36 @@ ul {
   padding-right: 0;
 }
 
-.carousel-item img{
-    height: 500px;
+.carousel-item img {
+  height: 50vh;
 }
 
-.carousel-item h5{
+.carousel-item h5 {
   background-color: whitesmoke;
   color: rgb(62, 63, 77);
   max-width: 200px;
   height: 30px;
   margin: 0 auto;
+}
+
+.jumbotron-fluid {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(106, 124, 129);
+  color: #fafafa;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: static;
+}
+
+.jumbotron-fluid p {
+  text-align: center;
+  line-height: 35px;
+}
+
+.jumbotron-fluid strong {
+  font-weight: bold;
+  color: rgb(180, 218, 230);
 }
 
 /* --------------------------------------------------------------------------------------------------------header */
@@ -97,6 +130,14 @@ ul {
   padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
+}
+
+.index-note {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  padding: 10px;
+  text-align: unset;
+  line-height: 25px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -225,16 +266,21 @@ footer {
   .sm-no-label {
     display: none;
   }
+
+  .food-guid h6 {
+    text-align: left;
+    line-height: 3;
+  }
+
+  .index-section {
+    height: 80vh;
+}
 }
 
 /* ----------------------------------------------------------------------------------food-menu */
 
 .food-menu-images {
   height: 150px;
-}
-
-.price {
-  font-weight: bold;
 }
 
 .food-menu-header {
@@ -262,6 +308,14 @@ footer {
   max-width: 300px;
   margin: 0 auto;
   height: 50px;
+}
+
+.list-group-item div h4 {
+  display: inline;
+}
+
+.guide-span {
+  float: right;
 }
 
 /* -------------------------------------------------------------------------------------------------------------reservation */
@@ -341,4 +395,40 @@ small {
   text-align: center;
   padding-top: 0;
   margin: 0 auto;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------rate-us */
+
+.rate-us-submit-btn {
+  background-color: rgb(187, 99, 99);
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  height: 60px;
+  text-align: center;
+}
+
+.rate-us-submit-btn:hover {
+  background-color: rgb(148, 87, 87);
+  border-radius: 5px;
+}
+
+.rate-us-info {
+  margin: 0 auto;
+}
+
+.rate-us-info input {
+  border-width: 3px;
+  background-color: rgb(236, 220, 220);
+  margin-top: 30px;
+  text-align: left;
+  height: 24px;
+}
+
+.rate-us-info label {
+  margin-top: 30px;
+  padding: 0px;
+  text-align: left;
+  margin-bottom: 0px;
 }
