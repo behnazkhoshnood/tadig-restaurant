@@ -450,17 +450,26 @@ small {
   margin: 0 auto;
 }
 
-.rate-us-info input {
-  border-width: 3px;
-  background-color: rgb(236, 220, 220);
-  margin-top: 30px;
-  text-align: left;
-  height: 24px;
+.rate-us-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: rgb(187, 99, 99);
+  background-color: rgb(187, 99, 99);
 }
 
-.rate-us-info label {
-  margin-top: 30px;
-  padding: 0px;
-  text-align: left;
-  margin-bottom: 0px;
+.rate-us-questions{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.text-area{
+    margin: 0 auto;
+}
+
+.rate-us-background{
+    background-color: rgb(241, 235, 235);
+    margin-bottom: 25px;
+}
+
+.votes{
+    margin-top: 15px;
 }
