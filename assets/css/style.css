@@ -69,29 +69,21 @@ ul {
 
 /* ---------------------------------------------------------------------------------------------------:index */
 
-.extra-note {
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
-  padding: 10px;
-  text-align: unset;
-  line-height: 25px;
-}
-
 .index-section {
-  height: 50vh;
-  position: relative;
+  height: 60vh;
 }
 
 .logo {
   background-position: center;
   background-size: cover;
-  height: 500px;
   padding-left: 0;
   padding-right: 0;
 }
 
+.carousel-control-prev,
+.carousel-control-next,
 .carousel-item img {
-  height: 50vh;
+  height: 60vh;
 }
 
 .carousel-item h5 {
@@ -109,12 +101,13 @@ ul {
   color: #fafafa;
   margin-bottom: 10px;
   margin-top: 10px;
-  position: static;
 }
 
 .jumbotron-fluid p {
   text-align: center;
   line-height: 35px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .jumbotron-fluid strong {
@@ -135,8 +128,7 @@ ul {
 .index-note {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
-  padding: 10px;
-  text-align: unset;
+  text-align: center;
   line-height: 25px;
 }
 
@@ -271,17 +263,32 @@ footer {
     text-align: left;
     line-height: 3;
   }
+}
 
+@media only screen and (max-width: 340px) {
   .index-section {
-    height: 80vh;
-}
+    height: 560px;
+  }
 }
 
+@media only screen and (min-width: 341px) and (max-width: 399px) {
+  .index-section {
+    height: 505px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .index-section {
+    height: 455px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 750px) {
+  .index-section {
+    height: 60vh;
+  }
+}
 /* ----------------------------------------------------------------------------------food-menu */
-
-.food-menu-images {
-  height: 150px;
-}
 
 .food-menu-header {
   height: 60px;
