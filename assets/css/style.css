@@ -390,6 +390,11 @@ footer {
   height: 24px;
 }
 
+.personal-info input:focus {
+  outline-color: rgb(170, 88, 170);
+  outline-width: 3px;
+}
+
 .personal-info label {
   margin-top: 30px;
   padding: 0px;
@@ -439,6 +444,8 @@ small {
   margin-bottom: 30px;
   height: 60px;
   text-align: center;
+  margin-top: 20px;
+  border-color: rgb(187, 99, 99);
 }
 
 .rate-us-submit-btn:hover {
@@ -456,28 +463,50 @@ small {
   background-color: rgb(187, 99, 99);
 }
 
-.rate-us-questions{
-    margin: 0 auto;
-    margin-top: 10px;
+.rate-us-questions {
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
-.text-area{
-    margin: 0 auto;
+.text-area {
+  margin: 0 auto;
 }
 
-.rate-us-background{
-    background-color: rgb(241, 235, 235);
-    margin-bottom: 25px;
+.rate-us-background {
+  background-color: rgb(241, 235, 235);
+  margin-bottom: 25px;
 }
 
-.votes{
-    margin-top: 15px;
+.votes {
+  margin-top: 15px;
 }
 
 label.custom-control-label {
-    outline-color: white;
+  outline-color: white;
 }
 
-._3QdKe{
-    background-color: rgb(187, 99, 99)!important;
+.form-control:focus {
+  border-color: rgb(187, 99, 99);
+  box-shadow: none;
+  border-width: 3px;
+  background-color: rgb(241, 235, 235);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #787878;
+  border-color: #787878;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
