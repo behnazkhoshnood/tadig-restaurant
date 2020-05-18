@@ -192,10 +192,22 @@ ul {
 
 /* -------------------------------------------------------------------------------------------------footer */
 
-.my-app {
+.sign-in-btn {
   border-radius: 5px;
   background-color: goldenrod;
   height: 60px;
+}
+
+#sign-in-passworld,
+#sign-in-email{
+    background-color: rgb(235, 229, 217);
+    border-width: 3px;
+}
+
+#sign-in-passworld:focus,
+#sign-in-email:focus{
+    border-color: rgb(226, 177, 51);
+    border-width: 3px;
 }
 
 footer {
@@ -483,6 +495,11 @@ small {
 
 label.custom-control-label {
   outline-color: white;
+}
+
+.form-control{
+    border-width: 3px;
+    background-color: rgb(241, 235, 235);
 }
 
 .form-control:focus {
