@@ -473,3 +473,11 @@ small {
 .votes{
     margin-top: 15px;
 }
+
+label.custom-control-label {
+    outline-color: white;
+}
+
+._3QdKe{
+    background-color: rgb(187, 99, 99)!important;
+}
