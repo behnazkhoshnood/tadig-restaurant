@@ -99,8 +99,6 @@ ul {
   padding: 10px;
   background-color: rgb(106, 124, 129);
   color: #fafafa;
-  margin-bottom: 10px;
-  margin-top: 10px;
 }
 
 .jumbotron-fluid p {
@@ -115,8 +113,6 @@ ul {
   color: rgb(180, 218, 230);
 }
 
-/* --------------------------------------------------------------------------------------------------------header */
-
 .page-heading {
   font-family: "Baloo Bhaina", sans-serif;
   font-weight: 400;
@@ -130,7 +126,11 @@ ul {
   font-weight: 200;
   text-align: center;
   line-height: 25px;
+  margin: 10px;
+  padding: 10px;
 }
+
+/* --------------------------------------------------------------------------------------------------------header */
 
 .list-inline-item:not(:last-child) {
   margin: 0;
@@ -201,25 +201,26 @@ ul {
 }
 
 #sign-in-passworld,
-#sign-in-email{
-    background-color: rgb(235, 229, 217);
-    border-width: 3px;
+#sign-in-email {
+  background-color: rgb(235, 229, 217);
+  border-width: 3px;
 }
 
 #sign-in-passworld:focus,
-#sign-in-email:focus{
-    border-color: rgb(226, 177, 51);
-    border-width: 3px;
+#sign-in-email:focus {
+  border-color: rgb(226, 177, 51);
+  border-width: 3px;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: rgb(163, 137, 72);
-    border-color: rgb(163, 137, 72);
+  color: #fff;
+  background-color: rgb(163, 137, 72);
+  border-color: rgb(163, 137, 72);
 }
 
 footer {
   color: #fafafa;
+  min-height: 310px;
 }
 
 .contacts {
@@ -240,7 +241,12 @@ footer {
   font-size: 22px;
   line-height: 20px;
   color: #fafafa;
-  
+}
+
+.cotacts-v-align {
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .social-links {
@@ -284,49 +290,44 @@ footer {
     text-align: left;
     line-height: 3;
   }
+
+}
 }
 
+@media only screen and (max-width: 575px) {
+    .cotacts-v-align{
+        padding-left: 15vw;
+    }
+
+}
 @media only screen and (max-width: 340px) {
   .index-section {
-    height: 560px;
+    height: 620px;
   }
 }
 
 @media only screen and (min-width: 341px) and (max-width: 399px) {
   .index-section {
-    height: 505px;
+    height: 570px;
   }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
   .index-section {
-    height: 455px;
+    height: 500px;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 920px) {
+@media only screen and (min-width: 601px) {
+  .carousel-item img,
   .logo,
   .index-section {
-    height: 90vh;
+    height: 60vh;
   }
 
   .carousel-control-prev,
-  .carousel-control-next,
-  .carousel-item img {
-    height: 90vh;
-  }
-}
-
-@media only screen and (min-width: 921px) {
-  index-section {
-    height: 60vh;
-  }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 767px) {
-  .index-responsivness {
-    flex: 0 0 50%;
-    max-width: 50%;
+  .carousel-control-next {
+    height: 50vh;
   }
 }
 
@@ -343,11 +344,11 @@ footer {
 }
 
 .food-menu ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
-.food-menu-header li{
-    text-align: center;
+.food-menu-header li {
+  text-align: center;
 }
 
 .food-menu-header:hover {
@@ -516,9 +517,9 @@ label.custom-control-label {
   outline-color: white;
 }
 
-.form-control{
-    border-width: 3px;
-    background-color: rgb(241, 235, 235);
+.form-control {
+  border-width: 3px;
+  background-color: rgb(241, 235, 235);
 }
 
 .form-control:focus {
