@@ -196,6 +196,8 @@ ul {
   border-radius: 5px;
   background-color: goldenrod;
   height: 60px;
+  min-width: 120px;
+  border-color: goldenrod;
 }
 
 #sign-in-passworld,
@@ -210,6 +212,12 @@ ul {
     border-width: 3px;
 }
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(163, 137, 72);
+    border-color: rgb(163, 137, 72);
+}
+
 footer {
   color: #fafafa;
 }
@@ -219,7 +227,7 @@ footer {
 }
 
 .contacts p {
-  text-align: right;
+  text-align: left;
   line-height: 20px;
 }
 
@@ -232,6 +240,7 @@ footer {
   font-size: 22px;
   line-height: 20px;
   color: #fafafa;
+  
 }
 
 .social-links {

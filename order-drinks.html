@@ -39,7 +39,7 @@
               class="col-6 col-sm-3 ui-menu-color-order list-inline-item menuitem"
             >
               <a href="order.html" class="hvr-sweep-to-bottom"
-                ><span>Order</span></a
+                ><span>Menu</span></a
               >
             </li>
             <li
@@ -501,13 +501,17 @@
     <footer class="container-fluid order-footer">
       <div id="footer-details" class="row">
         <div class="col-sm-4 center">
-          <h5 class="uppercase general-sub">Tadig App</h5>
+           <h5 class="uppercase general-sub">Sign Up / Sign in</h5>
           <p>
-            Download our app and track your loyality chart progress.
+            Sign up / sign in and track your loyality chart progress.
           </p>
-          <button type="button" class="btn btn-secondary my-app col-8 center">
-            <a href="#" target="_blank"></a>
-            <h5>Download</h5>
+          <button
+            type="button"
+            class="btn btn-primary sign-in-btn"
+            data-toggle="modal"
+            data-target="#sign-in-btn"
+          >
+            Sign In / Sign Up
           </button>
         </div>
         <div class="col-sm-4 center">
@@ -579,6 +583,74 @@
         </div>
       </div>
     </footer>
+    <div class="modal" tabindex="-1" role="dialog" id="sign-in-btn">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title center">
+              Please Sign Up / Sign in and fallow your loyality chart.
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="sign-in-email"
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="sign-in-passworld"
+                />
+              </div>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Remember me</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary sign-in-btn">
+                Submit
+              </button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary sign-in-btn">
+              Save changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
