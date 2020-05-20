@@ -220,7 +220,7 @@ ul {
 
 footer {
   color: #fafafa;
-  min-height: 310px;
+  min-height: 240px;
 }
 
 .contacts {
@@ -277,7 +277,7 @@ footer {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 549px) {
   .logo {
     display: none;
   }
@@ -290,35 +290,29 @@ footer {
     text-align: left;
     line-height: 3;
   }
-
-}
 }
 
-@media only screen and (max-width: 575px) {
-    .cotacts-v-align{
-        padding-left: 15vw;
-    }
-
-}
 @media only screen and (max-width: 340px) {
   .index-section {
-    height: 620px;
+    height: 630px;
   }
 }
 
 @media only screen and (min-width: 341px) and (max-width: 399px) {
   .index-section {
-    height: 570px;
+    height: 580px;
   }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 801px) {
+  .carousel-item img,
+  .logo,
   .index-section {
-    height: 500px;
+    height: 510px;
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 799px) {
   .carousel-item img,
   .logo,
   .index-section {
@@ -327,7 +321,34 @@ footer {
 
   .carousel-control-prev,
   .carousel-control-next {
-    height: 50vh;
+    height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 549px) and (max-width: 801px) {
+  header,
+  footer,
+  section {
+    min-width: 1019px;
+  }
+}
+
+@media only screen and (min-width: 599px) and (max-width: 801px) {
+  html,
+  body {
+    min-height: 1061px;
+  }
+
+  .menuitem,
+  .menuitem a,
+  .menuitem span,
+  .hvr-sweep-to-bottom:before,
+  header {
+    height: 240px;
+  }
+
+  .menuitem span{
+      padding-top: 100px;
   }
 }
 
