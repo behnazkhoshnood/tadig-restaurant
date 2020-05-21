@@ -70,7 +70,8 @@ ul {
 /* ---------------------------------------------------------------------------------------------------:index */
 
 .index-section {
-  height: 60vh;
+  height: 62vh;
+  margin-bottom: 0;
 }
 
 .logo {
@@ -83,7 +84,7 @@ ul {
 .carousel-control-prev,
 .carousel-control-next,
 .carousel-item img {
-  height: 60vh;
+  height: 62vh;
 }
 
 .carousel-item h5 {
@@ -96,7 +97,7 @@ ul {
 
 .jumbotron-fluid {
   margin: 0 auto;
-  padding: 10px;
+  padding: 30px;
   background-color: rgb(106, 124, 129);
   color: #fafafa;
 }
@@ -105,7 +106,7 @@ ul {
   text-align: center;
   line-height: 35px;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 3vh;
 }
 
 .jumbotron-fluid strong {
@@ -128,6 +129,8 @@ ul {
   line-height: 25px;
   margin: 10px;
   padding: 10px;
+  font-size: larger;
+  padding-top: 0;
 }
 
 /* --------------------------------------------------------------------------------------------------------header */
@@ -286,42 +289,89 @@ footer {
     display: none;
   }
 
-  .food-guid h6 {
-    text-align: left;
+  .food-guide h6 {
+    text-align: center;
     line-height: 3;
   }
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 350px) {
   .index-section {
-    height: 630px;
+    height: 660px;
   }
 }
 
-@media only screen and (min-width: 341px) and (max-width: 399px) {
+@media only screen and (min-width: 351px) and (max-width: 415px) {
   .index-section {
-    height: 580px;
+    height: 660px;
+  }
+  .index-note {
+    font-size: 20px;
+    font-weight: 100;
   }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 801px) {
+@media only screen and (min-width: 416px) and (max-width: 601px) {
+  .index-note {
+    height: 530px;
+    line-height: 2;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
   .carousel-item img,
   .logo,
   .index-section {
-    height: 510px;
+    height: 95vh;
+  }
+
+  .jumbotron-fluid,
+  footer {
+    min-height: 300px;
+    font-size: 22px;
   }
 }
 
-@media only screen and (min-width: 799px) {
+@media only screen and (min-width: 602px) and (max-width: 650px) {
   .carousel-item img,
   .logo,
   .index-section {
-    height: 60vh;
+    height: 520px;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1019px) {
+  .carousel-item img,
+  .logo,
+  .index-section {
+    height: 72vh;
   }
 
   .carousel-control-prev,
   .carousel-control-next {
-    height: 60vh;
+    height: 80vh;
+  }
+
+  .index-note {
+    line-height: 35px;
+    font-size: 20px;
+  }
+
+  .jumbotron-fluid,
+  footer {
+    min-height: 300px;
+  }
+
+  footer {
+    padding-top: 15px;
+  }
+
+  .jumbotron-fluid {
+    padding-top: 25px;
+  }
+
+  .food-guide {
+    padding-top: 25px;
   }
 }
 
@@ -333,22 +383,38 @@ footer {
   }
 }
 
-@media only screen and (min-width: 599px) and (max-width: 801px) {
-  html,
-  body {
-    min-height: 1061px;
+@media only screen and (min-width: 930px) and (max-width: 1000px) {
+  .carousel-item img,
+  .logo,
+  .index-section {
+    height: 80vh;
   }
 
-  .menuitem,
-  .menuitem a,
-  .menuitem span,
-  .hvr-sweep-to-bottom:before,
-  header {
-    height: 240px;
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 80vh;
+  }
+}
+
+@media only screen and (min-height: 900px) and (max-height: 1250px) {
+  .jumbotron-fluid,
+  footer {
+    min-height: 340px;
+  }
+  .carousel-item img,
+  .logo,
+  .index-section {
+    height: 92vh;
   }
 
-  .menuitem span{
-      padding-top: 100px;
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 92vh;
+  }
+
+  .index-note {
+    line-height: 35px;
+    font-size: 20px;
   }
 }
 
