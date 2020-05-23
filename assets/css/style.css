@@ -70,6 +70,7 @@ ul {
 /* ---------------------------------------------------------------------------------------------------:index */
 
 .index-section {
+    height: 62vh;
   margin-bottom: 0;
 }
 
@@ -279,6 +280,8 @@ footer {
   margin: 0 auto;
 }
 
+/* --------------------------------------------------------------------------------------------------------@media */
+
 @media only screen and (max-width: 549px) {
   .logo {
     display: none;
@@ -296,6 +299,10 @@ footer {
   form {
     width: 80%;
   }
+
+  .index-section {
+    height: 660px;
+  }
 }
 
 @media only screen and (min-width: 351px) and (max-width: 415px) {
@@ -306,6 +313,7 @@ footer {
     font-size: 20px;
     font-weight: 100;
   }
+
   form {
     width: 80%;
   }
@@ -325,7 +333,7 @@ footer {
 
   .carousel-item img,
   .logo,
-  .index-section {
+  .index-section{
     height: 710px;
   }
 
@@ -353,7 +361,7 @@ footer {
 
   .carousel-control-prev,
   .carousel-control-next {
-    height: 80vh;
+    height: 72vh;
   }
 
   .index-note {
@@ -423,6 +431,7 @@ footer {
   }
 }
 @media only screen and (max-width: 300px) {
+    body,
   header,
   footer,
   section {
