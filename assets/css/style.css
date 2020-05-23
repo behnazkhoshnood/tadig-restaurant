@@ -36,6 +36,13 @@
 
 /* ----------------------------------------------------------------------------------------------------general */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .inline {
   display: inline;
 }
@@ -111,7 +118,6 @@ ul {
 
 .jumbotron-fluid strong {
   font-weight: bold;
-  color: rgb(180, 218, 230);
 }
 
 .page-heading {
@@ -445,7 +451,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 620px) {
   .votes,
   .views {
     max-width: 60%;
@@ -453,10 +459,15 @@ footer {
 
   #sits {
     max-width: 130px;
+    margin: 0 auto;
+    margin-left: 5px;
   }
 
   #sits-label {
     max-width: 70px;
+    margin: 0 auto;
+    margin-right: 5px;
+    
   }
 }
 
@@ -551,6 +562,7 @@ footer {
 
 .personal-info input {
   border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.2);
   background-color: rgb(245, 234, 245);
   margin-top: 30px;
   text-align: left;
@@ -676,8 +688,8 @@ label.custom-control-label {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #787878;
-  border-color: #787878;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 
 .btn-primary.focus,
