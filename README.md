@@ -1,10 +1,13 @@
 Project Purpose:
 
-make a website for "Tadig resturant" which is a made up persian resturant.
-This website contains 4 main pages that is Home, Order, Reservation and Rate us pages. The order page contains 4 page containing the list of: Starters, Main, Dessersts and Drinks.
-This website goal is to make an easier and better experience for the customers when they want to order any food and also helps with the revalueation of the products.
-All the images in the website are provided from an external website which is mentioned in the code area in the img src and are also mentioned below. And most of the explenation notes are provided from wikipedia and some more sorces which i mentioned in the code area and also here.
-codes that are used are from the coding I learned from codeInstitute lessens module 3,4 and 5, bootstrap, fontawsome, google fonts, and DevTools.
+This website is made for resturants in general. We named our resturant "Tadig resturant" which is a made up persian resturant.
+
+UX design:
+
+This website contains of 4 main pages that is Home, Order, Reservation and Rate us pages. The order page contains of 4 pages containing the list of: Starters, Main, Dessersts and Drinks.
+This website goal is to make an easier and better experience for the customers when they want to order food and also helps with the revalueation of the products.
+All the images in the website are provided from an external website which is mentioned in the code area in the img src and are also mentioned below. And most of the explenation notes are provided from wikipedia and some more sorces which is mentioned in the code area and also here in the info part.
+Codes that are used are from the coding I learned from codeInstitute lessens module 3, 4 and 5, bootstrap, fontawsome, google fonts, and DevTools.
 Image sorces:
 (Dessersts)
 
@@ -38,7 +41,7 @@ Image sorces:
                 alt="Doogh"
               /> info:wikipedia
 
- <img
+<img
                 src="https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg"
                 alt="Araghe Bid Meshek"
               /> info:Diba
@@ -53,7 +56,7 @@ Image sorces:
                 alt="Mojito"
               /> info:wikipedia
 
- <img
+<img
                 src="https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2019/05/frozen-margarita.jpg?itok=rQ3ozxhT"
                 alt="Margarita"
               /> info:wikipedia
@@ -63,12 +66,12 @@ Image sorces:
                 alt="White Russen"
               /> info:wikipedia
 
- <img
+<img
                 src="https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg"
                 alt="Bloody Mary"
               /> info:wikipedia
 
- <img
+<img
                 src="https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg"
                 alt="Esspresso"
               /> info:wikipedia
@@ -115,7 +118,7 @@ Image sorces:
 
 (main)
 
- <img
+<img
                 src="https://media-cdn.tripadvisor.com/media/photo-s/03/a5/aa/c3/arya.jpg"
                 alt="Baghali Polo ba Mahiche"
               /> info:wikipedia
@@ -152,7 +155,7 @@ Image sorces:
                 alt="Mirza Ghasemi"
               />info:BBC food
 
- <img
+<img
                 src="https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG"
                 alt="Do Piaze Alo"
               />infe:wikipedia
@@ -162,15 +165,77 @@ Image sorces:
                 alt="Salad Olvie"
               />info:Persian Mama
 
- <img
+<img
                 src="https://cdn.shortpixel.ai/spai/q_lossless+ret_img/https://3nkq72bhhp51kv1h2do55o5r-wpengine.netdna-ssl.com/wp-content/uploads/2.3_NAT_American-Herbal-Cookbook_NEW-Wordpress.jpg"
                 alt="Noon Panir Sabzi"
               />info:clean plates
 
+All of the criterias mentioned below are taken from Codeinstetute Criteria Checklist which are correct for this website:
 
+Suitability for purpose:
 
+The site's design, as implemented, provides a good solution to the users' demands and expectations.	
+A regular user would not immediately think "there's a much better way to do this" about any part of the project.	
 
+Navigation:
 
+All resources on the site are easy to find, allowing users to navigate the layout of the site intuitively.	
+The site’s navigation is consistent and reasoned.	
+There is never a need to use the Back button to move through the site.	
+For any external links, the target=”_blank” attribute is used.	
+There are no broken links.
+
+Ease of Use:
+
+It is easy and straightforward for a new user to figure out how to use this site without having to read any documentation.	
+The site is intuitive to use and never confuses the user or surprise them in a negative way.	
+The user has full control of their interaction with the project and at no point needs to “fight” it.	
+The site avoids aggressive automatic pop-ups and autoplay of audio; instead of allowing the user to initiate such actions.	
+All input elements are clearly labelled, and provide placeholders and default values whenever relevant.	
+The project follows common and consistent UI/UX conventions. 	
+
+Information Architecture:
+
+All information displayed on the site is presented in an organised fashion with each piece of information being easy to find and none feeling out of place.	
+Headers are used to convey structure - each section has a header that’s easy to see and clear to understand.	
+The written language used on this sites is straightforward for the user to follow.	
+Whenever relevant, the site provides interactivity to make the information easier to consume.	
+
+Defensive Design:
+
+A customer is not be able to break the site by clicking buttons out of the expected order or by providing any unexpected inputs.	
+All forms intelligently handle empty or invalid input fields.	
+Navigating between pages via the back/forward buttons can never break the site.	
+This includes unexpected actions such as navigating back to the login page after already being logged in.	
+User actions should not cause internal errors in the console
+
+Responsive Design:
+
+All page elements look well on screens as small as 360 pixels wide and as big as 3840 pixels wide (4K).	
+The site uses Bootstrap grid sizes or CSS3 media queries to ensure the layout changes appropriately and reflows when the screen is resized.	
+
+Image Presentation:
+
+Graphics are consistent in style and colour.	
+The background never distracts from the foreground information.	
+All kinds of multimedia content used in the project work well on the different popular browsers.	
+Whenever needed, multiple alternative file types are used.	
+Images always maintain their original aspect ratio when the screen is resized (crop don’t stretch).	
+All images are of sufficient resolution to not appear pixelated.	
+Image files are not bigger than is needed.
+
+Color Scheme and Typography:
+
+There is sufficient contrast between background and foreground colors.	
+The color scheme used on the site consists of a palette of colors that work well together.	
+The typefaces used complement one another.	
+All text is legible; particular attention to legibility is maintained when text formatting effects are in use.	
+Text is never obscured by images or colors.	
+
+Testing implementation:
+
+I have conducted enough testing to convince the assessor that I legitimately believe that the site works well.	
+I conducted manual testing of your HTML/CSS for usability and responsiveness.
 
 
 `python3 -m http.server`
