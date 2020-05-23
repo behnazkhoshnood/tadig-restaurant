@@ -62,82 +62,83 @@
     </header>
     <section class="container-fluid">
       <div class="row">
-        <form>
+        <form class="reservation-form">
           <h4 class="page-heading">
             Would you like to reserve a table?
           </h4>
-          <p class="col-lg-8 form-p">
+          <p class="form-p">
             Please fill the information needed for reservation. We are going to
             inform you about your reservation as soon as possible.
           </p>
           <div class="form-row personal-info">
-            <label for="fname" class="col-3 sm-no-label">First name:</label>
+            <label for="fname" class="col-4 sm-no-label">First name:</label>
             <input
               type="text"
               placeholder="First name"
               id="fname"
-              class="col-12 col-sm-9"
+              class="col-12 col-sm-8"
             />
 
-            <label for="lname" class="col-3 sm-no-label">Last name:</label>
+            <label for="lname" class="col-4 sm-no-label">Last name:</label>
             <input
               type="text"
               placeholder="Last name"
               id="lname"
-              class="col-12 col-sm-9"
+              class="col-12 col-sm-8"
             />
 
-            <label for="PhoneNumber" class="col-3 sm-no-label"
+            <label for="PhoneNumber" class="col-4 sm-no-label"
               >Phone number:</label
             >
             <input
               type="number"
               placeholder="Phone Number"
               id="PhoneNumber"
-              class="col-12 col-sm-9"
-            />
+              class="col-12 col-sm-8"
+           />
             <small
               id="small-phone"
-              class="col-12 offset-0 offset-sm-1 form-text text-muted small"
+              class="col-12 col-sm-8 offset-0 offset-md-4 offset-lg-4 offset-sm-4 form-text text-muted small"
               >We'll never share your number with anyone else.</small
             >
+             
 
-            <label for="inputEmail" class="col-3 sm-no-label"
+            <label for="inputEmail" class="col-4 sm-no-label"
               >Email address:</label
             >
             <input
               type="email"
               placeholder="Email address"
               id="inputEmail"
-              class="col-12 col-sm-9"
+              class="col-12 col-sm-8"
             />
             <small
               id="small-email"
-              class="col-12 offset-0 offset-sm-1 form-text text-muted small"
+              class="col-12 col-sm-8 offset-0 offset-md-4 offset-lg-4 offset-sm-4 form-text text-muted small"
               >We'll never share your email with anyone else.</small
             >
-          </div>
+          </div><br>
           <h4 class="page-heading">
             How many sits whould you like to reserve?
           </h4>
-          <p class="col-lg-8 form-p">
+          <p class="form-p">
             Please note that you can only reserve up to 20 sits from here. If
             you want to reserve more sits please contact us through the
             resturant phone number.
           </p>
 
           <div class="form-row personal-info">
-            <label for="sits" class="col-3" id="sits-label">Sits:</label>
+            <label for="sits" class="col-3 offset-1 offset-sm-4 offset-md-4 offset-lg-5" id="sits-label">Sits:</label>
             <input
               type="number"
               id="sits"
-              class="col-9 center"
+              class="col-6 offset-0"
               placeholder="Amount"
               max="20"
             />
           </div>
           <h4 class="page-heading">Where whould you like to sit?</h4>
-          <p class="col-lg-8 form-p">
+          <p class="form-p">
             Here you can choose where you whould like to sit if you have any
             favorite spot in the resturant.Feel free to choose more than one if
             you have more than on favorite spot.
