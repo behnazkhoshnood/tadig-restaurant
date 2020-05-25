@@ -63,7 +63,7 @@ Image sorces:
 
 <img
                 src="https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg"
-                alt="White Russen"
+                alt="White Russian"
               /> info:wikipedia
 
 <img
@@ -73,7 +73,7 @@ Image sorces:
 
 <img
                 src="https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg"
-                alt="Esspresso"
+                alt="Espresso"
               /> info:wikipedia
 
 <img
