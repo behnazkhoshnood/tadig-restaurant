@@ -39,7 +39,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -74,10 +76,14 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: #fff;
+}
+
 /* ---------------------------------------------------------------------------------------------------:index */
 
 .index-section {
-    height: 62vh;
+  height: 62vh;
   margin-bottom: 0;
 }
 
@@ -105,7 +111,7 @@ ul {
 .jumbotron-fluid {
   margin: 0 auto;
   padding: 30px;
-  background-color: rgb(106, 124, 129);
+  background-color: rgb(184, 178, 178);
   color: #fafafa;
 }
 
@@ -316,7 +322,7 @@ footer {
     height: 660px;
   }
   .index-note {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 100;
   }
 
@@ -339,7 +345,7 @@ footer {
 
   .carousel-item img,
   .logo,
-  .index-section{
+  .index-section {
     height: 710px;
   }
 
@@ -430,6 +436,7 @@ footer {
     height: 92vh;
   }
 }
+
 @media only screen and (min-height: 890px) and (max-height: 1500px) {
   .index-note {
     line-height: 2.5;
@@ -437,7 +444,7 @@ footer {
   }
 }
 @media only screen and (max-width: 300px) {
-    body,
+  body,
   header,
   footer,
   section {
@@ -467,7 +474,6 @@ footer {
     max-width: 70px;
     margin: 0 auto;
     margin-right: 5px;
-    
   }
 }
 
