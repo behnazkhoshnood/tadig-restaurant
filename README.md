@@ -1,45 +1,32 @@
 Project Purpose:
 
-This website is made for resturants in general. We named our resturant "Tadig resturant" which is a made up persian resturant.
-
 UX design:
 
-This website contains of 4 main pages that is Home, Order, Reservation and Rate us pages. The order page contains of 4 pages containing the list of: Starters, Main, Dessersts and Drinks.
-This website goal is to make an easier and better experience for the customers when they want to order food and also helps with the revalueation of the products.
 All the images in the website are provided from an external website which is mentioned in the code area in the img src and are also mentioned below. And most of the explenation notes are provided from wikipedia and some more sorces which is mentioned in the code area and also here in the info part.
 Codes that are used are from the coding I learned from codeInstitute lessens module 3, 4 and 5, bootstrap, fontawsome, google fonts, and DevTools.
 Image sorces:
 (Dessersts)
 
-<img            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyftLKhAJzlAmscp5fLjIjBYzrP-Vy1_7xsl9SHiQAFTu8vCeM&usqp=CAU"
-                alt="Baklava"
-              /> info:wikipedia
-
-<img            src="https://dornatrip.com/wp-content/uploads/2018/08/AndroidOnlineNewsImage-1.png"
-                alt="Faloodeh" 
-              /> info:wikipedia
-
-<img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU"
-                alt="Bastani sonnati" 
-              /> info:wikipedia
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyftLKhAJzlAmscp5fLjIjBYzrP-Vy1_7xsl9SHiQAFTu8vCeM&usqp=CAU"
+alt="Baklava"
+<img src="https://dornatrip.com/wp-content/uploads/2018/08/AndroidOnlineNewsImage-1.png"
+alt="Faloodeh"
+<img
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU"
+alt="Bastani sonnati"
 
 <img
-                src="https://image.shutterstock.com/z/stock-photo-profiteroles-fresh-cream-puffs-cakes-filled-with-pastry-cream-and-topped-with-chocolate-sauce-in-a-705988894.jpg"
-                alt="Noon Khamei"
-              /> info:wikipedia
-
+src="https://image.shutterstock.com/z/stock-photo-profiteroles-fresh-cream-puffs-cakes-filled-with-pastry-cream-and-topped-with-chocolate-sauce-in-a-705988894.jpg"
+alt="Noon Khamei"
 <img
-                src="https://4.bp.blogspot.com/-LBlaXdUqrYo/Tba1gvjYyHI/AAAAAAAACvs/l1bm02mG7-s/s1600/227458_206016996087508_100000376264948_606452_2793162_n.jpg"
-                alt="ranginak" 
-              /> info:wikipedia
+src="https://4.bp.blogspot.com/-LBlaXdUqrYo/Tba1gvjYyHI/AAAAAAAACvs/l1bm02mG7-s/s1600/227458_206016996087508_100000376264948_606452_2793162_n.jpg"
+alt="ranginak"
 
 (Drinks)
 
 <img
-                src="https://www.196flavors.com/wp-content/uploads/2019/07/doogh-1.jpg"
-                alt="Doogh"
-              /> info:wikipedia
+src="https://www.196flavors.com/wp-content/uploads/2019/07/doogh-1.jpg"
+alt="Doogh"
 
 <img
                 src="https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg"
@@ -52,77 +39,51 @@ Image sorces:
               /> info:Amazon
 
 <img
-                src="https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg"
-                alt="Mojito"
-              /> info:wikipedia
+src="https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg"
+alt="Mojito"
+<img
+src="https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2019/05/frozen-margarita.jpg?itok=rQ3ozxhT"
+alt="Margarita"
 
 <img
-                src="https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2019/05/frozen-margarita.jpg?itok=rQ3ozxhT"
-                alt="Margarita"
-              /> info:wikipedia
+src="https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg"
+alt="White Russian"
 
 <img
-                src="https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg"
-                alt="White Russian"
-              /> info:wikipedia
-
+src="https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg"
+alt="Bloody Mary"
 <img
-                src="https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg"
-                alt="Bloody Mary"
-              /> info:wikipedia
-
+src="https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg"
+alt="Espresso"
 <img
-                src="https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg"
-                alt="Espresso"
-              /> info:wikipedia
-
+src="https://www.comunicaffe.com/wp-content/uploads/2019/12/close-up-of-a-cup-of-tea.jpg"
+alt="Tea"
 <img
-                src="https://www.comunicaffe.com/wp-content/uploads/2019/12/close-up-of-a-cup-of-tea.jpg"
-                alt="Tea"
-              /> info:wikipedia
-
+src="https://vancouverwithlove.com/wp-content/uploads/2019/01/IMG_9512-e1548293207827.jpg"
+alt="Hot Chocolate"
 <img
-                src="https://vancouverwithlove.com/wp-content/uploads/2019/01/IMG_9512-e1548293207827.jpg"
-                alt="Hot Chocolate"
-              /> info:wikipedia
-
+src="https://wendypolisi.com/wp-content/uploads/2018/09/dirty-chai-latte-2.jpg"
+alt="Chai Latte"
 <img
-                src="https://wendypolisi.com/wp-content/uploads/2018/09/dirty-chai-latte-2.jpg"
-                alt="Chai Latte"
-              /> info:wikipedia
-
+src="https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg"
+alt="Orange juice"
 <img
-                src="https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg"
-                alt="Orange juice"
-              /> info:wikipedia
-
+src="https://www.thespruceeats.com/thmb/GgHOntrZVUQDitcFypwTqeYDwSE=/3769x3769/smart/filters:no_upscale()/AppleCiderDrinkSpruce-5b3cb4ff46e0fb0037f88630.jpg"
+alt="Apple juice"
 <img
-                src="https://www.thespruceeats.com/thmb/GgHOntrZVUQDitcFypwTqeYDwSE=/3769x3769/smart/filters:no_upscale()/AppleCiderDrinkSpruce-5b3cb4ff46e0fb0037f88630.jpg"
-                alt="Apple juice"
-              /> info:wikipedia
-
+src="https://images.eatthismuch.com/site_media/img/854541_Shamarie84_45b61cdb-ddfc-43dd-bf1f-6c366caf07a5.png"
+alt="Watermelon juice"
 <img
-                src="https://images.eatthismuch.com/site_media/img/854541_Shamarie84_45b61cdb-ddfc-43dd-bf1f-6c366caf07a5.png"
-                alt="Watermelon juice"
-              /> info:wikipedia
-
+src="https://5.imimg.com/data5/LY/KU/OD/GLADMIN-7061725/berryjuice-500x500.jpg"
+alt="Berry juice"
 <img
-                src="https://5.imimg.com/data5/LY/KU/OD/GLADMIN-7061725/berryjuice-500x500.jpg"
-                alt="Berry juice"
-              /> info:wikipedia
-
-<img
-                src="https://metromode.se/files/2017/09/kaffe-cocacola.jpg"
-                alt="Cola"
-              /> info:wikipedia
-
+src="https://metromode.se/files/2017/09/kaffe-cocacola.jpg"
+alt="Cola"
 (main)
 
 <img
-                src="https://media-cdn.tripadvisor.com/media/photo-s/03/a5/aa/c3/arya.jpg"
-                alt="Baghali Polo ba Mahiche"
-              /> info:wikipedia
-
+src="https://media-cdn.tripadvisor.com/media/photo-s/03/a5/aa/c3/arya.jpg"
+alt="Baghali Polo ba Mahiche"
 <img
                 src="https://yummynotes.net/wp-content/uploads/2020/04/Zereshk-Polo.jpg"
                 alt="Zereshk Polo ba Morgh"
@@ -134,108 +95,277 @@ Image sorces:
               />info:persianfoodtours.com
 
 <img
-                src="https://www.196flavors.com/wp-content/uploads/2017/03/ghormeh-sabzi-3.jpg"
-                alt="Khoreshte Ghorme Sabzi"
-              />infe:wikipedia
-
+src="https://www.196flavors.com/wp-content/uploads/2017/03/ghormeh-sabzi-3.jpg"
+alt="Khoreshte Ghorme Sabzi"
 <img
-                src="https://yummynotes.net/wp-content/uploads/2019/01/fesenjan-recipe.jpg"
-                alt="Khoreshte Fesenjoon ba Morgh"
-              />infe:wikipedia
-
+src="https://yummynotes.net/wp-content/uploads/2019/01/fesenjan-recipe.jpg"
+alt="Khoreshte Fesenjoon ba Morgh"
 (starters)
 
 <img
-                src="https://persianfoodtours.com/wp-content/uploads/2019/10/Kashk-e-Bademjan.jpg"
-                alt="Kashke bademjan"
-              />infe:wikipedia
-
+src="https://persianfoodtours.com/wp-content/uploads/2019/10/Kashk-e-Bademjan.jpg"
+alt="Kashke bademjan"
 <img
                 src="https://i.pinimg.com/236x/05/3f/57/053f571a37ce93fae8e4057176455ee1--ethnic-recipes-african-recipes.jpg"
                 alt="Mirza Ghasemi"
               />info:BBC food
 
 <img
-                src="https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG"
-                alt="Do Piaze Alo"
-              />infe:wikipedia
-
+src="https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG"
+alt="Do Piaze Alo"
 <img
                 src="https://i.pinimg.com/originals/39/37/be/3937be2fea7c0c2fb2c9987b7a63bc4b.jpg"
                 alt="Salad Olvie"
               />info:Persian Mama
-
 <img
                 src="https://cdn.shortpixel.ai/spai/q_lossless+ret_img/https://3nkq72bhhp51kv1h2do55o5r-wpengine.netdna-ssl.com/wp-content/uploads/2.3_NAT_American-Herbal-Cookbook_NEW-Wordpress.jpg"
                 alt="Noon Panir Sabzi"
               />info:clean plates
 
-All of the criterias mentioned below are taken from Codeinstetute Criteria Checklist which are correct for this website:
 
-Suitability for purpose:
 
-The site's design, as implemented, provides a good solution to the users' demands and expectations.	
-A regular user would not immediately think "there's a much better way to do this" about any part of the project.	
+# Tadig restaurant
 
-Navigation:
+## Interactive Frontend Development Milestone Project-1
 
-All resources on the site are easy to find, allowing users to navigate the layout of the site intuitively.	
-The site’s navigation is consistent and reasoned.	
-There is never a need to use the Back button to move through the site.	
-For any external links, the target=”_blank” attribute is used.	
-There are no broken links.
+## Project Description
 
-Ease of Use:
+This website is made for resturants. We named our resturant "Tadig resturant" which is a made up persian resturant. Customers can use this website to see the food menu, reserve a table and write a review. Also they can Sign In or Sign Up to track their Loyality Chart.
 
-It is easy and straightforward for a new user to figure out how to use this site without having to read any documentation.	
-The site is intuitive to use and never confuses the user or surprise them in a negative way.	
-The user has full control of their interaction with the project and at no point needs to “fight” it.	
-The site avoids aggressive automatic pop-ups and autoplay of audio; instead of allowing the user to initiate such actions.	
-All input elements are clearly labelled, and provide placeholders and default values whenever relevant.	
-The project follows common and consistent UI/UX conventions. 	
+# UX
 
-Information Architecture:
+This website contains of 4 main pages that is Home, Order, Reservation and Rate us pages. The order page contains of 4 pages containing the list of: Starters, Main, Dessersts and Drinks.
+This website goal is to make an easier and better experience for the customers when they want to order food and also helps with the revalueation of the table.
 
-All information displayed on the site is presented in an organised fashion with each piece of information being easy to find and none feeling out of place.	
-Headers are used to convey structure - each section has a header that’s easy to see and clear to understand.	
-The written language used on this sites is straightforward for the user to follow.	
-Whenever relevant, the site provides interactivity to make the information easier to consume.	
+### User Stories
 
-Defensive Design:
+1. As a user I would like to contact the resturant.
+2. As a user I would like to know the location of the resturant.
+3. As a user I would like to follow the resturant in social media.
+4. As a user I would like to get some benefits from beeing a loyal customer.
+5. As a user I would like to know where is the resturant.
+6. As a user I would like to see a list of starters.
+7. As a user I would like to see a list of main foods.
+8. As a user I would like to see a list of dessersts.
+9. As a user I would like to see a list of drinks.
+10. As a user I would like to reserve a table in the resturant.
+11. As a user I would like to write a review for the resturant.
 
-A customer is not be able to break the site by clicking buttons out of the expected order or by providing any unexpected inputs.	
-All forms intelligently handle empty or invalid input fields.	
-Navigating between pages via the back/forward buttons can never break the site.	
-This includes unexpected actions such as navigating back to the login page after already being logged in.	
-User actions should not cause internal errors in the console
+#### Attribute
 
-Responsive Design:
+1. The target_blank value is given to all the links of social medias.
+2. The required attribute is used in name, email, phone to make sure that user fill in all fields before sending his/her query.
 
-All page elements look well on screens as small as 360 pixels wide and as big as 3840 pixels wide (4K).	
-The site uses Bootstrap grid sizes or CSS3 media queries to ensure the layout changes appropriately and reflows when the screen is resized.	
+#### Hover Effect
 
-Image Presentation:
+1. Hover effect hvr-sweep-to-bottom has been used in menu.
+2. Hover effect has been used in sign in / sign up button.
+3. Hover effect has been used in social media links.
+4. Hover effect has been used in food menu.
+4. Hover effect has been used in Reservation submit button.
+4. Hover effect has been used in rate us submit button.
 
-Graphics are consistent in style and colour.	
-The background never distracts from the foreground information.	
-All kinds of multimedia content used in the project work well on the different popular browsers.	
-Whenever needed, multiple alternative file types are used.	
-Images always maintain their original aspect ratio when the screen is resized (crop don’t stretch).	
-All images are of sufficient resolution to not appear pixelated.	
-Image files are not bigger than is needed.
+## Wireframes
 
-Color Scheme and Typography:
+- [Link to Wireframes](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+- [Wireframes in PDF](assets/wireframes/wireframes.pdf)
 
-There is sufficient contrast between background and foreground colors.	
-The color scheme used on the site consists of a palette of colors that work well together.	
-The typefaces used complement one another.	
-All text is legible; particular attention to legibility is maintained when text formatting effects are in use.	
-Text is never obscured by images or colors.	
+### Strategy
 
-Testing implementation:
+The purpose of creating this website is to facilitate the customers experience of tadig resturant while providing up to date feedback to the restaurant managment. 
+By few clicks user can easily find a list of the starters, main foods,dessersts and drinks with their image and ingridients; The same is true for finding the reservation and feedback form.
+Also main menu Sign in / sign up button, contacts and social medias can be found in all the pages.
 
-I have conducted enough testing to convince the assessor that I legitimately believe that the site works well.	
-I conducted manual testing of your HTML/CSS for usability and responsiveness.
+### Scope
+
+A simple responsive website that provide information about the foods serving in the restaurant, sign in / sign up, reservation and feedback form; and several ways to contact the resturant. 
+
+### Structure
+
+The website consist of 7 pages named: index, order,  and each page has three sections. The header and footer section is the same in all the pages. The Header section consist of the navbar menu for navigation through the websiteand the footer section consist of Sign in / sign up button, contacts and social medias.
+ 
+
+### Skeleton
+
+Wireframes are created using balsamiq. Link to the wireframes and PDF file is available under wireframes. The design of the
+website is the same for desktop and tablet however on mobile screen the content will be re-arranged. The user will move from
+top to the bottom.
+
+## Features
+
+Key features of the website are;
+
+- Background-Picture (A picture of Christianborg Palace from where the Danish Govenment run its business. This picture covers the entire page.)
+- History (A very brief history of Copenhagen and Denmark that will get user interest)
+- Top attracions in Copenhagen (A list of to attracions)
+- Sort by locations (A dropdown button that allow users to sort the attracions by distance from city center and Nørrepert station)
+- Hover over attractions (Hovering over attractions show extra information, which is nearest hotel and restaurant to that attraction. However
+  it does not work on screen sizes less than 768px)
+- Search bar and Google Map (It allows user to look for any other attracion, hotel or restaurant)
+- Plan your Trip (It allow users to get in touch with admin for any information)
+- Message Sent (This confirmation message will pop up under plan your trip when user will send his query)
+- Social Media (Links to the social media profiles of Explore Copenhagen, which I have not given yet)
+
+## Features Left to Implement
+
+- In future I want to add a gallery which contains pictures of the attractions with an audio description.
+- I also want to add a feature of sort by geolocation meaning that user can sort the top attracions from his current location.
+- Social medial profiles of Explore Copenhagen will be added in future.
+- I would like to add, hire a local guide feature in future.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- JQuery
+- JSON
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
+- [Bootstrap Framework](https://getbootstrap.com/)
+  Bootstrap grid is used in the project.
+- [Googlefonts](https://fonts.google.com/)
+  Google fonts Oswald and Varela+Round are used in the project.
+- [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
+  Fontawesome icons are used in the project.
+- [Hover.css](https://ianlunn.github.io/Hover/)
+  Hover effects are also used in the project.
+- [github](https://github.com/)
+  Used for version control.
+- [gitpod](https://www.gitpod.io/)
+
+## Testing
+
+The code has been validated by using;
+
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
+- [JSHint](https://jshint.com/)
+  Further the testing of the project has been carried out from the beginning using google developer tools.
+  User stories from the UX section were tested to ensure that they all work as intended, with the project providing an
+  easy and straightforward way for the users to achieve their goals.
+
+1. _As a user I want to know the history of Denmark._
+
+- Go to the top left corner under **History** heading.
+
+2. _As a user I would like to see a list of top attractions in city Copenhagen._
+
+- Go to the middle of the page a list is placed under **Sort by location dropdown button**.
+
+3. _As a user I would like to see nearest hotel to these top attractions in city Copenhagen._
+
+- Hover over any attracion under **Sort by location dropdown button** a pop up window will open and show nearest hotel to that attracion.
+
+4. _As a user I would like to see nearest restaurant to these top attractions in city Copenhagen._
+
+- Hover over any attracion under **Sort by location dropdown button** a pop up window will open and show nearest restaurant to that attracion.
+
+5. _As a user I would like to sort these attractions by distance from city center._
+
+- Click on the **Sort by location dropdown button** and choose City Center.
+
+6. _As a user I would like to sort these attractions by distance from a train / metro station._
+
+- Click on the **Sort by location dropdown button** and choose Nørrepert Station.
+
+7. _As a user I would like to search for attractions by Google map._
+
+- Go to the search box in the top right side of the page and search for attractions
+  and attraction markers will appear in google maps.
+
+8. _As a user I would like to search for hotels using Google map._
+
+- Go to the search box in the top right side of the page and search for hotels
+  and hotel markers will appear in google maps.
+
+9. _As a user I would like to search for restaurants using Google map._
+
+- Go to the search box in the top right side of the page and search for restaurants
+  and restaurant markers will appear in google maps.
+
+10. _As a user I would like to contact the admin for more information._
+
+- Click on **Plan Your Trip** under **History** heading a new window will open. Fill the form and click on Contact Us.
+
+11. _As a user I woould like to see a confirmation that my message has been sent._
+
+- After clicking the **Contact Us** a confirmation message will appear under-neath **Plan Your Trip**
+  Required attribute is added in all fields of the plan your trip form like name, emailaddress and your quey.
+  If any field left empty it will be notified. User will be unable to send the form unless all fields are filled.
+  Further if wrong email is entered, it will also be notified.
+
+### Different browsers & Mobiles
+
+The website has been tested on following web browsers and mobiles, and website looks fine and work properly on them.
+For screen sizes 768px and above the page is divided into three sections History, Top Attraction and Serarch box plus Google Map.
+Whereas for small screen sizes every thing turns into one section and sits on top of eachother.
+
+- Google Chroome
+- Microsoft Edge
+- firefox
+- Opera
+- iPhone 6
+- Iphone 8
+- Huawei P30 lite
+
+### Media Queries
+
+Bootstrap has been used to make website responsive but separate media queries has been written to set the map height on different
+screen sizes. For screen sizes like 4k-2560px a media query is also written so that website look nice on big screens as well.
+
+### Interesting Bugs
+
+During testing I found an interesting bug. Actually I have a hover function on attraction list which I disabled for small
+screens less than 768px. The bug was when I was selecting small screen from large screen this hover was not disabling until,
+I refresh the page or I select any location from the dropdown button. It happened to be the same when I was moving from small
+screen size to bigger than 768px, hover function was not activating until, I refresh the page or I select any location from
+the dropdown button. Luckily I found out that I need to put if statement inside each hover function and it worked.
+
+## Deployment
+
+Following steps has been taken to deploy my project Explore Copenhagen on GitHub pages;
+
+1. Go to GitHub and click on repository [sohailshams/explore-copenhagen](https://github.com/sohailshams/explore-copenhagen)
+2. Click on **Settings** on the top right of the page
+3. Scroll down to the **GitHub pages section**
+4. Click on **dropdown menu** under **Source** section and select **Master Branch as Source**
+5. **Save**
+
+### Local Deployment
+
+Follow these steps to run website locally on your machine;
+
+1. Go to Github repository [sohailshams/explore-copenhagen](https://github.com/sohailshams/explore-copenhagen)
+2. Click on **Clone or Download**
+3. Click on **Download Zip**
+4. Unzip the downloaded zip file
+5. Then run index.html file
+6. It will open in a browser which is set as a default browser.
+
+## Credits
+
+### Content
+
+- The history has been taken from [copenhagen.com](https://www.copenhagen.com/historical-facts)
+- Airport Passenger traffic data teken from [CPH Airport ](https://www.cph.dk/en/about-cph/press/news/2020/1/cph-traffic-data-close-to-30.3-million-passengers-in-2019)
+- Tourist stayed overnight data taken from [Statista](https://www.statista.com/statistics/936569/number-of-overnight-stays-at-hostels-in-denmark-by-region/)
+
+### Media
+
+- The picture in the background has been taken from [Google](https://www.google.com/)
+
+### Acknowledgements
+
+1. A special thanks to my mentor **Ashish Srivastava** for his valuable feedback during mentoring sessions.
+2. Google Maps API code has been taken from [Google API Documentation](https://developers.google.com/maps/documentation/javascript/tutorial?hl=es-419)
+3. The design and layout of this website is based on the Rule of Thirds which I also used in my previous project.
+4. Code Institute tutor support has been a great support during the whole project, a very special thanks to tutor support.
+5. Besides tutor support [Stack overflow](https://stackoverflow.com/), [Jquery](https://jquery.com/) and [W3Schools](https://www.w3schools.com/) were great source of help.
+6. Code Institute tutorial were very helpful to link contact form with emailjs.
+7. Code for the footer section, I used it from my previous project.
+8. Bootstrap is also used in the project. (Bootstrap grid, Bootstrap Moodle and Bootstrap classes)
+9. A very special thanks to my lovely wife my sons Ibrahim and Ismail for their support and motivation.
+10. Logo has been created by using [Brand Crowd](https://www.brandcrowd.com/maker)
 
 
 `python3 -m http.server`

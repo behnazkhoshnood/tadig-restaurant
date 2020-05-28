@@ -464,13 +464,13 @@ footer {
     max-width: 60%;
   }
 
-  #sits {
+  #seats {
     max-width: 130px;
     margin: 0 auto;
     margin-left: 5px;
   }
 
-  #sits-label {
+  #seats-label {
     max-width: 70px;
     margin: 0 auto;
     margin-right: 5px;
@@ -587,13 +587,13 @@ footer {
   margin-bottom: 0px;
 }
 
-#sits {
+#seats {
   margin-top: 0px;
   border-width: 3px;
   background-color: rgb(245, 234, 245);
 }
 
-#sits-label {
+#seats-label {
   margin-top: 0px;
 }
 
