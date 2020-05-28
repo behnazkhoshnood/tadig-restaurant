@@ -182,8 +182,17 @@ A simple responsive website that provide information about the foods serving in 
 
 ### Structure
 
-The website consist of 7 pages named: index, order,  and each page has three sections. The header and footer section is the same in all the pages. The Header section consist of the navbar menu for navigation through the websiteand the footer section consist of Sign in / sign up button, contacts and social medias.
- 
+The website consist of 7 pages named: index, order, order main, order desserts, order drinks, reservation and rate us. Each page has three sections.
+The header and footer section is the same in all the pages. The Header section consist of the navbar menu for navigation through the website and the footer section consist of Sign in / sign up button, contacts and social medias.
+####2nd section:
+#####Home page:
+This section consist of 2 part, Introduction note and a carousel slide for food images.
+####Order pages:
+This sections consist of two food menu headers on top and the bottom of the section. These pages also consist of the list of items provided in each category with their image, description and ingridients.
+####Reservation page:
+This section consist of a form for reservation.
+####Reservation page:
+This section consist of a form for feedbacks.
 
 ### Skeleton
 
@@ -195,23 +204,19 @@ top to the bottom.
 
 Key features of the website are;
 
-- Background-Picture (A picture of Christianborg Palace from where the Danish Govenment run its business. This picture covers the entire page.)
-- History (A very brief history of Copenhagen and Denmark that will get user interest)
-- Top attracions in Copenhagen (A list of to attracions)
-- Sort by locations (A dropdown button that allow users to sort the attracions by distance from city center and Nørrepert station)
-- Hover over attractions (Hovering over attractions show extra information, which is nearest hotel and restaurant to that attraction. However
-  it does not work on screen sizes less than 768px)
-- Search bar and Google Map (It allows user to look for any other attracion, hotel or restaurant)
-- Plan your Trip (It allow users to get in touch with admin for any information)
-- Message Sent (This confirmation message will pop up under plan your trip when user will send his query)
-- Social Media (Links to the social media profiles of Explore Copenhagen, which I have not given yet)
+- Colorful navbar menu which is unik for each page and make the navigation even easier.
+- A carousel slide for food images to attract the customers.
+- It's easy to find navbar, contacts, social medias and sign in / sign up button in all the pages.
+- The top and bottom food menu headers make it easier to navigation through the menu.
+- Beautiful photos of the dishes and drinks attract the customers.
+- reserving seats through the website is easy.
+- writing a review through the website is easy.
 
 ## Features Left to Implement
 
-- In future I want to add a gallery which contains pictures of the attractions with an audio description.
-- I also want to add a feature of sort by geolocation meaning that user can sort the top attracions from his current location.
-- Social medial profiles of Explore Copenhagen will be added in future.
-- I would like to add, hire a local guide feature in future.
+- In future I want to make an app for the resturant.
+- I want to add the loyality chart which is functional.
+- Social medial profiles of tadig restutant will be added in future.
 
 ## Technologies Used
 
@@ -219,12 +224,10 @@ Key features of the website are;
 - CSS3
 - JavaScript
 - JQuery
-- JSON
-- [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 - [Bootstrap Framework](https://getbootstrap.com/)
   Bootstrap grid is used in the project.
 - [Googlefonts](https://fonts.google.com/)
-  Google fonts Oswald and Varela+Round are used in the project.
+  Google fonts Roboto and Baloo Bhaina are used in the project.
 - [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
   Fontawesome icons are used in the project.
 - [Hover.css](https://ianlunn.github.io/Hover/)
@@ -239,44 +242,45 @@ The code has been validated by using;
 
 - [W3C Markup Validation Service](https://validator.w3.org/)
 - [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
-- [JSHint](https://jshint.com/)
   Further the testing of the project has been carried out from the beginning using google developer tools.
   User stories from the UX section were tested to ensure that they all work as intended, with the project providing an
   easy and straightforward way for the users to achieve their goals.
 
-1. _As a user I want to know the history of Denmark._
+1. _As a user I want to know about tadig resturant._
 
-- Go to the top left corner under **History** heading.
+- Go to the home page positioned in top left corner in all pages.
 
-2. _As a user I would like to see a list of top attractions in city Copenhagen._
+2. _As a user I would like to see a menu of starters and their description._
 
-- Go to the middle of the page a list is placed under **Sort by location dropdown button**.
+- Go to the menu page. A list is placed under the menu navbar. Starter button is active and under it there is a list of starters and their description.
 
-3. _As a user I would like to see nearest hotel to these top attractions in city Copenhagen._
+3. _As a user I would like to see a menu of main dishes and their description._
 
-- Hover over any attracion under **Sort by location dropdown button** a pop up window will open and show nearest hotel to that attracion.
+- Go to the menu page. A list is placed under the menu navbar. Main button is next to starter button. Click the Main button. Under it there is a list of main dishes and their description.
 
-4. _As a user I would like to see nearest restaurant to these top attractions in city Copenhagen._
+4. _As a user I would like to see a menu of desserts and their description._
 
-- Hover over any attracion under **Sort by location dropdown button** a pop up window will open and show nearest restaurant to that attracion.
+- Go to the menu page. A list is placed under the menu navbar. Desserts button is next to starter button. Click the desserts button. Under it there is a list of desserts and their description.
 
-5. _As a user I would like to sort these attractions by distance from city center._
+5. _As a user I would like to see a menu of drinks and their description._
 
-- Click on the **Sort by location dropdown button** and choose City Center.
+- Go to the menu page. A list is placed under the menu navbar. Drinks button is next to desserts button. Click the drink button. Under it there is a list of desserts and their description.
 
-6. _As a user I would like to sort these attractions by distance from a train / metro station._
+6. _As a user I would like to reserve a table._
 
-- Click on the **Sort by location dropdown button** and choose Nørrepert Station.
+- Click on the reservation button on top of the page and fill the reservation form.
 
-7. _As a user I would like to search for attractions by Google map._
+7. _As a user I would like to write a review for the resturant._
 
-- Go to the search box in the top right side of the page and search for attractions
-  and attraction markers will appear in google maps.
+- Click on the rate us button on top right corner of the page and fill the reservation form.
 
-8. _As a user I would like to search for hotels using Google map._
+8. _As a user I would like to contact the resturant._
 
-- Go to the search box in the top right side of the page and search for hotels
-  and hotel markers will appear in google maps.
+- Go to the bottom of the page. Contact information and loctationis in Contact Us part in all pages.
+
+
+
+
 
 9. _As a user I would like to search for restaurants using Google map._
 
