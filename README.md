@@ -122,8 +122,6 @@ alt="Do Piaze Alo"
                 alt="Noon Panir Sabzi"
               />info:clean plates
 
-
-
 # Tadig restaurant
 
 ## Interactive Frontend Development Milestone Project-1
@@ -162,8 +160,8 @@ This website goal is to make an easier and better experience for the customers w
 2. Hover effect has been used in sign in / sign up button.
 3. Hover effect has been used in social media links.
 4. Hover effect has been used in food menu.
-4. Hover effect has been used in Reservation submit button.
-4. Hover effect has been used in rate us submit button.
+5. Hover effect has been used in Reservation submit button.
+6. Hover effect has been used in rate us submit button.
 
 ## Wireframes
 
@@ -172,13 +170,13 @@ This website goal is to make an easier and better experience for the customers w
 
 ### Strategy
 
-The purpose of creating this website is to facilitate the customers experience of tadig resturant while providing up to date feedback to the restaurant managment. 
+The purpose of creating this website is to facilitate the customers experience of tadig resturant while providing up to date feedback to the restaurant managment.
 By few clicks user can easily find a list of the starters, main foods,dessersts and drinks with their image and ingridients; The same is true for finding the reservation and feedback form.
 Also main menu Sign in / sign up button, contacts and social medias can be found in all the pages.
 
 ### Scope
 
-A simple responsive website that provide information about the foods serving in the restaurant, sign in / sign up, reservation and feedback form; and several ways to contact the resturant. 
+A simple responsive website that provide information about the foods serving in the restaurant, sign in / sign up, reservation and feedback form; and several ways to contact the resturant.
 
 ### Structure
 
@@ -248,52 +246,56 @@ The code has been validated by using;
 
 1. _As a user I want to know about tadig resturant._
 
-- Go to the home page positioned in top left corner in all pages.
+- Click on **HOME** at top left corner in all pages.
 
 2. _As a user I would like to see a menu of starters and their description._
 
-- Go to the menu page. A list is placed under the menu navbar. Starter button is active and under it there is a list of starters and their description.
+- Click on **MENU** at top of the page. A list is placed under the menu navbar.
+**STARTERS** is active and under it there is a list of starters and their description.
+If user is already in menu page he/she can change between the **STARTERS**, **MAIN** , **DESSERTS** and **DRINKS** by just clicking on them.
 
 3. _As a user I would like to see a menu of main dishes and their description._
 
-- Go to the menu page. A list is placed under the menu navbar. Main button is next to starter button. Click the Main button. Under it there is a list of main dishes and their description.
+- Click on **MENU** at top of the page. A list is placed under the menu navbar.
+**MAIN** is next to starter button. Click the **MAIN**.
+Under it there is a list of main dishes and their description.
+If user is already in menu page he/she can change between the **STARTERS**, **MAIN** , **DESSERTS** and **DRINKS** by just clicking on them.
 
 4. _As a user I would like to see a menu of desserts and their description._
 
-- Go to the menu page. A list is placed under the menu navbar. Desserts button is next to starter button. Click the desserts button. Under it there is a list of desserts and their description.
+- Click on **MENU** at top of the page. A list is placed under the menu navbar.
+**DESSERTS** is next to starter button. Click the **DESSERTS**. Under it there is a list of desserts and their description.
+If user is already in menu page he/she can change between the **STARTERS**, **MAIN** , **DESSERTS** and **DRINKS** by just clicking on them.
 
 5. _As a user I would like to see a menu of drinks and their description._
 
-- Go to the menu page. A list is placed under the menu navbar. Drinks button is next to desserts button. Click the drink button. Under it there is a list of desserts and their description.
+- Click on **MENU** at top of the page. A list is placed under the menu navbar.
+**DRINKS** is next to desserts button. Click the **DRINKS**. Under it there is a list of desserts and their description.
+If user is already in menu page he/she can change between the **STARTERS**, **MAIN** , **DESSERTS** and **DRINKS** by just clicking on them.
 
 6. _As a user I would like to reserve a table._
 
-- Click on the reservation button on top of the page and fill the reservation form.
+- Click on the **RESERVATION** on top of the page and fill the reservation form.
 
 7. _As a user I would like to write a review for the resturant._
 
-- Click on the rate us button on top right corner of the page and fill the reservation form.
+- Click on the **RATE US** on top right corner of the page and fill the reservation form.
 
 8. _As a user I would like to contact the resturant._
 
-- Go to the bottom of the page. Contact information and loctationis in Contact Us part in all pages.
+- Go to the bottom of the page. Contact information and loctation is in Contact Us part in all pages.
 
+9. _As a user I would like to find the resturant in social medias._
 
+- Go to the bottom right of the page. Social medias are located there in all the pages.
 
+10. _As a user I would like to sign up or sign in to get some benefits._
 
-
-9. _As a user I would like to search for restaurants using Google map._
-
-- Go to the search box in the top right side of the page and search for restaurants
-  and restaurant markers will appear in google maps.
-
-10. _As a user I would like to contact the admin for more information._
-
-- Click on **Plan Your Trip** under **History** heading a new window will open. Fill the form and click on Contact Us.
+- Click on **Sign Up / Sign in** button at the bottom left part of any page.
 
 11. _As a user I woould like to see a confirmation that my message has been sent._
 
-- After clicking the **Contact Us** a confirmation message will appear under-neath **Plan Your Trip**
+- After clicking the **RESERVATION** a confirmation message will appear under-neath **Plan Your Trip**
   Required attribute is added in all fields of the plan your trip form like name, emailaddress and your quey.
   If any field left empty it will be notified. User will be unable to send the form unless all fields are filled.
   Further if wrong email is entered, it will also be notified.
@@ -370,6 +372,5 @@ Follow these steps to run website locally on your machine;
 8. Bootstrap is also used in the project. (Bootstrap grid, Bootstrap Moodle and Bootstrap classes)
 9. A very special thanks to my lovely wife my sons Ibrahim and Ismail for their support and motivation.
 10. Logo has been created by using [Brand Crowd](https://www.brandcrowd.com/maker)
-
 
 `python3 -m http.server`

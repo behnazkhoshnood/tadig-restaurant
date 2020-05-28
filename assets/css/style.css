@@ -132,6 +132,9 @@ a {
   padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .index-note {
@@ -459,21 +462,8 @@ footer {
 }
 
 @media only screen and (min-width: 620px) {
-  .votes,
-  .views {
+  .votes {
     max-width: 60%;
-  }
-
-  #seats {
-    max-width: 130px;
-    margin: 0 auto;
-    margin-left: 5px;
-  }
-
-  #seats-label {
-    max-width: 70px;
-    margin: 0 auto;
-    margin-right: 5px;
   }
 }
 
@@ -543,7 +533,7 @@ footer {
   border-radius: 5px;
   padding: 0px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-top: 10px;
   text-align: center;
   padding-bottom: 20px;
   height: 88px;
@@ -570,31 +560,15 @@ footer {
   border-width: 3px;
   border-color: rgba(0, 0, 0, 0.2);
   background-color: rgb(245, 234, 245);
-  margin-top: 30px;
-  text-align: left;
-  height: 24px;
+  padding-right: 0px;
+  text-align: center;
+  padding-left: 50px;
+  color: gray;
 }
 
 .personal-info input:focus {
   outline-color: rgb(170, 88, 170);
   outline-width: 3px;
-}
-
-.personal-info label {
-  margin-top: 30px;
-  padding: 0px;
-  text-align: left;
-  margin-bottom: 0px;
-}
-
-#seats {
-  margin-top: 0px;
-  border-width: 3px;
-  background-color: rgb(245, 234, 245);
-}
-
-#seats-label {
-  margin-top: 0px;
 }
 
 form {

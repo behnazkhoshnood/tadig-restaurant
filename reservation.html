@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
@@ -63,129 +66,152 @@
     <section class="container-fluid">
       <div class="row">
         <form class="reservation-form">
-          <h4 class="page-heading">
-            Would you like to reserve a table?
-          </h4>
-          <p class="form-p">
-            Please fill the information needed for reservation. We are going to
-            inform you about your reservation as soon as possible.
-          </p>
           <div class="form-row personal-info">
-            <label for="fname" class="col-4 sm-no-label">First name:</label>
-            <input
-              type="text"
-              placeholder="First name"
-              id="fname"
-              class="col-12 col-sm-8"
-            />
-
-            <label for="lname" class="col-4 sm-no-label">Last name:</label>
-            <input
-              type="text"
-              placeholder="Last name"
-              id="lname"
-              class="col-12 col-sm-8"
-            />
-
-            <label for="PhoneNumber" class="col-4 sm-no-label"
-              >Phone number:</label
-            >
-            <input
-              type="number"
-              placeholder="Phone Number"
-              id="PhoneNumber"
-              class="col-12 col-sm-8"
-           />
-            <small
-              id="small-phone"
-              class="col-12 col-sm-8 offset-0 offset-md-4 offset-lg-4 offset-sm-4 form-text text-muted small"
-              >We'll never share your number with anyone else.</small
-            >
-             
-
-            <label for="inputEmail" class="col-4 sm-no-label"
-              >Email address:</label
-            >
-            <input
-              type="email"
-              placeholder="Email address"
-              id="inputEmail"
-              class="col-12 col-sm-8"
-            />
-            <small
-              id="small-email"
-              class="col-12 col-sm-8 offset-0 offset-md-4 offset-lg-4 offset-sm-4 form-text text-muted small"
-              >We'll never share your email with anyone else.</small
-            >
-          </div><br>
-          <h4 class="page-heading">
-            How many seats would you like to reserve?
-          </h4>
-          <p class="form-p">
-            Please note that you can only reserve up to 20 seats from here. If
-            you want to reserve more seats please contact us through the
-            resturant phone number.
-          </p>
-
-          <div class="form-row personal-info">
-            <label for="seats" class="col-3 offset-1 offset-sm-4 offset-md-4 offset-lg-5" id="seats-label">Seats:</label>
-            <input
-              type="number"
-              id="seats"
-              class="col-6 offset-0"
-              placeholder="Amount"
-              max="20"
-            />
-          </div>
-          <h4 class="page-heading">Where would you like to sit?</h4>
-          <p class="form-p">
-            Here you can choose where you would like to sit if you have any
-            favorite spot in the resturant. Feel free to choose more than one if
-            you have more than on favorite spot.
-          </p>
-          <div class="row views">
-            <div class="custom-control custom-switch col-md-3 col-6">
+            <h4 class="page-heading">
+              Would you like to reserve a table?
+            </h4>
+            <p class="form-p col-12">
+              Please fill the information needed for reservation. We are going
+              to inform you about your reservation as soon as possible.
+            </p>
+            <div class="col-12">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" class="col-12 col-sm-8" name="fname" required />
+            </div>
+            <div class="col-12">
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" class="col-12 col-sm-8" name="lname" required />
+            </div>
+            <div class="col-12">
+              <label for="PhoneNumber">Phone number:</label>
               <input
-                type="checkbox"
-                class="custom-control-input"
-                id="customSwitch1"
+                type="number"
+                id="PhoneNumber"
+                class="col-12 col-sm-8"
+                name="PhoneNumber"
+                required
               />
-              <label class="custom-control-label" for="customSwitch1"
-                >Shiraz</label
+              <small id="small-phone" class="col-12 form-text text-muted small"
+                >We'll never share your number with anyone else.</small
               >
             </div>
-            <div class="custom-control custom-switch col-md-3 col-6">
+            <div class="col-12">
+              <label for="inputEmail">Email address:</label>
               <input
-                type="checkbox"
-                class="custom-control-input"
-                id="customSwitch2"
+                type="email"
+                id="inputEmail"
+                class="col-12 col-sm-8"
+                name="inputEmail"
+                required
               />
-              <label class="custom-control-label" for="customSwitch2"
-                >Tehran</label
+              <small id="small-email" class="col-12 form-text text-muted small"
+                >We'll never share your email with anyone else.</small
               >
             </div>
-            <div class="custom-control custom-switch col-md-3 col-6">
+            <h4 class="page-heading">
+              Which date would you like to book a table?
+            </h4>
+            <p class="form-p col-12">
+              Please fill the date you would like to reserve.
+            </p>
+            <div class="col-12">
+              <label for="date">Date:</label>
               <input
-                type="checkbox"
-                class="custom-control-input"
-                id="customSwitch3"
+                type="date"
+                id="date"
+                class="col-8"
+                name="date"
+                required
               />
-              <label class="custom-control-label" for="customSwitch3"
-                >Kashan</label
-              >
             </div>
-            <div class="custom-control custom-switch col-md-3 col-6">
+
+            <h4 class="page-heading">
+              Which time would you like to book the table?
+            </h4>
+            <p class="form-p col-12">
+              Please fill the time you would like to reserve.(opening hours 5:00 pm am to 10:00 pm)
+            </p>
+            <div class="col-12">
+              <label for="time">Time:</label>
               <input
-                type="checkbox"
-                class="custom-control-input"
-                id="customSwitch4"
+                type="time"
+                id="time"
+                class="col-8"
+                min="61200"
+                max="79200"
+                step="1800"
+                name="time"
+                required
               />
-              <label class="custom-control-label" for="customSwitch4"
-                >Tabriz</label
-              >
             </div>
-          </div>
-          <div class="row-1">
+
+            <h4 class="page-heading">
+              How many seats would you like to reserve?
+            </h4>
+            <p class="form-p col-12">
+              Please note that you can only reserve up to 20 seats from here. If
+              you want to reserve more seats please contact us through the
+              resturant phone number.
+            </p>
+            <div class="col-12">
+              <label for="seats">Number of seats:</label>
+              <input
+                type="number"
+                id="seats"
+                class="col-8"
+                min="1"
+                max="20"
+                required
+              />
+            </div>
+            <h4 class="page-heading">Where would you like to sit?</h4>
+            <p class="form-p col-12">
+              Here you can choose where you would like to sit if you have any
+              favorite spot in the resturant. Feel free to choose more than one
+              if you have more than on favorite spot.
+            </p>
+            <div class="row views col-12">
+              <div class="custom-control custom-switch col-6">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch1"
+                />
+                <label class="custom-control-label" for="customSwitch1"
+                  >Shiraz</label
+                >
+              </div>
+              <div class="custom-control custom-switch col-6">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch2"
+                />
+                <label class="custom-control-label" for="customSwitch2"
+                  >Tehran</label
+                >
+              </div>
+              <div class="custom-control custom-switch col-6">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch3"
+                />
+                <label class="custom-control-label" for="customSwitch3"
+                  >Kashan</label
+                >
+              </div>
+              <div class="custom-control custom-switch col-6">
+                <input
+                  type="checkbox"
+                  class="custom-control-input"
+                  id="customSwitch4"
+                />
+                <label class="custom-control-label" for="customSwitch4"
+                  >Tabriz</label
+                >
+              </div>
+            </div>
             <button
               type="submit"
               class="btn btn-primary reservation-submit-btn col-6 col-md-3"
@@ -333,18 +359,6 @@
                 Submit
               </button>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary sign-in-btn">
-              Save changes
-            </button>
           </div>
         </div>
       </div>
