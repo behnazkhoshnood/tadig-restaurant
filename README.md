@@ -233,6 +233,9 @@ Key features of the website are;
 - [github](https://github.com/)
   Used for version control.
 - [gitpod](https://www.gitpod.io/)
+  Used for testing the project.
+-[mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
+  Used for fixing the reservation time.
 
 ## Testing
 

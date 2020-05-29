@@ -66,7 +66,7 @@
     <section class="container-fluid">
       <div class="row">
         <form class="reservation-form">
-          <div class="form-row personal-info">
+          <div class="form-row reservation-info">
             <h4 class="page-heading">
               Would you like to reserve a table?
             </h4>
@@ -74,20 +74,32 @@
               Please fill the information needed for reservation. We are going
               to inform you about your reservation as soon as possible.
             </p>
-            <div class="col-12">
+            <div class="col-12 col-lg-10 offset-lg-1">
               <label for="fname">First name:</label>
-              <input type="text" id="fname" class="col-12 col-sm-8" name="fname" required />
+              <input
+                type="text"
+                id="fname"
+                class="col-12"
+                name="fname"
+                required
+              />
             </div>
-            <div class="col-12">
+            <div class="col-12 col-lg-10 offset-lg-1">
               <label for="lname">Last name:</label>
-              <input type="text" id="lname" class="col-12 col-sm-8" name="lname" required />
+              <input
+                type="text"
+                id="lname"
+                class="col-12"
+                name="lname"
+                required
+              />
             </div>
-            <div class="col-12">
+            <div class="col-12 col-lg-10 offset-lg-1">
               <label for="PhoneNumber">Phone number:</label>
               <input
-                type="number"
+                type="tel"
                 id="PhoneNumber"
-                class="col-12 col-sm-8"
+                class="col-12"
                 name="PhoneNumber"
                 required
               />
@@ -95,12 +107,12 @@
                 >We'll never share your number with anyone else.</small
               >
             </div>
-            <div class="col-12">
+            <div class="col-12 col-lg-10 offset-lg-1">
               <label for="inputEmail">Email address:</label>
               <input
                 type="email"
                 id="inputEmail"
-                class="col-12 col-sm-8"
+                class="col-12"
                 name="inputEmail"
                 required
               />
@@ -114,35 +126,46 @@
             <p class="form-p col-12">
               Please fill the date you would like to reserve.
             </p>
-            <div class="col-12">
-              <label for="date">Date:</label>
-              <input
-                type="date"
-                id="date"
-                class="col-8"
-                name="date"
-                required
-              />
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <label for="date" class="col-12"
+                >Date:
+                <input
+                  pattern="\d{4}-\d{2}-\d{2}"
+                  type="date"
+                  id="date"
+                  class="col-12"
+                  name="date"
+                  min="05-29-2020"
+                  max="06-29-2020"
+                  required
+                />
+                <span class="validity col-12"></span>
+              </label>
             </div>
 
             <h4 class="page-heading">
               Which time would you like to book the table?
             </h4>
             <p class="form-p col-12">
-              Please fill the time you would like to reserve.(opening hours 5:00 pm am to 10:00 pm)
+              Please fill the time you would like to reserve.(opening
+              hours<strong> 5:00 pm to 10:00 pm </strong>) Please note time the
+              gap between time reservations are<strong> 15 minutes</strong>.
             </p>
-            <div class="col-12">
-              <label for="time">Time:</label>
-              <input
-                type="time"
-                id="time"
-                class="col-8"
-                min="61200"
-                max="79200"
-                step="1800"
-                name="time"
-                required
-              />
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <label for="time" class="col-10"
+                >Time:
+                <input
+                  type="time"
+                  id="time"
+                  class="col-12"
+                  min="61200"
+                  max="79200"
+                  step="900"
+                  name="time"
+                  required
+                />
+                <span class="validity col-12"></span>
+              </label>
             </div>
 
             <h4 class="page-heading">
@@ -153,16 +176,18 @@
               you want to reserve more seats please contact us through the
               resturant phone number.
             </p>
-            <div class="col-12">
-              <label for="seats">Number of seats:</label>
-              <input
-                type="number"
-                id="seats"
-                class="col-8"
-                min="1"
-                max="20"
-                required
-              />
+            <div class="col-12 col-lg-10 offset-lg-1">
+              <label for="seats" class="col-8"
+                >Number of seats:
+                <input
+                  type="number"
+                  id="seats"
+                  class="col-12"
+                  min="1"
+                  max="20"
+                  required
+                />
+              </label>
             </div>
             <h4 class="page-heading">Where would you like to sit?</h4>
             <p class="form-p col-12">

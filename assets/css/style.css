@@ -80,6 +80,10 @@ a {
   color: #fff;
 }
 
+strong{
+    font-weight: 600;
+}
+
 /* ---------------------------------------------------------------------------------------------------:index */
 
 .index-section {
@@ -524,6 +528,23 @@ footer {
   white-space: pre-line;
 }
 
+.validity{
+    padding-left: 0;
+    padding-right: 30px; 
+}
+
+input:invalid + span:after {
+  position: absolute;
+  content: "✖";
+  padding-left: 5px;
+}
+
+input:valid + span:after {
+  position: absolute;
+  content: "✓";
+  padding-left: 5px;
+}
+
 .views {
   margin: 0 auto;
 }
@@ -551,12 +572,12 @@ footer {
   background-color: rgb(170, 88, 170);
 }
 
-.personal-info {
+.reservation-info {
   margin: 0 auto;
-  width: 65%;
+  width: 85%;
 }
 
-.personal-info input {
+.reservation-info input {
   border-width: 3px;
   border-color: rgba(0, 0, 0, 0.2);
   background-color: rgb(245, 234, 245);
@@ -566,7 +587,7 @@ footer {
   color: gray;
 }
 
-.personal-info input:focus {
+.reservation-info input:focus {
   outline-color: rgb(170, 88, 170);
   outline-width: 3px;
 }
