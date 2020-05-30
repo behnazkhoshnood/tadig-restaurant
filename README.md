@@ -1,59 +1,62 @@
-#Milestone Project-1
-
-# Tadig Restaurant 
+# Tadig Restaurant
 
 [View the live project here.](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+
 This website is made for resturants. We named our resturant "Tadig resturant" which is a made up persian resturant.
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
 ## User Experience (UX)
 
-* **User Stories**
+ * ### __User Stories__
 
-    * ****First Time Visitor Goals****
+    * #### General Customers Goals
 
-       * a.As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the resturant.
-       * b.As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-       * c.As a First Time Visitor, I would like to know the location of the resturant.
+       * a. As a General customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-    * ****Returning Visitor Goals****
+       * b. As a General customer, I want to find the best way to get in contact with the resturant with any questions I may have.
 
-       * a.As a Returning Visitor, I want to find information about disconts and loyality benefits.
+       * d. As a General customer, I would like to see a menu of products and their description.
 
-    * ****Frequent User Goals****
+       * e. As a General customer, I would like to reserve a table in the resturant.
 
-       * a.As a Frequent User, I would like to get some benefits from beeing a loyal customer.
-       * b.As a Frequent User, I want to check to see if there are any new blog posts.
-       * c.As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or resturant.
+       * f. As a General customerI would like to write a review for the resturant.
 
-    * ****General Customers Goals****
 
-       * a.As a General customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-       * b.As a General customer, I want to find the best way to get in contact with the resturant with any questions I may have.
-       * d.As a General customer, I would like to see a menu of products and their description.
-       * e.As a General customer, I would like to reserve a table in the resturant.
-       * f.As a General customerI would like to write a review for the resturant.
+    * ##### First Time Visitor Goals
 
-* **Design**
+       * a. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the resturant.
+       * b. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+       * c. As a First Time Visitor, I would like to know the location of the resturant.
+
+    * ##### Returning Visitor Goals
+
+       * a. As a Returning Visitor, I want to find information about disconts and loyality benefits.
+
+    * ##### Frequent User Goals
+
+       * a. As a Frequent User, I would like to get some benefits from beeing a loyal customer.
+       * b. As a Frequent User, I want to check to see if there are any new blog posts.
+       * c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or resturant.
+
+ * ### __Design__
 
     * ****Colour Scheme****
 
          * The 5 main colours used are:
-         * rgb(99, 143, 33) for HOME which is close to light blue.
-         * rgb(170, 88, 170) for MENU which is close to green.
-         * rgb(187, 99, 99) for RESERVATION which is in the scope of violet.
-         * rgb(187, 99, 99) for RATE US which is darker shades of red.
+         * rgb(99, 143, 33) for Home page which is close to light blue.
+         * rgb(170, 88, 170) for Menu page which is close to green.
+         * rgb(187, 99, 99) for Reservation page which is in the scope of violet.
+         * rgb(187, 99, 99) for Rate us page which is darker shades of red.
          * and white
 
     * ****Typography****
 
-         * The Roboto and Baloo Bhaina font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-
+         * Roboto and Baloo Bhaina font are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
     * ****Imagery****
     
          * Home page large, background hero carousel slide is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
-         * In Menu pages all the items have their image next to them.
-             * Source of all images used in this site is mentioned below:
+         * In Menu pages all the items have their image next to them. Source of all images used in this site is mentioned below:
+
                  * Dessersts:       
                      * [Baklava](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyftLKhAJzlAmscp5fLjIjBYzrP-Vy1_7xsl9SHiQAFTu8vCeM&usqp=CAU)
                      * [Faloodeh](https://dornatrip.com/wp-content/uploads/2018/08/AndroidOnlineNewsImage-1.png)
@@ -63,7 +66,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
                  * Drinks:
                      * [Doogh](https://www.196flavors.com/wp-content/uploads/2019/07/doogh-1.jpg)
-                     * [Araghe Bid Meshek](https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg)
+                     * [Araghe bid meshek](https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg)
                      * [Gol gav zaban](https://surfiran.com/wp-content/uploads/2018/07/iran-drinks-gol-gav-zaban-damnoosh-845x321.jpg)
                      * [Mojito](https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg)
                      * [Margarita](https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2019/05/frozen-margarita.jpg?itok=rQ3ozxhT)
@@ -92,6 +95,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
                      * [Do piaze alo](https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG)
                      * [Salad olvie](https://i.pinimg.com/originals/39/37/be/3937be2fea7c0c2fb2c9987b7a63bc4b.jpg)
                      * [Noon panir sabzi](https://cdn.shortpixel.ai/spai/q_lossless+ret_img/https://3nkq72bhhp51kv1h2do55o5r-wpengine.netdna-ssl.com/wp-content/uploads/2.3_NAT_American-Herbal-Cookbook_NEW-Wordpress.jpg)
+
     * ****Content**** 
          *product informations are all taken from wikipedia except                     
 /> info:Diba aragh bidmeshk
