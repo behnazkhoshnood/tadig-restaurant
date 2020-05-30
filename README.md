@@ -1,127 +1,105 @@
-# Tadig Restaurant
+# **Tadig Restaurant**
 
 [View the live project here.](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
 This website is made for resturants. We named our resturant "Tadig resturant" which is a made up persian resturant.
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
-## User Experience (UX)
+## **User Experience (UX)**
 
- * ### __User Stories__
+- ### **User Stories**
 
-    * #### General Customers Goals
+  - #### General Customers Goals
 
-       * a. As a General customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+    - a. As a General customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-       * b. As a General customer, I want to find the best way to get in contact with the resturant with any questions I may have.
+    - b. As a General customer, I want to find the best way to get in contact with the resturant with any questions I may have.
 
-       * d. As a General customer, I would like to see a menu of products and their description.
+    - d. As a General customer, I would like to see a menu of products and their description.
 
-       * e. As a General customer, I would like to reserve a table in the resturant.
+    - e. As a General customer, I would like to reserve a table in the resturant.
 
-       * f. As a General customerI would like to write a review for the resturant.
+    - f. As a General customerI would like to write a review for the resturant.
 
 
-    * ##### First Time Visitor Goals
+    * #### First Time Visitor Goals
 
        * a. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the resturant.
        * b. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
        * c. As a First Time Visitor, I would like to know the location of the resturant.
 
-    * ##### Returning Visitor Goals
+    * #### Returning Visitor Goals
 
        * a. As a Returning Visitor, I want to find information about disconts and loyality benefits.
 
-    * ##### Frequent User Goals
+    * #### Frequent User Goals
 
        * a. As a Frequent User, I would like to get some benefits from beeing a loyal customer.
        * b. As a Frequent User, I want to check to see if there are any new blog posts.
        * c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or resturant.
 
- * ### __Design__
+- ### **Design**
 
-    * ****Colour Scheme****
+      * ****Colour Scheme****
 
-         * The 5 main colours used are:
-         * rgb(99, 143, 33) for Home page which is close to light blue.
-         * rgb(170, 88, 170) for Menu page which is close to green.
-         * rgb(187, 99, 99) for Reservation page which is in the scope of violet.
-         * rgb(187, 99, 99) for Rate us page which is darker shades of red.
-         * and white
+           * The 5 main colours used are:
+           * rgb(99, 143, 33) for Home page which is close to light blue.
+           * rgb(170, 88, 170) for Menu page which is close to green.
+           * rgb(187, 99, 99) for Reservation page which is in the scope of violet.
+           * rgb(187, 99, 99) for Rate us page which is darker shades of red.
+           * and white
 
-    * ****Typography****
+      * ****Typography****
 
-         * Roboto and Baloo Bhaina font are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
-    * ****Imagery****
-    
-         * Home page large, background hero carousel slide is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
-         * In Menu pages all the items have their image next to them. Source of all images used in this site is mentioned below:
+           * Roboto and Baloo Bhaina font are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+      * ****Imagery****
 
-                 * Dessersts:       
-                     * [Baklava](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyftLKhAJzlAmscp5fLjIjBYzrP-Vy1_7xsl9SHiQAFTu8vCeM&usqp=CAU)
-                     * [Faloodeh](https://dornatrip.com/wp-content/uploads/2018/08/AndroidOnlineNewsImage-1.png)
-                     * [Bastani sonnati](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU)
-                     * [Noon khamei](https://image.shutterstock.com/z/stock-photo-profiteroles-fresh-cream-puffs-cakes-filled-with-pastry-cream-and-topped-with-chocolate-sauce-in-a-705988894.jpg)
-                     * [Ranginak](https://4.bp.blogspot.com/-LBlaXdUqrYo/Tba1gvjYyHI/AAAAAAAACvs/l1bm02mG7-s/s1600/227458_206016996087508_100000376264948_606452_2793162_n.jpg)
+           * Home page large, background hero carousel slide is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+           * In Menu pages all the items have their image next to them. Source of all images used in this site is mentioned below:
 
-                 * Drinks:
-                     * [Doogh](https://www.196flavors.com/wp-content/uploads/2019/07/doogh-1.jpg)
-                     * [Araghe bid meshek](https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg)
-                     * [Gol gav zaban](https://surfiran.com/wp-content/uploads/2018/07/iran-drinks-gol-gav-zaban-damnoosh-845x321.jpg)
-                     * [Mojito](https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg)
-                     * [Margarita](https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2019/05/frozen-margarita.jpg?itok=rQ3ozxhT)
-                     * [White russian](https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg)
-                     * [Bloody mary](https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg)
-                     * [Espresso](https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg)
-                     * [Tea](https://www.comunicaffe.com/wp-content/uploads/2019/12/close-up-of-a-cup-of-tea.jpg)
-                     * [Hot chocolate](https://vancouverwithlove.com/wp-content/uploads/2019/01/IMG_9512-e1548293207827.jpg)
-                     * [Chai latte](https://wendypolisi.com/wp-content/uploads/2018/09/dirty-chai-latte-2.jpg)
-                     * [Orange juice](https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg)
-                     * [Apple juice](https://www.thespruceeats.com/thmb/GgHOntrZVUQDitcFypwTqeYDwSE=/3769x3769/smart/filters:no_upscale()/AppleCiderDrinkSpruce-5b3cb4ff46e0fb0037f88630.jpg)
-                     * [Watermelon juice](https://images.eatthismuch.com/site_media/img/854541_Shamarie84_45b61cdb-ddfc-43dd-bf1f-6c366caf07a5.png)
-                     * [Berry juice](https://5.imimg.com/data5/LY/KU/OD/GLADMIN-7061725/berryjuice-500x500.jpg)
-                     * [Cola](https://metromode.se/files/2017/09/kaffe-cocacola.jpg)
+           | Starter page | Main page | Desserst page | Drink page |
+           |:---------------:|:---------------:|:---------------:|:---------------:|
+           | [Kashke bademjan](https://persianfoodtours.com/wp-content/uploads/2019/10/Kashk-e-Bademjan.jpg) | [Baghali polo](https://media-cdn.tripadvisor.com/media/photo-s/03/a5/aa/c3/arya.jpg) | [Baklava](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyftLKhAJzlAmscp5fLjIjBYzrP-Vy1_7xsl9SHiQAFTu8vCeM&usqp=CAU) | [Doogh](https://www.196flavors.com/wp-content/uploads/2019/07/doogh-1.jpg) |
+           | [Mirza ghasemi](https://i.pinimg.com/236x/05/3f/57/053f571a37ce93fae8e4057176455ee1--ethnic-recipes-african-recipes.jpg) | [Zereshk polo](https://yummynotes.net/wp-content/uploads/2020/04/Zereshk-Polo.jpg) | [Faloodeh](https://dornatrip.com/wp-content/uploads/2018/08/AndroidOnlineNewsImage-1.png) | [Araghe bid meshek](https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg) |
+           | [Do piaze alo](https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG) | [Khoreshte gheyme Bademjan](https://igotitfrommymaman.com/wp-content/uploads/2020/01/Khoreshe-Gheymeh-11-scaled.jpg) | [Bastani sonnati](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU) | [Gol gav zaban](https://surfiran.com/wp-content/uploads/2018/07/iran-drinks-gol-gav-zaban-damnoosh-845x321.jpg) |
+           | [Salad olvie](https://i.pinimg.com/originals/39/37/be/3937be2fea7c0c2fb2c9987b7a63bc4b.jpg) | [Khoreshte ghorme Sabzi](https://www.196flavors.com/wp-content/uploads/2017/03/ghormeh-sabzi-3.jpg) | [Noon khamei](https://image.shutterstock.com/z/stock-photo-profiteroles-fresh-cream-puffs-cakes-filled-with-pastry-cream-and-topped-with-chocolate-sauce-in-a-705988894.jpg) | [Mojito](https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg) |
+           | [Noon panir sabzi](https://cdn.shortpixel.ai/spai/q_lossless+ret_img/https://3nkq72bhhp51kv1h2do55o5r-wpengine.netdna-ssl.com/wp-content/uploads/2.3_NAT_American-Herbal-Cookbook_NEW-Wordpress.jpg) | [Khoreshte fesenjoon](https://yummynotes.net/wp-content/uploads/2019/01/fesenjan-recipe.jpg) | [Ranginak](https://4.bp.blogspot.com/-LBlaXdUqrYo/Tba1gvjYyHI/AAAAAAAACvs/l1bm02mG7-s/s1600/227458_206016996087508_100000376264948_606452_2793162_n.jpg) |
+           |  |  |  | [White russian](https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg)
+           |  |  |  | [Bloody mary](https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg)
+           |  |  |  | [Espresso](https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg)
+           |  |  |  | [Masala chai](https://wendypolisi.com/wp-content/uploads/2018/09/dirty-chai-latte-2.jpg)
+           |  |  |  | [Orange juice](https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg)
+           |  |  |  | [Watermelon juice](https://images.eatthismuch.com/site_media/img/854541_Shamarie84_45b61cdb-ddfc-43dd-bf1f-6c366caf07a5.png)
+           |  |  |  | [Berry juice](https://5.imimg.com/data5/LY/KU/OD/GLADMIN-7061725/berryjuice-500x500.jpg)
 
-                 * Main:
-                     * [Baghali polo](https://media-cdn.tripadvisor.com/media/photo-s/03/a5/aa/c3/arya.jpg)
-                     * [Zereshk polo](https://yummynotes.net/wp-content/uploads/2020/04/Zereshk-Polo.jpg)
-                     * [Khoreshte gheyme Bademjan](https://igotitfrommymaman.com/wp-content/uploads/2020/01/Khoreshe-Gheymeh-11-scaled.jpg)
-                     * [Khoreshte ghorme Sabzi](https://www.196flavors.com/wp-content/uploads/2017/03/ghormeh-sabzi-3.jpg)
-                     * [Khoreshte fesenjoon](https://yummynotes.net/wp-content/uploads/2019/01/fesenjan-recipe.jpg)
 
-                 *Starters:
-                     * [Kashke bademjan](https://persianfoodtours.com/wp-content/uploads/2019/10/Kashk-e-Bademjan.jpg)
-                     * [Mirza ghasemi](https://i.pinimg.com/236x/05/3f/57/053f571a37ce93fae8e4057176455ee1--ethnic-recipes-african-recipes.jpg)
-                     * [Do piaze alo](https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG)
-                     * [Salad olvie](https://i.pinimg.com/originals/39/37/be/3937be2fea7c0c2fb2c9987b7a63bc4b.jpg)
-                     * [Noon panir sabzi](https://cdn.shortpixel.ai/spai/q_lossless+ret_img/https://3nkq72bhhp51kv1h2do55o5r-wpengine.netdna-ssl.com/wp-content/uploads/2.3_NAT_American-Herbal-Cookbook_NEW-Wordpress.jpg)
+      * ****Content****
+           *product informations are all taken from wikipedia except
 
-    * ****Content**** 
-         *product informations are all taken from wikipedia except                     
-/> info:Diba aragh bidmeshk
-/> info:Amazon gol gav zaban
-/> info:Persian Mama zeresk polo
-/>info:persianfoodtours.com gheymeh
-<img src="" alt="Salad Olvie"
-/>info:Persian Mama
-<img src="" alt=""
-/>info:clean plates non panir
+  /> info:Diba aragh bidmeshk
+  /> info:Amazon gol gav zaban
+  /> info:Persian Mama zeresk polo
+  />info:persianfoodtours.com gheymeh
+  <img src="" alt="Salad Olvie"
+  />info:Persian Mama
+  <img src="" alt=""
+  />info:clean plates non panir
 
-* **Wireframes**
+- **Wireframes**
 
-- Home Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+* Home Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
   - Mobile Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
-- Menu Pages Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+* Menu Pages Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
   - Mobile Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
-- Reservation Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+* Reservation Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
   - Mobile Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
-- Rate us Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+* Rate us Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
   - Mobile Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
 
@@ -138,27 +116,31 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 ##Technologies Used
 
 #### Languages Used
-  * HTML5
-  * CSS3
-####Frameworks, Libraries & Programs Used
+
 - HTML5
 - CSS3
-- JavaScript
-- JQuery
-- [Bootstrap 4.4.1](https://getbootstrap.com/)
-  * Bootstrap was used to assist with the responsiveness and styling of the website.
-- [Googlefonts](https://fonts.google.com/)
+  ####Frameworks, Libraries & Programs Used
+
+* HTML5
+* CSS3
+* JavaScript
+* JQuery
+* [Bootstrap 4.4.1](https://getbootstrap.com/)
+  - Bootstrap was used to assist with the responsiveness and styling of the website.
+* [Googlefonts](https://fonts.google.com/)
   Google fonts Roboto and Baloo Bhaina are used in the project.
-- [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
+* [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
   Fontawesome icons are used in the project.
-- [Hover.css](https://ianlunn.github.io/Hover/)
-  * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-  * Hover effect hvr-sweep-to-bottom has been used in menu.
-  * Hover effect has been used in sign in / sign up button.
+* [Hover.css](https://ianlunn.github.io/Hover/)
+  - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+  - Hover effect hvr-sweep-to-bottom has been used in menu.
+  - Hover effect has been used in sign in / sign up button.
+
 2. Hover effect has been used in sign in / sign up button.
-4. Hover effect has been used in food menu.
-5. Hover effect has been used in Reservation submit button.
-6. Hover effect has been used in rate us submit button.
+3. Hover effect has been used in food menu.
+4. Hover effect has been used in Reservation submit button.
+5. Hover effect has been used in rate us submit button.
+
 - [github](https://github.com/)
   Used for version control.
 - [gitpod](https://www.gitpod.io/)
@@ -166,25 +148,26 @@ It is designed to be responsibe and accessible on a range of devices, making it 
   Used for fixing the reservation time.
 
   1.Bootstrap 4.4.1:
-     
-  2.Hover.css:
-     * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    
+   2.Hover.css:
+  _ Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
   3.Google Fonts:
-     * Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+  _ Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
   4.Font Awesome:
-     * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+  _ Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
   5.jQuery:
-     * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+  _ jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
   6.Git
-     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+  _ Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
   7.GitHub:
-     * GitHub is used to store the projects code after being pushed from Git.
+  _ GitHub is used to store the projects code after being pushed from Git.
   8.Photoshop:
-     * Photoshop was used to create the logo, resizing images and editing photos for the website.
+  _ Photoshop was used to create the logo, resizing images and editing photos for the website.
   9.Balsamiq:
-     * Balsamiq was used to create the wireframes during the design process.
-####Testing
-  * The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+  _ Balsamiq was used to create the wireframes during the design process.
+  ####Testing
+
+  - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 W3C Markup Validator - Results
 W3C CSS Validator - Results
