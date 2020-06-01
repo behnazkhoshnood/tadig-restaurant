@@ -120,10 +120,10 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 * [Bootstrap 4.4.1](https://getbootstrap.com/)
   - Bootstrap was used to assist with the responsiveness and styling of the website.
 
-* [Googlefonts](https://fonts.google.com/)
+* [Google fonts](https://fonts.google.com/)
   - Google fonts Roboto and Baloo Bhaina are used on all pages throughout the project.
 
-* [FontAwesome](https://fontawesome.com/v4.7.0/icons/)
+* [Font Awesome](https://fontawesome.com/v4.7.0/icons/)
   - Fontawesome icons was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 * [Hover.css](https://ianlunn.github.io/Hover/)
@@ -156,28 +156,30 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 - [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) - [Results]()
 
 ### **Testing User Stories from User Experience (UX) Section**
-First Time Visitor Goals
-As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+- **First Time Visitor Goals**
 
-Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-The main points are made immediately with the hero image
-The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+  i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
 
-The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+  - a. Upon entering the site, users are greeted with a clean and easily readable wecome note and a colorful navigation bar to go to the page of their choice. Underneath the navigation bar there is a Hero carousel slider that makes the visitor interested and shows the main purpose of the site.
 
-Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-Returning Visitor Goals
-As a Returning Visitor, I want to find the new programming challenges or hackathons.
+  - b.The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign up / sign in, Contact us informations and social media links.
 
-These are clearly shown in the banner message.
-They will be directed to a page with another hero image and call to action.
-As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+  ii. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+  - a. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+
+  - b. At the bottom of all the order pages there is another food menu navbar which redirect the visitor to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+
+  - c. On form Pages, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+  iii. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+
+ - a. The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+ 
+- **Returning Visitor Goals**
+  a. As a Returning Visitor, I want to find the new disconts and benefits.
+
+They will find some benefits and disconts after they sign in and become a memberto action.
+As a Returning Visitor, I want to find the best way to get in contact with the resturant with any questions I may have.
 
 The navigation bar clearly highlights the "Contact Us" Page.
 Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
