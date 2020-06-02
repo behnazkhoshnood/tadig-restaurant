@@ -1,4 +1,4 @@
-# **Tadig Restaurant**
+# **Tadig Restaurant website**
 
 This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made up persian restaurant.
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
