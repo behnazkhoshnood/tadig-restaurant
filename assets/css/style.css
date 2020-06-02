@@ -220,6 +220,7 @@ strong{
   height: 60px;
   min-width: 120px;
   border-color: goldenrod;
+  margin: 0 auto;
 }
 
 #sign-in-passworld,
