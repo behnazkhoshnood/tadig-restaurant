@@ -103,19 +103,20 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 * ### **Wireframes**
 
-  - Home Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+  - Home Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r2278)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r29AB)
 
-  - Menu Pages Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+  - Menu Pages Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r4ED3)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r863B)
 
-  - Reservation Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+  - Reservation Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0AB0)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r3957)
 
-  - Rate us Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+  - Rate us Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/rBAB2)
+
     - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
 
 ## **Features**
