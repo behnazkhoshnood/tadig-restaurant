@@ -1,6 +1,6 @@
 # **Tadig Restaurant**
 
-This website is made for resturants. We named our resturant "Tadig resturant" which is a made up persian resturant.
+This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made up persian restaurant.
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
 ## **User Experience (UX)**
@@ -11,21 +11,21 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
      a. As a General customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-     b. As a General customer, I want to find the best way to get in contact with the resturant with any questions I may have.
+     b. As a General customer, I want to find the best way to get in contact with the restaurant with any questions I may have.
 
      c. As a General customer, I would like to see a menu of products and their description.
 
-     d. As a General customer, I would like to reserve a table in the resturant.
+     d. As a General customer, I would like to reserve a table in the restaurant.
 
-     e. As a General customerI would like to write a review for the resturant.
+     e. As a General customerI would like to write a review for the restaurant.
 
   - #### First Time Visitor Goals
 
-     a. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the resturant.
+     a. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
 
      b. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-     c. As a First Time Visitor, I would like to know the location of the resturant.
+     c. As a First Time Visitor, I would like to know the location of the restaurant.
 
   - #### Returning Visitor Goals
 
@@ -37,7 +37,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
      b. As a Frequent User, I want to check to see if there are any new blog posts.
 
-     c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or resturant.
+     c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
 
 - ### **Design**
 
@@ -134,7 +134,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ## **Features Left to Implement**
 
-- In future I want to make an app for the resturant.
+- In future I want to make an app for the restaurant.
 - I want to add the loyality chart which is functional.
 - Social medial profiles of Tadig restutant will be added in future.
 - Use original photos with same backgrounds.
@@ -207,7 +207,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   - a. They will find some benefits and disconts after they sign in and become a memberto action.
 
-  ii. As a Returning Visitor, I want to find the best way to get in contact with the resturant with any questions I may have.
+  ii. As a Returning Visitor, I want to find the best way to get in contact with the restaurant with any questions I may have.
 
   - a. Contact information is located on the foother of all pages.
   - b. The footer also contains links to the restaurant's Facebook, Twitter and Instagram page.
@@ -248,7 +248,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## **Deployment**
 
-Following steps has been taken to deploy Tadig resturant website on GitHub pages;
+Following steps has been taken to deploy Tadig restaurant website on GitHub pages;
 
 1. Go to GitHub and click on repository [behnazkhoshnood/my-first-milestone-project](https://github.com/behnazkhoshnood/my-first-milestone-project)
 1. Click on **Settings** on the top right of the page
