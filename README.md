@@ -1,7 +1,5 @@
 # **Tadig Restaurant**
 
-[View the live project here.]()
-
 This website is made for resturants. We named our resturant "Tadig resturant" which is a made up persian resturant.
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
 
@@ -70,9 +68,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 | [Do piaze alo](https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG) | [Khoreshte gheyme bademjan](https://igotitfrommymaman.com/wp-content/uploads/2020/01/Khoreshe-Gheymeh-11-scaled.jpg) <br> Info : [Persian food tours](http://www.persianfoodtours.com/khoresht-gheymeh-bademjan-yellow-split-peas-stew/) | [Bastani sonnati](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU) | [Gol gav zaban](https://surfiran.com/wp-content/uploads/2018/07/iran-drinks-gol-gav-zaban-damnoosh-845x321.jpg) <br> Info : [The persian pot](http://www.thepersianpot.com/recipe/gol-gav-zaban-borage-tea/) |
 | [Salad olvie](https://i.pinimg.com/originals/39/37/be/3937be2fea7c0c2fb2c9987b7a63bc4b.jpg) <br> Info : [Persian mama](https://persianmama.com/salad-olivieh-persian-chicken-salad/) | [Khoreshte ghorme Sabzi](https://www.196flavors.com/wp-content/uploads/2017/03/ghormeh-sabzi-3.jpg) | [Noon khamei](https://image.shutterstock.com/z/stock-photo-profiteroles-fresh-cream-puffs-cakes-filled-with-pastry-cream-and-topped-with-chocolate-sauce-in-a-705988894.jpg) | [Mojito](https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg) |
 | [Noon panir sabzi](https://cdn.shortpixel.ai/spai/q_lossless+ret_img/https://3nkq72bhhp51kv1h2do55o5r-wpengine.netdna-ssl.com/wp-content/uploads/2.3_NAT_American-Herbal-Cookbook_NEW-Wordpress.jpg) <br> Info : [Clean plates](https://www.cleanplates.com/eat/recipes-eat/panir-sabzi/) | [Khoreshte fesenjoon](https://yummynotes.net/wp-content/uploads/2019/01/fesenjan-recipe.jpg) | [Ranginak](https://4.bp.blogspot.com/-LBlaXdUqrYo/Tba1gvjYyHI/AAAAAAAACvs/l1bm02mG7-s/s1600/227458_206016996087508_100000376264948_606452_2793162_n.jpg) | [Berry juice](https://5.imimg.com/data5/LY/KU/OD/GLADMIN-7061725/berryjuice-500x500.jpg) |
-| **More Drinks**                                                                                                                                                                                                                                                                                   |
+| **More Drinks** |                                                                                                                                                                                                                                                                                  |
 | [Watermelon juice](https://images.eatthismuch.com/site_media/img/854541_Shamarie84_45b61cdb-ddfc-43dd-bf1f-6c366caf07a5.png) | [Orange juice](https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg) | [Masala chai](https://wendypolisi.com/wp-content/uploads/2018/09/dirty-chai-latte-2.jpg) | [Bloody mary](https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg) |
-| [White russian](https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg) |  [Espresso](https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg)
+| [White russian](https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg) |  [Espresso](https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg) |
 
 * ### **Structure**
   - #### 1st and 3rd sections(header and footer):
@@ -176,8 +174,8 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) - [Results]()
-- [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) - [Results]()
+- [W3C Markup Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) 
+- [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service)
 
   Further the testing of the project has been carried out from the beginning using google developer tools.
 
@@ -271,25 +269,27 @@ Follow these steps to run website locally on your machine;
 
 ## **Credits**
 
-### **Code**
-- The full-screen hero image code came from this [StackOverflow post.](stackoverflow.com)
+- ### **Code**
+  - [Bootstrap4](getbootstra.com)
+    - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
-- [Bootstrap4](getbootstra.com)
-  - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+  - [MDN Web Docs](developer.mozilla.org)
+    - For Pattern Validation code. Code was modified to better fit my needs. Tutorial Found [Here](developer.mozilla.org)
 
-- [MDN Web Docs](developer.mozilla.org)
-   - For Pattern Validation code. Code was modified to better fit my needs. Tutorial Found [Here](developer.mozilla.org)
+  - [mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
+    - Used for fixing the reservation time and validity.
 
-- [mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
-  - Used for fixing the reservation time and validity.
-
-- to open my project in the browser I used this code: `python3 -m http.server` 
+  - to open my project in the browser I used this code: `python3 -m http.server` 
 
 ### **Media**
 - All Images are from external source which are mentioned in the table in Imagery section.
 ### **Acknowledgements**
 1. A special thanks to my mentor for his valuable feedback during mentoring sessions.
+
 1. also I like to thank all of Code Institute supports.
+
 1. The design and layout of this website is based on the Rule of Thirds.
+
 1. Code Institute tutorials were very helpful throughout the whole project.
+
 1. Bootstrap is also used in the project. (Bootstrap grid, Bootstrap Moodle and Bootstrap classes)
