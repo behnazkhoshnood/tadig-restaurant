@@ -1,6 +1,6 @@
 # **Tadig Restaurant**
 
-[View the live project here.](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+[View the live project here.]()
 
 This website is made for resturants. We named our resturant "Tadig resturant" which is a made up persian resturant.
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
@@ -11,51 +11,55 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
   - #### General Customers Goals
 
-    - a. As a General customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+     a. As a General customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-    - b. As a General customer, I want to find the best way to get in contact with the resturant with any questions I may have.
+     b. As a General customer, I want to find the best way to get in contact with the resturant with any questions I may have.
 
-    - c. As a General customer, I would like to see a menu of products and their description.
+     c. As a General customer, I would like to see a menu of products and their description.
 
-    - d. As a General customer, I would like to reserve a table in the resturant.
+     d. As a General customer, I would like to reserve a table in the resturant.
 
-    - e. As a General customerI would like to write a review for the resturant.
+     e. As a General customerI would like to write a review for the resturant.
 
-* #### First Time Visitor Goals
+  - #### First Time Visitor Goals
 
-  - a. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the resturant.
-  - b. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-  - c. As a First Time Visitor, I would like to know the location of the resturant.
+     a. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the resturant.
 
-* #### Returning Visitor Goals
+     b. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-  - a. As a Returning Visitor, I want to find information about disconts and loyality benefits.
+     c. As a First Time Visitor, I would like to know the location of the resturant.
 
-* #### Frequent User Goals
+  - #### Returning Visitor Goals
 
-  - a. As a Frequent User, I would like to get some benefits from beeing a loyal customer.
-  - b. As a Frequent User, I want to check to see if there are any new blog posts.
-  - c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or resturant.
+     a. As a Returning Visitor, I want to find information about disconts and loyality benefits.
+
+  - #### Frequent User Goals
+
+     a. As a Frequent User, I would like to get some benefits from beeing a loyal customer.
+
+     b. As a Frequent User, I want to check to see if there are any new blog posts.
+
+     c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or resturant.
 
 - ### **Design**
 
-  #### Colour Scheme
+  - #### Colour Scheme
 
-- The 5 main colours used are:
-- rgb(99, 143, 33) for Home page which is close to light blue.
-- rgb(170, 88, 170) for Menu page which is close to green.
-- rgb(187, 99, 99) for Reservation page which is in the scope of violet.
-- rgb(187, 99, 99) for Rate us page which is darker shades of red.
-- and white
+    - The 5 main colours used are:
+    - rgb(99, 143, 33) for Home page which is close to light blue.
+    - rgb(170, 88, 170) for Menu page which is close to green.
+    - rgb(187, 99, 99) for Reservation page which is in the scope of violet.
+    - rgb(187, 99, 99) for Rate us page which is darker shades of red.
+    - and white
 
-  #### Typography
+  - #### Typography
 
-- Roboto and Baloo Bhaina font are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+    - Roboto and Baloo Bhaina font are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
-  #### Imagery
+  - #### Imagery and content
 
-- Home page large, background hero carousel slide is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
-- In Menu pages all the items have their image next to them. Source of all images used in this site is mentioned below:
+    - Home page large, background hero carousel slide is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    - In Menu pages all the items have their image next to them and item informations are all taken from wikipedia except the one's mentioned above.. Source of all images used in this site is mentioned below:
 
     <br>
 
@@ -70,35 +74,34 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 | [Watermelon juice](https://images.eatthismuch.com/site_media/img/854541_Shamarie84_45b61cdb-ddfc-43dd-bf1f-6c366caf07a5.png) | [Orange juice](https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg) | [Masala chai](https://wendypolisi.com/wp-content/uploads/2018/09/dirty-chai-latte-2.jpg) | [Bloody mary](https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg) |
 | [White russian](https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg) |  [Espresso](https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg)
 
-#### Content
-- product informations are all taken from wikipedia except the one's mentioned above.
+* ### **Structure**
+  - #### 1st and 3rd sections(header and footer):
+    - The website consist of 7 pages named: index, order, order main, order desserts, order drinks, reservation and rate us. Each page has three sections.
 
-## **Structure**
-#### 1st and 3rd sections(header and footer):
-The website consist of 7 pages named: index, order, order main, order desserts, order drinks, reservation and rate us. Each page has three sections.
-The header and footer section is the same in all the pages. The Header section consist of the navbar menu for navigation through the website and the footer section consist of Sign in / sign up button, contacts and social medias.
-#### 2nd section:
-**Home page**
+    - The header and footer section is the same in all the pages. The Header section consist of the navbar menu for navigation through the website and the footer section consist of Sign in / sign up button, contacts and social medias.
+  - #### 2nd section:
+    - **Home page**
 
-This section consist of 2 part, Introduction note and a carousel slide for food images.
+      This section consist of 2 part, Introduction note and a carousel slide for food images.
 
-**Order pages**
+    - **Order pages**
 
-This sections consist of two food menu headers on top and the bottom of the section. These pages also consist of the list of items provided in each category with their image, description and ingridients.
+      This sections consist of two food menu headers on top and the bottom of the section. These pages also consist of the list of items provided in each category with their image, description and ingridients.
 
-**Reservation page**
+   - **Reservation page**
 
-This section consist of a form for reservation.
+     This section consist of a form for reservation.
 
-**Rate US page**
+   - **Rate US page**
 
-This section consist of a form for feedbacks.
+     This section consist of a form for feedbacks.
 
-## **Skeleton**
+* ### **Skeleton**
 
-Wireframes are created using balsamiq. Link to the wireframes and PDF file is available under wireframes. The design of the
-website is the same for desktop and tablet however on mobile screen the content will be re-arranged. The user will move from
-top to the bottom.
+  - Wireframes are created using balsamiq.
+  
+  - Link to the wireframes is available under wireframes.
+  - The design of the website is the same for desktop and tablet however on mobile screen the content will be re-arranged. The user will move from top to the bottom.
 
 * ### **Wireframes**
 
@@ -131,7 +134,7 @@ top to the bottom.
 - reserving seats through the website is easy.
 - writing a review through the website is easy.
 
-## Features Left to Implement
+## **Features Left to Implement**
 
 - In future I want to make an app for the resturant.
 - I want to add the loyality chart which is functional.
