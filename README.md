@@ -1,4 +1,4 @@
-# **Tadig Restaurant website**
+# **Tadig Restaurant Website**
 
 This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made up persian restaurant.
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
@@ -103,20 +103,20 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 * ### **Wireframes**
 
-  - Home Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+  - Home Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
 
-  - Menu Pages Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+  - Menu Pages Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
 
-  - Reservation Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+  - Reservation Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
 
-  - Rate us Page Wireframe -[ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sisqdsv/pd59mcb/r2278)
+  - Rate us Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
 
 ## **Features**
 
