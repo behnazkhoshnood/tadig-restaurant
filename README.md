@@ -114,21 +114,21 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 * ### **Wireframes**
 
-  - Home Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r2278)
+  - Home Page Wireframe -[ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r29AB)
+    - Mobile Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
 
-  - Menu Pages Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r4ED3)
+  - Menu Pages Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r863B)
+    - Mobile Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
 
-  - Reservation Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0AB0)
+  - Reservation Page Wireframe -[ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r3957)
+    - Mobile Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
 
-  - Rate us Page Wireframe -[ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/rBAB2)
+  - Rate us Page Wireframe -[ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
 
-    - Mobile Wireframe - [ View](https://balsamiq.cloud/sjd8xgo/pjwwrs4/r0588)
+    - Mobile Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
 
 ## **Features**
 
