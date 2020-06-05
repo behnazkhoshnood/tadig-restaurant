@@ -114,21 +114,21 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 * ### **Wireframes**
 
-  - Home Page Wireframe -[ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
+  - Home Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/HOME-page-desktop-view.png)
 
-    - Mobile Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
+    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/HOME-page-mobile-view.png)
 
-  - Menu Pages Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
+  - Menu Pages Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/MENU-pages-desktop-view.png)
 
-    - Mobile Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
+    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/MENU-page-mobile-view.png)
 
-  - Reservation Page Wireframe -[ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
+  - Reservation Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/RESERVATION-page-desktop-view.png)
 
-    - Mobile Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
+    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/RESERVATION-page-mobile-view.png)
 
-  - Rate us Page Wireframe -[ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
+  - Rate us Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/RATE-US-page-desktop-view.png)
 
-    - Mobile Wireframe - [ View](https://a61caed9-af2d-454c-a230-f76f9dafe95c.ws-eu01.gitpod.io/#/workspace/my-first-milestone-project)
+    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/RATE-US-page-mobile-view.png)
 
 ## **Features**
 

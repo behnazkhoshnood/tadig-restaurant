@@ -1,567 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Tadig restaurant</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <title>Tadig restaurant</title>
+    </head>
 
-  <body>
-    <header>
-      <div class="row no-gutters">
-        <div class="col">
-          <ul id="nav" class="list-inline menucontainer">
-            <li
-              class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem"
-            >
-              <a href="index.html" class="hvr-sweep-to-bottom">
-                <span>Home</span>
-              </a>
-            </li>
-            <li
-              class="col-6 col-sm-3 ui-menu-color-order list-inline-item menuitem"
-            >
-              <a href="order.html" class="hvr-sweep-to-bottom">
-                <span>Menu</span>
-              </a>
-            </li>
-            <li
-              class="col-6 col-sm-3 ui-menu-color-reservation list-inline-item menuitem"
-            >
-              <a href="reservation.html" class="hvr-sweep-to-bottom">
-                <span>Reservation</span>
-              </a>
-            </li>
-            <li
-              class="col-6 col-sm-3 ui-menu-color-rate-us list-inline-item menuitem"
-            >
-              <a href="rate-us.html" class="hvr-sweep-to-bottom">
-                <span>Rate Us</span>
-              </a>
-            </li>
-          </ul>
+    <body>
+        <header>
+            <div class="row no-gutters">
+                <div class="col">
+                    <ul id="nav" class="list-inline menucontainer">
+                        <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
+                            <a href="index.html" class="hvr-sweep-to-bottom">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="col-6 col-sm-3 ui-menu-color-order list-inline-item menuitem">
+                            <a href="order.html" class="hvr-sweep-to-bottom">
+                                <span>Menu</span>
+                            </a>
+                        </li>
+                        <li class="col-6 col-sm-3 ui-menu-color-reservation list-inline-item menuitem">
+                            <a href="reservation.html" class="hvr-sweep-to-bottom">
+                                <span>Reservation</span>
+                            </a>
+                        </li>
+                        <li class="col-6 col-sm-3 ui-menu-color-rate-us list-inline-item menuitem">
+                            <a href="rate-us.html" class="hvr-sweep-to-bottom">
+                                <span>Rate Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="container-fluid">
+            <div class="row center rate-us-questions">
+                <form>
+                    <div class="row center rate-us-questions">
+                        <h4 class="page-heading col-12">
+                            How was your food quality?
+                        </h4>
+                        <div class="row votes col-12">
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch1-1" />
+                                <label class="custom-control-label" for="customSwitch1-1">
+                                    Excellent
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch2-1" />
+                                <label class="custom-control-label" for="customSwitch2-1">
+                                    Good
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch3-1" />
+                                <label class="custom-control-label" for="customSwitch3-1">
+                                    Not bad
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch4-1" />
+                                <label class="custom-control-label" for="customSwitch4-1">
+                                    Poor
+                                </label>
+                            </div>
+                        </div>
+                        <p class="col-lg-8 form-p">
+                            Please help us by sharing your thoughts about
+                            <em>the food quality</em>
+                            in more details.
+                        </p>
+                        <div class="form-group col-10 center text-area">
+                            <textarea class="form-control rate-us-background" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row center rate-us-questions">
+                        <h4 class="page-heading col-12">
+                            How was the service quality?
+                        </h4>
+                        <div class="row votes col-12">
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch1-2" />
+                                <label class="custom-control-label" for="customSwitch1-2">
+                                    Excellent
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch2-2" />
+                                <label class="custom-control-label" for="customSwitch2-2">
+                                    Good
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch3-2" />
+                                <label class="custom-control-label" for="customSwitch3-2">
+                                    Not bad
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch4-2" />
+                                <label class="custom-control-label" for="customSwitch4-2">
+                                    Poor
+                                </label>
+                            </div>
+                        </div>
+                        <p class="col-lg-8 form-p">
+                            Please help us by sharing your thoughts about
+                            <em>the service quality</em>
+                            in more details.
+                        </p>
+                        <div class="form-group col-10 center text-area col-10">
+                            <textarea class="form-control rate-us-background" id="exampleFormControlTextarea2" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row center rate-us-questions">
+                        <h4 class="page-heading col-12">
+                            How was the restaurant environment?
+                        </h4>
+                        <div class="row votes col-12">
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch1-3" />
+                                <label class="custom-control-label" for="customSwitch1-3">
+                                    Excellent
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch2-3" />
+                                <label class="custom-control-label" for="customSwitch2-3">
+                                    Good
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch3-3" />
+                                <label class="custom-control-label" for="customSwitch3-3">
+                                    Not bad
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch4-3" />
+                                <label class="custom-control-label" for="customSwitch4-3">
+                                    Poor
+                                </label>
+                            </div>
+                        </div>
+                        <p class="col-lg-8 form-p">
+                            Please help us by sharing your thoughts about
+                            <em>the restaurant environment</em>
+                            in more details.
+                        </p>
+                        <div class="form-group col-10 center text-area">
+                            <textarea class="form-control rate-us-background" id="exampleFormControlTextarea3" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row center rate-us-questions">
+                        <h4 class="page-heading col-12">
+                            How was the restaurant website?
+                        </h4>
+                        <div class="row votes col-12">
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch1-5" />
+                                <label class="custom-control-label" for="customSwitch1-5">
+                                    Excellent
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch2-5" />
+                                <label class="custom-control-label" for="customSwitch2-5">
+                                    Good
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch3-5" />
+                                <label class="custom-control-label" for="customSwitch3-5">
+                                    Not bad
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-md-3 col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch4-5" />
+                                <label class="custom-control-label" for="customSwitch4-5">
+                                    Poor
+                                </label>
+                            </div>
+                        </div>
+                        <p class="col-lg-8 form-p">
+                            Please help us by sharing your thoughts about
+                            <em>the restaurant website</em>
+                            in more details.
+                        </p>
+                        <div class="form-group col-10 center text-area">
+                            <textarea class="form-control rate-us-background" id="exampleFormControlTextarea5" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row center rate-us-questions">
+                        <h4 class="page-heading col-12">
+                            whould you come back again?
+                        </h4>
+                        <div class="row votes col-12">
+                            <div class="custom-control custom-switch col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch1-6" />
+                                <label class="custom-control-label" for="customSwitch1-6">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch2-6" />
+                                <label class="custom-control-label" for="customSwitch2-6">
+                                    No
+                                </label>
+                            </div>
+                        </div>
+                        <p class="col-lg-8 form-p">
+                            If your answer in "No" please share your reasons?
+                        </p>
+                        <div class="form-group col-10 center text-area">
+                            <textarea class="form-control rate-us-background" id="exampleFormControlTextarea6" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row center rate-us-questions">
+                        <h4 class="page-heading col-12">
+                            would you recommend our restaurant to your friends?
+                        </h4>
+                        <div class="row votes col-12">
+                            <div class="custom-control custom-switch col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch1-7" />
+                                <label class="custom-control-label" for="customSwitch1-7">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="custom-control custom-switch col-6">
+                                <input type="checkbox" class="custom-control-input rate-us-input" id="customSwitch2-7" />
+                                <label class="custom-control-label" for="customSwitch2-7">
+                                    No
+                                </label>
+                            </div>
+                            <p class="col-lg-8 form-p">
+                                If your answer in "No" please share your reasons?
+                            </p>
+                            <div class="form-group col-10 center text-area">
+                                <textarea class="form-control rate-us-background" id="exampleFormControlTextarea7" rows="3"></textarea>
+                                <h4 class="page-heading col-12">Thank you for helping us.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-1">
+                        <button type="submit" class="btn btn-primary rate-us-submit-btn col-6 col-md-3">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="container-fluid rate-us-footer">
+            <div id="footer-details" class="row">
+                <div class="col-sm-4 center">
+                    <h5 class="uppercase general-sub">Sign Up / Sign in</h5>
+                    <p>
+                        Sign up / sign in and track your loyality chart progress.
+                    </p>
+                    <button type="button" class="btn btn-primary sign-in-btn" data-toggle="modal" data-target="#sign-in-btn">
+                        Sign In / Sign Up
+                    </button>
+                </div>
+                <div class="col-sm-4 center">
+                    <div class="contacts row">
+                        <h5 class="uppercase general-sub">Contact Us</h5>
+                        <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                            <i class="fa fa-clock-o col-3" aria-hidden="true">
+                                <span class="sr-only">Opening hours</span>
+                            </i>
+                            <p class="inline col-3">17-23 (5pm-11pm)</p>
+                            <br />
+                        </div>
+                        <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                            <i class="fa fa-phone col-3" aria-hidden="true">
+                                <span class="sr-only">Phone</span>
+                            </i>
+                            <p class="inline col-3">5555 123 456</p>
+                            <br />
+                        </div>
+                        <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                            <i class="fa fa-fax col-3" aria-hidden="true">
+                                <span class="sr-only">fax</span>
+                            </i>
+                            <p class="inline col-3">5555 123 123</p>
+                            <br />
+                        </div>
+                        <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                            <i class="fa fa-envelope-o col-3" aria-hidden="true">
+                                <span class="sr-only">email</span>
+                            </i>
+                            <p class="inline">tadig@restaurant.com</p>
+                            <br />
+                        </div>
+                        <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                            <i class="fa fa-map-marker col-3" aria-hidden="true">
+                                <span class="sr-only">address</span>
+                            </i>
+                            <p class="inline">Fridhmesplan galleria</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 center">
+                    <h5 class="uppercase general-sub">Social</h5>
+                    <ul class="list-inline-item social-links">
+                        <li class="list-inline-item col-2">
+                            <a href="#" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col-2">
+                            <a href="#" target="_blank">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col-2">
+                            <a href="#" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col-2">
+                            <a href="#" target="_blank">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item col-2">
+                            <a href="#" target="_blank">
+                                <i class="fa fa-slack" aria-hidden="true"></i>
+                                <span class="sr-only">Slack</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="modal" tabindex="-1" role="dialog" id="sign-in-btn">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title center">
+                            Please Sign Up / Sign in and follow your loyality chart.
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="sign-in-email">Email address</label>
+                                <input type="email" class="form-control" id="sign-in-email" aria-describedby="emailHelp" />
+                                <small id="emailHelp" class="form-text text-muted">
+                                    We'll never share your email with anyone else.
+                                </small>
+                            </div>
+                            <div class="form-group">
+                                <label for="sign-in-passworld">Password</label>
+                                <input type="password" class="form-control" id="sign-in-passworld" />
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                <label class="form-check-label" for="exampleCheck1">
+                                    Remember me
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary sign-in-btn">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-primary sign-in-btn">
+                            Save changes
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </header>
-    <section class="container-fluid">
-      <div class="row center rate-us-questions">
-        <form>
-          <div class="row center rate-us-questions">
-            <h4 class="page-heading col-12">
-              How was your food quality?
-            </h4>
-            <div class="row votes col-12">
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch1-1"
-                />
-                <label class="custom-control-label" for="customSwitch1-1">
-                  Excellent
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch2-1"
-                />
-                <label class="custom-control-label" for="customSwitch2-1">
-                  Good
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch3-1"
-                />
-                <label class="custom-control-label" for="customSwitch3-1">
-                  Not bad
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch4-1"
-                />
-                <label class="custom-control-label" for="customSwitch4-1">
-                  Poor
-                </label>
-              </div>
-            </div>
-            <p class="col-lg-8 form-p">
-              Please help us by sharing your thoughts about
-              <em>the food quality</em>
-              in more details.
-            </p>
-            <div class="form-group col-10 center text-area">
-              <textarea
-                class="form-control rate-us-background"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
-          </div>
-          <div class="row center rate-us-questions">
-            <h4 class="page-heading col-12">
-              How was the service quality?
-            </h4>
-            <div class="row votes col-12">
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch1-2"
-                />
-                <label class="custom-control-label" for="customSwitch1-2">
-                  Excellent
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch2-2"
-                />
-                <label class="custom-control-label" for="customSwitch2-2">
-                  Good
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch3-2"
-                />
-                <label class="custom-control-label" for="customSwitch3-2">
-                  Not bad
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch4-2"
-                />
-                <label class="custom-control-label" for="customSwitch4-2">
-                  Poor
-                </label>
-              </div>
-            </div>
-            <p class="col-lg-8 form-p">
-              Please help us by sharing your thoughts about
-              <em>the service quality</em>
-              in more details.
-            </p>
-            <div class="form-group col-10 center text-area col-10">
-              <textarea
-                class="form-control rate-us-background"
-                id="exampleFormControlTextarea2"
-                rows="3"
-              ></textarea>
-            </div>
-          </div>
-          <div class="row center rate-us-questions">
-            <h4 class="page-heading col-12">
-              How was the restaurant environment?
-            </h4>
-            <div class="row votes col-12">
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch1-3"
-                />
-                <label class="custom-control-label" for="customSwitch1-3">
-                  Excellent
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch2-3"
-                />
-                <label class="custom-control-label" for="customSwitch2-3">
-                  Good
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch3-3"
-                />
-                <label class="custom-control-label" for="customSwitch3-3">
-                  Not bad
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch4-3"
-                />
-                <label class="custom-control-label" for="customSwitch4-3">
-                  Poor
-                </label>
-              </div>
-            </div>
-            <p class="col-lg-8 form-p">
-              Please help us by sharing your thoughts about
-              <em>the restaurant environment</em>
-              in more details.
-            </p>
-            <div class="form-group col-10 center text-area">
-              <textarea
-                class="form-control rate-us-background"
-                id="exampleFormControlTextarea3"
-                rows="3"
-              ></textarea>
-            </div>
-          </div>
-          <div class="row center rate-us-questions">
-            <h4 class="page-heading col-12">
-              How was the restaurant website?
-            </h4>
-            <div class="row votes col-12">
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch1-5"
-                />
-                <label class="custom-control-label" for="customSwitch1-5">
-                  Excellent
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch2-5"
-                />
-                <label class="custom-control-label" for="customSwitch2-5">
-                  Good
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch3-5"
-                />
-                <label class="custom-control-label" for="customSwitch3-5">
-                  Not bad
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-md-3 col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch4-5"
-                />
-                <label class="custom-control-label" for="customSwitch4-5">
-                  Poor
-                </label>
-              </div>
-            </div>
-            <p class="col-lg-8 form-p">
-              Please help us by sharing your thoughts about
-              <em>the restaurant website</em>
-              in more details.
-            </p>
-            <div class="form-group col-10 center text-area">
-              <textarea
-                class="form-control rate-us-background"
-                id="exampleFormControlTextarea5"
-                rows="3"
-              ></textarea>
-            </div>
-          </div>
-          <div class="row center rate-us-questions">
-            <h4 class="page-heading col-12">
-              whould you come back again?
-            </h4>
-            <div class="row votes col-12">
-              <div class="custom-control custom-switch col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch1-6"
-                />
-                <label class="custom-control-label" for="customSwitch1-6">
-                  Yes
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch2-6"
-                />
-                <label class="custom-control-label" for="customSwitch2-6">
-                  No
-                </label>
-              </div>
-            </div>
-            <p class="col-lg-8 form-p">
-              If your answer in "No" please share your reasons?
-            </p>
-            <div class="form-group col-10 center text-area">
-              <textarea
-                class="form-control rate-us-background"
-                id="exampleFormControlTextarea6"
-                rows="3"
-              ></textarea>
-            </div>
-          </div>
-          <div class="row center rate-us-questions">
-            <h4 class="page-heading col-12">
-              would you recommend our restaurant to your friends?
-            </h4>
-            <div class="row votes col-12">
-              <div class="custom-control custom-switch col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch1-7"
-                />
-                <label class="custom-control-label" for="customSwitch1-7">
-                  Yes
-                </label>
-              </div>
-              <div class="custom-control custom-switch col-6">
-                <input
-                  type="checkbox"
-                  class="custom-control-input rate-us-input"
-                  id="customSwitch2-7"
-                />
-                <label class="custom-control-label" for="customSwitch2-7">
-                  No
-                </label>
-              </div>
-              <p class="col-lg-8 form-p">
-                If your answer in "No" please share your reasons?
-              </p>
-              <div class="form-group col-10 center text-area">
-                <textarea
-                  class="form-control rate-us-background"
-                  id="exampleFormControlTextarea7"
-                  rows="3"
-                ></textarea>
-                <h4 class="page-heading col-12">Thank you for helping us.</h4>
-              </div>
-            </div>
-          </div>
-          <div class="row-1">
-            <button
-              type="submit"
-              class="btn btn-primary rate-us-submit-btn col-6 col-md-3"
-            >
-              Submit
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
-    <footer class="container-fluid rate-us-footer">
-      <div id="footer-details" class="row">
-        <div class="col-sm-4 center">
-          <h5 class="uppercase general-sub">Sign Up / Sign in</h5>
-          <p>
-            Sign up / sign in and track your loyality chart progress.
-          </p>
-          <button
-            type="button"
-            class="btn btn-primary sign-in-btn"
-            data-toggle="modal"
-            data-target="#sign-in-btn"
-          >
-            Sign In / Sign Up
-          </button>
-        </div>
-        <div class="col-sm-4 center">
-          <div class="contacts row">
-            <h5 class="uppercase general-sub">Contact Us</h5>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-clock-o col-3" aria-hidden="true">
-                <span class="sr-only">Opening hours</span>
-              </i>
-              <p class="inline col-3">17-23 (5pm-11pm)</p>
-              <br />
-            </div>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-phone col-3" aria-hidden="true">
-                <span class="sr-only">Phone</span>
-              </i>
-              <p class="inline col-3">5555 123 456</p>
-              <br />
-            </div>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-fax col-3" aria-hidden="true">
-                <span class="sr-only">fax</span>
-              </i>
-              <p class="inline col-3">5555 123 123</p>
-              <br />
-            </div>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-envelope-o col-3" aria-hidden="true">
-                <span class="sr-only">email</span>
-              </i>
-              <p class="inline">tadig@restaurant.com</p>
-              <br />
-            </div>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-map-marker col-3" aria-hidden="true">
-                <span class="sr-only">address</span>
-              </i>
-              <p class="inline">Fridhmesplan galleria</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 center">
-          <h5 class="uppercase general-sub">Social</h5>
-          <ul class="list-inline-item social-links">
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-pinterest" aria-hidden="true"></i>
-                <span class="sr-only">Pinterest</span>
-              </a>
-            </li>
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-slack" aria-hidden="true"></i>
-                <span class="sr-only">Slack</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <div class="modal" tabindex="-1" role="dialog" id="sign-in-btn">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title center">
-              Please Sign Up / Sign in and follow your loyality chart.
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="sign-in-email">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="sign-in-email"
-                  aria-describedby="emailHelp"
-                />
-                <small id="emailHelp" class="form-text text-muted">
-                  We'll never share your email with anyone else.
-                </small>
-              </div>
-              <div class="form-group">
-                <label for="sign-in-passworld">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="sign-in-passworld"
-                />
-              </div>
-              <div class="form-group form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label class="form-check-label" for="exampleCheck1">
-                  Remember me
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary sign-in-btn">
-                Submit
-              </button>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary sign-in-btn">
-              Save changes
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 </html>
