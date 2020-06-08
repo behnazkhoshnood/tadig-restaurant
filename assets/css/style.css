@@ -34,8 +34,8 @@
   background-color: #bb6363;
 }
 
-body{
-    background-color: #fafafa;
+body {
+  background-color: #fafafa;
 }
 
 /* ----------------------------------------------------------------------------------------------------general */
@@ -84,8 +84,8 @@ a {
   color: #fff;
 }
 
-strong{
-    font-weight: 600;
+strong {
+  font-weight: 600;
 }
 
 /* -----------------------------------------------------------------------:index */
@@ -368,6 +368,12 @@ footer {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  form {
+    width: 65%;
+  }
+}
+
 @media only screen and (min-width: 602px) and (max-width: 650px) {
   .carousel-item img,
   .logo,
@@ -476,9 +482,9 @@ footer {
   }
 }
 @media only screen and (min-width: 992px) {
-    form{
-        max-width: 65%;
-    }
+  form {
+    max-width: 65%;
+  }
 }
 /* ----------------------------------------------------------------------------------food-menu */
 
@@ -529,12 +535,11 @@ footer {
   height: 200px;
 }
 
-/* -------------------------------------------------------------------------------------------------------------reservation */
+/*-----------------------------------------------------------------reservation*/
 
-
-.validity{
-    padding-left: 0;
-    padding-right: 30px; 
+.validity {
+  padding-left: 0;
+  padding-right: 30px;
 }
 
 input:invalid + span:after {
@@ -570,9 +575,12 @@ input:valid + span:after {
   border-radius: 5px;
 }
 
-
 .reservation-info {
   margin: 0 auto;
+}
+
+.reservation-info label{
+    margin-top: 20px;
 }
 
 .reservation-info input {
@@ -581,6 +589,7 @@ input:valid + span:after {
   background-color: #f5eaf5;
   text-align: center;
   color: #808080;
+  height: 24px;
 }
 
 .reservation-info input:focus {
@@ -604,12 +613,16 @@ small {
   margin: 0 auto;
 }
 
-/* ----------------------------------------------------------------------------------------------------------------rate-us */
+/* -------------------------------------------------------------------rate-us */
 
+.form-check {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 
-.form-check{
-    margin-bottom: 20px;
-    margin-top: 10px;
+.radio-questions label{
+    margin-top: 0px;
+    margin-left: 5px;
 }
 
 .rate-us-submit-btn {
@@ -620,7 +633,7 @@ small {
   margin: 0 auto;
   margin-bottom: 30px;
   text-align: center;
-  
+
   height: 70px;
   max-width: 200px;
   margin-top: 20px;
@@ -669,7 +682,6 @@ label.custom-control-label {
   background-color: #f1ebeb;
 }
 
-
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle:focus {
@@ -684,7 +696,7 @@ label.custom-control-label {
   box-shadow: none;
 }
 
-.form-control:focus{
-    box-shadow: none;
-    border-color: #00000033;
+.form-control:focus {
+  box-shadow: none;
+  border-color: #00000033;
 }

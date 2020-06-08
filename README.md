@@ -12,12 +12,14 @@ It is designed to be responsibe and accessible on a range of devices, making it 
      a. As a General customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
      b. As a General customer, I want to find the best way to get in contact with the restaurant with any questions I may have.
+     
+     c. As a General customer, I want to easly find the opening time and location of the restaurant.
 
-     c. As a General customer, I would like to see a menu of products and their description.
+     d. As a General customer, I would like to see a menu of products and their description.
 
-     d. As a General customer, I would like to reserve a table in the restaurant.
+     e. As a General customer, I would like to reserve a table in a specefic time and date in the restaurant.
 
-     e. As a General customerI would like to write a review for the restaurant.
+     f. As a General customer, I would like to write a review for the restaurant.
 
   - #### First Time Visitor Goals
 
@@ -25,15 +27,13 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
      b. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-     c. As a First Time Visitor, I would like to know the location of the restaurant.
-
   - #### Returning Visitor Goals
 
-     a. As a Returning Visitor, I want to find information about disconts and loyality benefits.
+     a. As a Returning Visitor, I want to find information about discount and loyality benefits.
 
   - #### Frequent User Goals
 
-     a. As a Frequent User, I would like to get some benefits from beeing a loyal customer.
+     a. As a Frequent User, I would like to get some benefits or discounts from beeing a loyal customer.
 
      b. As a Frequent User, I want to check to see if there are any new blog posts.
 
@@ -45,15 +45,15 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
     - The 5 main colours used are:
 
-    - rgb(99, 143, 33) for Home page which is close to light blue.
+    - #2c89a5 for Home page which is close to light blue.
 
-    - rgb(170, 88, 170) for Menu page which is close to green.
+    - #638f21 for Menu page which is close to green.
 
-    - rgb(187, 99, 99) for Reservation page which is in the scope of violet.
+    - #aa58aa for Reservation page which is in the scope of violet.
 
-    - rgb(187, 99, 99) for Rate us page which is darker shades of red.
+    - #bb6363 for Rate us page which is darker shades of red.
 
-    - and white
+    - and #fafafa which is a shade of gray and cream.
 
   - #### Typography
 
@@ -61,17 +61,17 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
   - #### Imagery and content
 
-    - Home page large, background hero carousel slide is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    - Home page large, background hero carousel slider is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
-    - In Menu pages all the items have their image next to them and item informations are all taken from wikipedia except the one's mentioned above.. Source of all images used in this site is mentioned below:
+    - In Menu pages all the items have their image next to them and item informations are all taken from wikipedia except the one's mentioned below in the table. Source of all images used in this site is mentioned below:
 
     <br>
 
 | Starter page | Main page | Desserst page | Drink page |
 |:---------------|:---------------|:---------------|:---------------|
-| [Kashke bademjan](https://persianfoodtours.com/wp-content/uploads/2019/10/Kashk-e-Bademjan.jpg) | [Baghali polo](https://media-cdn.tripadvisor.com/media/photo-s/03/a5/aa/c3/arya.jpg) | [Baklava](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyftLKhAJzlAmscp5fLjIjBYzrP-Vy1_7xsl9SHiQAFTu8vCeM&usqp=CAU) | [Doogh](https://www.196flavors.com/wp-content/uploads/2019/07/doogh-1.jpg) |
-| [Mirza ghasemi](https://i.pinimg.com/236x/05/3f/57/053f571a37ce93fae8e4057176455ee1--ethnic-recipes-african-recipes.jpg) | [Zereshk polo ba morgh](https://yummynotes.net/wp-content/uploads/2020/04/Zereshk-Polo.jpg) <br> Info : [Persian Mama](https://persianmama.com/zereshk-polo-ba-morgh/) | [Faloodeh](https://dornatrip.com/wp-content/uploads/2018/08/AndroidOnlineNewsImage-1.png) | [Araghe bid meshek](https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg) <br> Info : [Diba](https://dibaonline.de/NIK-Aragh-Bidmeshk-Willow-blossoms-430ml) |
-| [Do piaze alo](https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG) | [Khoreshte gheyme bademjan](https://igotitfrommymaman.com/wp-content/uploads/2020/01/Khoreshe-Gheymeh-11-scaled.jpg) <br> Info : [Persian food tours](http://www.persianfoodtours.com/khoresht-gheymeh-bademjan-yellow-split-peas-stew/) | [Bastani sonnati](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU) | [Gol gav zaban](https://surfiran.com/wp-content/uploads/2018/07/iran-drinks-gol-gav-zaban-damnoosh-845x321.jpg) <br> Info : [The persian pot](http://www.thepersianpot.com/recipe/gol-gav-zaban-borage-tea/) |
+| [Kashke bademjan](https://persianfoodtours.com/wp-content/uploads/2019/10/Kashk-e-Bademjan.jpg) | [Baghali polo](https://www.behesht.co.uk/images/behesht/foods/maincourse/baghali-polo.jpg) | [Baklava](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyftLKhAJzlAmscp5fLjIjBYzrP-Vy1_7xsl9SHiQAFTu8vCeM&usqp=CAU) | [Doogh](https://www.thedeliciouscrescent.com/wp-content/uploads/2020/03/Doogh_5.jpg) |
+| [Mirza ghasemi](https://claudiacanu.com/wp-content/uploads/2018/07/Mirza-Ghasemi-eggplant-sauce.jpg) | [Zereshk polo ba morgh](https://yummynotes.net/wp-content/uploads/2020/04/Zereshk-Polo.jpg) <br> Info : [Persian Mama](https://persianmama.com/zereshk-polo-ba-morgh/) | [Faloodeh](https://dornatrip.com/wp-content/uploads/2018/08/AndroidOnlineNewsImage-1.png) | [Araghe bid meshek](https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg) <br> Info : [Diba](https://dibaonline.de/NIK-Aragh-Bidmeshk-Willow-blossoms-430ml) |
+| [Do piaze alo](https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG) | [Khoreshte gheyme bademjan](https://igotitfrommymaman.com/wp-content/uploads/2020/01/Khoreshe-Gheymeh-11-scaled.jpg) <br> Info : [Persian food tours](http://www.persianfoodtours.com/khoresht-gheymeh-bademjan-yellow-split-peas-stew/) | [Bastani sonnati](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU) | [Gol gav zaban](https://images-na.ssl-images-amazon.com/images/I/61-KwamytGL._A.jpg) <br> Info : [The persian pot](http://www.thepersianpot.com/recipe/gol-gav-zaban-borage-tea/) |
 | [Salad olvie](https://i.pinimg.com/originals/39/37/be/3937be2fea7c0c2fb2c9987b7a63bc4b.jpg) <br> Info : [Persian mama](https://persianmama.com/salad-olivieh-persian-chicken-salad/) | [Khoreshte ghorme Sabzi](https://www.196flavors.com/wp-content/uploads/2017/03/ghormeh-sabzi-3.jpg) | [Noon khamei](https://image.shutterstock.com/z/stock-photo-profiteroles-fresh-cream-puffs-cakes-filled-with-pastry-cream-and-topped-with-chocolate-sauce-in-a-705988894.jpg) | [Mojito](https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg) |
 | [Noon panir sabzi](https://cdn.shortpixel.ai/spai/q_lossless+ret_img/https://3nkq72bhhp51kv1h2do55o5r-wpengine.netdna-ssl.com/wp-content/uploads/2.3_NAT_American-Herbal-Cookbook_NEW-Wordpress.jpg) <br> Info : [Clean plates](https://www.cleanplates.com/eat/recipes-eat/panir-sabzi/) | [Khoreshte fesenjoon](https://yummynotes.net/wp-content/uploads/2019/01/fesenjan-recipe.jpg) | [Ranginak](https://4.bp.blogspot.com/-LBlaXdUqrYo/Tba1gvjYyHI/AAAAAAAACvs/l1bm02mG7-s/s1600/227458_206016996087508_100000376264948_606452_2793162_n.jpg) | [Berry juice](https://5.imimg.com/data5/LY/KU/OD/GLADMIN-7061725/berryjuice-500x500.jpg) |
 | **More Drinks** |                                                                                                                                                                                                                                                                                  |
@@ -84,17 +84,17 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
     - The website consist of 7 pages named: index, order, order main, order desserts, order drinks, reservation and rate us. Each page has three sections.
 
-    - The header and footer section is the same in all the pages. The Header section consist of the navbar menu for navigation through the website and the footer section consist of Sign in / sign up button, contacts and social medias.
+    - The main content of header and footer sections are the same in all the pages. The Header section consist of the navbar menu for navigation through the website and the footer section consist of Sign in / sign up button, contacts and social media links.
 
   - #### Second section:
 
     - **Home page**
 
-      This section consist of 2 part, Introduction note and a carousel slide for food images.
+      This section consist of 2 part, Introduction note and a carousel slider for food images.
 
     - **Order pages**
 
-      This sections consist of two food menu headers on top and the bottom of the section. These pages also consist of the list of items provided in each category with their image, description and ingridients.
+      This sections consist of two food menu headers on top and the bottom of the section. These pages also consist of the list of items with their image, description and ingridients in each category.
 
    - **Reservation page**
 
@@ -102,7 +102,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
    - **Rate US page**
 
-     This section consist of a form for feedbacks.
+     This section consist of a form for review and feedbacks.
 
 * ### **Skeleton**
 
@@ -110,7 +110,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
   
   - Link to the wireframes is available under wireframes.
 
-  - The design of the website is the same for desktop and tablet however on mobile screen the content will be re-arranged. The user will move from top to the bottom.
+  - The design of the website is mainly the same for desktop and tablet however on mobile screen the content will be re-arranged. The user will move from top to the bottom.
 
 * ### **Wireframes**
 
@@ -132,7 +132,8 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ## **Features**
 
-- Responsive on all device sizes.
+- Responsive on all emulated device provided in chorom browser including:
+Black Berry Z30 and play Book, Gallaxy Note 3, Note II and S III, Kindle fire HDX, LG optimus L70, Laptop with HiDPI screen, MDPI screen and touch, Microsoft Lumia 550 and 950, Moto G4, Nexus 10, 4, 5, 6, 6P and 7, Nokia Lumia 520 and N9, iphad Mini, Jio phone 2, Galaxy S5, Pixel 2 and 2XL, iphone 4, 5, SE, 6, 7, 8, 6 Plus, 7 Plus, 8 Plus and X, i pad and ipad Pro.
 
 - Interactive elements
 
@@ -140,13 +141,13 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 - Easy to use.
 
-- Colorful navbar menu which is unik for each page and make the navigation even easier.
+- Colorful navbar menu which is unik for each page which makes the navigation easier.
 
-- A carousel slide for food images to attract the customers.
+- A carousel slider for food images in the home page to attract the customers.
 
-- It's easy to find navbar, contacts, social medias and sign in / sign up button in all the pages.
+- It's easy to find navbar, contacts, social media links and sign in / sign up button in all the pages.
 
-- The top and bottom food menu headers make it easier to navigation through the menu.
+- The top and bottom food menu buttons make it easier to navigation throughout the food menus.
 
 - Beautiful photos of the dishes and drinks attract the customers.
 
@@ -160,7 +161,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 - I want to add the loyality chart which is functional.
 
-- Social medial profiles of Tadig restutant will be added in future.
+- I want to make a logo for the restaurant.
+
+- Social media profiles of Tadig restutant will be added in future.
 
 - Use original photos with same backgrounds.
 
@@ -233,75 +236,71 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
 
-  - a. Upon entering the site, users are greeted with a clean and easily readable wecome note and a colorful navigation bar to go to the page of their choice. Underneath the navigation bar there is a Hero carousel slider that makes the visitor interested and shows the main purpose of the site.
+  - [ ] a.Upon entering the site, users are greeted with a clean and easily readable welcome note and a colorful navigation bar which guides the user to the page of their choice. Underneath the navigation bar there is a Hero carousel slider that makes the visitor interested and shows the main purpose of the site.
 
-  - b.The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign up / sign in, Contact us informations and social media links.
+  - [ ] b.The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign up / sign in, Contact us informations and social media links.
 
   ii. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-  - a. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+  - [ ] a. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 
-  - b. At the bottom of all the order pages there is another food menu navbar which redirect the visitor to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+  - [ ] b. At the bottom of all the order pages there is another food menu navbar which redirect the visitor to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
-  - c. On form Pages, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+  - [ ] c. On form Pages, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
   iii. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
-  - a. The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+  - [x] a. The user can scroll to the bottom of any page on the site to locate social media links in the footer. But the links are not conected to the real page since our restaurant don't have functional social media page.
 
 - **Returning Visitor Goals**
 
-  i. As a Returning Visitor, I want to find the new disconts and benefits.
+  i. As a Returning Visitor, I want to find the new discount and / or benefit.
 
-  - a. They will find some benefits and disconts after they sign in and become a memberto action.
+  - [x] a. They will find some benefits and discounts after they sign in and become a member. But since this project is just based on HTML and CSS this part in not functional yet.
 
   ii. As a Returning Visitor, I want to find the best way to get in contact with the restaurant with any questions I may have.
 
-  - a. Contact information is located on the foother of all pages.
+  - [ ] a. Contact information is located on the foother of all pages.
 
-  - b. The footer also contains links to the restaurant's Facebook, Twitter and Instagram page.
+  - [x] b. The footer also contains links to the restaurant's Facebook, Pinterest, Instagram, Twitter and Slack page. But these pages are not conected to the restaurant social media pages yet.
 
-  - c. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-
-  iii. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-
-  - a. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+  - [ ] c. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
 - **Frequent User Goals**
 
-  i. As a Frequent User, I want to check to see if there are any new disconts or benefits.
+  i. As a Frequent User, I want to check to see if there are any new discounts or benefits.
 
-  - a. The user would already be comfortable with the website layout. By signing in, Loyal Member's get a discont after ordering food for a number of times.
+  - [x] a. The user would already be comfortable with the website layout. By signing in, Loyal Member's get a discount after ordering food for a number of times. This part is not made yet since it needs to be made with javascript. to 
 
   ii. As a Frequent User, I want to check to see if there are any new blog posts.
 
-  - a. The user would already be comfortable with the website layout and can easily click the blog link.
+  - [ ] a. The user would already be comfortable with the website layout and can easily click the blog link.
 
   iii. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
 
-  - a. At the bottom of every page there is a footer which content is consistent throughout all pages.
+  - [ ] a. At the bottom of every page there is a footer which content is consistent throughout all pages.
 
-  - b. To the left side of the footer the user can see Sign in / Sign up button. By clicking on that they can fill in the alternative "Subscribe to our Newsletter".
+  - [ ] b. To the left side of the footer the user can see Sign in / Sign up button. By clicking on that they can fill in the alternative "Subscribe to our Newsletter".
 
-  - c. There is a "Submit" button under the input field which is located close to the field and can easily be distinguished.
+  - [ ] c. There is a "Submit" button under the input field which is located close to the field and can easily be distinguished.
+  
+  - [x] d. Newsletter are not made yet.
 
 ### **Further Testing**
 
-- The Website was tested on Google Chrome,[x] Internet Explorer, Microsoft Edge and Safari browsers.
+- The Website was tested on Google Chrome, Microsoft Edge and Firefox browsers.
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
-- A large amount of testing was done to en[X]sure that all pages were linking correctly.
+- A large amount of testing was done to ensure that all pages were linking correctly.
 
-- Friends and family members were asked to review the sit [X] and documentation to point out any bugs and/or user experience issues.
+- Friends and family members were asked to review the sit and documentation to point out any bugs and/or user experience issues.
 
 ## **Known Bugs**
 
-- A white gap can be seen to the right of the footer and navigation bar in some devices.
-
-- [X]On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
-
 - The sweep to bottom hover effect don't cover the buttons all the way down in some mobile phones.
+
+- In some emulated divices, the right to left scroll appears. In most of them after reloading the page the scroll disapears and the whole page is shown again.
 
 ## **Deployment**
 
@@ -350,14 +349,16 @@ Follow these steps to run website locally on your machine;
 
 ### **Media**
 
-- All Images are from external source which are mentioned in the table in Imagery section.
+- All Images are from external source which are mentioned in the table in Imagery section and are used only for educational purposes.
 
 ### **Acknowledgements**
 1. A special thanks to my mentor for his valuable feedback during mentoring sessions.
 
-1. also I like to thank all of Code Institute supports.
+1. Also I like to thank all of Code Institute support groups.
 
 1. The design and layout of this website is based on the Rule of Thirds.
+
+1. All the images in the website have external source and have been used for only educational purposes.
 
 1. Code Institute tutorials were very helpful throughout the whole project.
 

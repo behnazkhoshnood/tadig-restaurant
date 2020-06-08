@@ -232,14 +232,14 @@
                         <form>
                             <div class="form-group">
                                 <label for="sign-in-email">Email address</label>
-                                <input type="email" class="form-control" id="sign-in-email" aria-describedby="emailHelp" required />
+                                <input type="email" class="form-control" placeholder="email@example.com" id="sign-in-email" aria-describedby="emailHelp" required />
                                 <small id="emailHelp" class="form-text text-muted">
                                     We'll never share your email with anyone else.
                                 </small>
                             </div>
                             <div class="form-group">
                                 <label for="sign-in-passworld">Password</label>
-                                <input type="password" class="form-control" id="sign-in-passworld" required />
+                                <input type="password" class="form-control" placeholder="Choose a password" id="sign-in-passworld" required />
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" />
@@ -256,9 +256,7 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary sign-in-btn">
-                            Submit
-                        </button>
+                        <button type="submit" class="btn btn-primary sign-in-btn" data-dismiss="modal"><i class="glyphicon glyphicon-ok"></i> Submit</button>
                     </div>
                 </div>
             </div>
