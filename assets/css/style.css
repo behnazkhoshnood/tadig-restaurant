@@ -53,6 +53,7 @@ h4 {
 }
 
 h5,
+h6,
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
@@ -224,24 +225,19 @@ footer {
 
 /* --------------------------------------------------------------------:index */
 
-.logo {
+.logo,
+.carousel-item img {
   background-position: center;
   background-size: cover;
   padding-left: 0;
   padding-right: 0;
-}
-
-.carousel-control-prev,
-.carousel-control-next,
-.carousel-item img {
-  height: 768px;
+  height: 660px;
 }
 
 .carousel-item h5 {
   background-color: #fafafa;
   color: #686464;
   width: 250px;
-  height: 50px;
   margin: 0 auto;
 }
 
@@ -254,7 +250,6 @@ footer {
 
 .jumbotron-fluid p {
   text-align: center;
-  line-height: 1.5;
   margin: 0 auto;
 }
 
@@ -271,9 +266,7 @@ footer {
 
 .index-note {
   font-family: "Roboto", sans-serif;
-  font-weight: 200;
   text-align: justify;
-  line-height: 25px;
   margin: 10px;
   padding: 10px;
   padding-top: 0;
@@ -323,7 +316,6 @@ footer {
   color: #fafafa;
   margin: 0 auto;
   border-radius: 50px;
-  width: 500px;
 }
 
 .guide-span {
@@ -505,16 +497,22 @@ label.custom-control-label {
 }
 
 /* --------------------------------------------------------------------@media */
-
-@media only screen and (max-width: 549px) {
-  .logo {
-    display: none;
+@media only screen and (max-width: 250px) {
+  .index-section {
+    height: 570px;
   }
 
-  form {
+  .drinks-header {
+    width: 250px;
+  }
+
+  form,
+  .form-control {
     width: 80%;
   }
+}
 
+@media only screen and (min-width: 251px) and (max-width: 358) {
   .index-section {
     height: 660px;
   }
@@ -522,169 +520,69 @@ label.custom-control-label {
   .drinks-header {
     width: 300px;
   }
-  
+
+  form,
   .form-control {
-      width: 90%;
+    width: 80%;
   }
 }
 
-  @media only screen and (min-width: 351px) and (max-width: 415px) {
-    .index-section {
-      height: 660px;
-    }
-    .index-note {
-      font-size: 19px;
-      font-weight: 100;
-    }
-
-    form {
-      width: 80%;
-    }
+@media only screen and (min-width: 359px) and (max-width: 598) {
+  .index-section {
+    height: 610px;
   }
 
-  @media only screen and (min-width: 416px) and (max-width: 601px) {
-    .index-note {
-      height: 530px;
-      line-height: 2;
-      font-size: 20px;
-      margin-bottom: 15px;
-    }
-
-    form {
-      width: 80%;
-    }
-
-    .carousel-item img,
-    .logo,
-    .index-section {
-      height: 710px;
-    }
-
-    .jumbotron-fluid,
-    footer {
-      min-height: 300px;
-      font-size: 22px;
-    }
+  .drinks-header {
+    width: 400px;
   }
 
-  @media only screen and (min-width: 600px) {
-    form {
-      width: 65%;
-    }
+  form,
+  .form-control {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  form {
+    width: 65%;
   }
 
-  @media only screen and (min-width: 602px) and (max-width: 650px) {
-    .carousel-item img,
-    .logo,
-    .index-section {
-      height: 520px;
-    }
+  .votes {
+    max-width: 60%;
   }
+}
 
-  @media only screen and (min-width: 650px) and (max-width: 1019px) {
-    .carousel-item img,
-    .logo,
-    .index-section {
-      height: 72vh;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-      height: 72vh;
-    }
-
-    .index-note {
-      line-height: 35px;
-      font-size: 20px;
-    }
-
-    .jumbotron-fluid,
-    footer {
-      min-height: 300px;
-    }
-
-    footer {
-      padding-top: 15px;
-    }
-
-    .jumbotron-fluid {
-      padding-top: 25px;
-    }
-
-    .food-guide {
-      padding-top: 25px;
-    }
+@media only screen and (max-width: 300px) {
+  body,
+  header,
+  footer,
+  section {
+    min-width: 300px;
   }
+}
 
-  @media only screen and (min-width: 549px) and (max-width: 801px) {
-    header,
-    footer,
-    section {
-      min-width: 1019px;
-    }
+@media only screen and (min-width: 599px) and (max-width: 801px) {
+  header,
+  body,
+  footer,
+  section {
+    min-width: 920px;
   }
+}
 
-  @media only screen and (min-width: 930px) and (max-width: 1000px) {
-    .carousel-item img,
-    .logo,
-    .index-section {
-      height: 80vh;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-      height: 80vh;
-    }
+@media only screen and (min-width: 599px) {
+  .jumbotron-fluid p,
+  footer p,
+  .index-note {
+    line-height: 2.5;
   }
-
-  @media only screen and (min-height: 900px) and (max-height: 1250px) {
-    .jumbotron-fluid,
-    footer {
-      min-height: 340px;
-    }
-    .carousel-item img,
-    .logo,
-    .index-section {
-      height: 92vh;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-      height: 92vh;
-    }
+  
+  .jumbotron-fluid,
+  footer {
+    height: 300px;
   }
-
-  @media only screen and (min-height: 890px) and (max-height: 1500px) {
-    .index-note {
-      line-height: 2.5;
-      font-size: 20px;
-    }
+  
+  .drinks-header {
+    width: 500px;
   }
-
-  @media only screen and (max-width: 300px) {
-    body,
-    header,
-    footer,
-    section {
-      min-width: 350px;
-    }
-  }
-
-  @media only screen and (min-height: 635px) and (max-height: 830px) and (min-width: 355px) and (max-width: 415px) {
-    .index-section {
-      height: 615px;
-    }
-  }
-
-  @media only screen and (min-width: 620px) {
-    .votes {
-      max-width: 60%;
-    }
-  }
-
-  @media only screen and (min-width: 992px) {
-    form {
-      max-width: 65%;
-    }
-  }
-
+}
