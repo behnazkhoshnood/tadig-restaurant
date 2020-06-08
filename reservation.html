@@ -1,430 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Tadig restaurant</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="row no-gutters">
-        <div class="col">
-          <ul id="nav" class="list-inline menucontainer">
-            <li
-              class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem"
-            >
-              <a href="index.html" class="hvr-sweep-to-bottom">
-                <span>Home</span>
-              </a>
-            </li>
-            <li
-              class="col-6 col-sm-3 ui-menu-color-order list-inline-item menuitem"
-            >
-              <a href="order.html" class="hvr-sweep-to-bottom">
-                <span>Menu</span>
-              </a>
-            </li>
-            <li
-              class="col-6 col-sm-3 ui-menu-color-reservation list-inline-item menuitem"
-            >
-              <a href="reservation.html" class="hvr-sweep-to-bottom">
-                <span>Reservation</span>
-              </a>
-            </li>
-            <li
-              class="col-6 col-sm-3 ui-menu-color-rate-us list-inline-item menuitem"
-            >
-              <a href="rate-us.html" class="hvr-sweep-to-bottom">
-                <span>Rate Us</span>
-              </a>
-            </li>
-          </ul>
+        <div class="row no-gutters">
+            <div class="col">
+                <ul id="nav" class="list-inline menucontainer">
+                    <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
+                        <a href="index.html" class="hvr-sweep-to-bottom">
+                                <span>Home</span>
+                            </a>
+                    </li>
+                    <li class="col-6 col-sm-3 ui-menu-color-order list-inline-item menuitem">
+                        <a href="order.html" class="hvr-sweep-to-bottom">
+                                <span>Menu</span>
+                            </a>
+                    </li>
+                    <li class="col-6 col-sm-3 ui-menu-color-reservation list-inline-item menuitem">
+                        <a href="reservation.html" class="hvr-sweep-to-bottom">
+                                <span>Reservation</span>
+                            </a>
+                    </li>
+                    <li class="col-6 col-sm-3 ui-menu-color-rate-us list-inline-item menuitem">
+                        <a href="rate-us.html" class="hvr-sweep-to-bottom">
+                                <span>Rate Us</span>
+                            </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </header>
     <section class="container-fluid">
-      <div class="row">
-        <form class="reservation-form">
-          <div class="form-row reservation-info">
-            <h4 class="page-heading col-12">
-              Would you like to reserve a table?
-            </h4>
-            <p class="form-p col-12">
-              Please fill the information needed for reservation. We are going
-              to inform you about your reservation as soon as possible.
-            </p>
-            <div class="col-12 col-lg-10 offset-lg-1">
-              <label for="fname">First name:</label>
-              <input
-                type="text"
-                id="fname"
-                class="col-12"
-                name="fname"
-                required
-              />
-            </div>
-            <div class="col-12 col-lg-10 offset-lg-1">
-              <label for="lname">Last name:</label>
-              <input
-                type="text"
-                id="lname"
-                class="col-12"
-                name="lname"
-                required
-              />
-            </div>
-            <div class="col-12 col-lg-10 offset-lg-1">
-              <label for="PhoneNumber">Phone number:</label>
-              <input
-                type="tel"
-                id="PhoneNumber"
-                class="col-12"
-                name="PhoneNumber"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                required
-                placeholder="072-555-5555"
-              />
-              <small id="small-phone" class="col-12 form-text text-muted small">
-                We'll never share your number with anyone else.(Enter your
-                number with this pattern: xxx-xxx-xxxx)
-              </small>
-            </div>
-            <div class="col-12 col-lg-10 offset-lg-1">
-              <label for="inputEmail">Email address:</label>
-              <input
-                type="email"
-                id="inputEmail"
-                class="col-12"
-                name="inputEmail"
-                required
-              />
-              <small id="small-email" class="col-12 form-text text-muted small">
-                We'll never share your email with anyone else.
-              </small>
-            </div>
-            <h4 class="page-heading col-12">
-              Which date would you like to book a table?
-            </h4>
-            <p class="form-p col-12">
-              Please fill the date you would like to reserve.
-            </p>
-            <div class="col-12 col-lg-10 offset-lg-1">
-              <label for="date" class="col-12">
-                Date:
-                <input
-                  pattern="\d{4}-\d{2}-\d{2}"
-                  type="date"
-                  id="date"
-                  class="col-12"
-                  name="date"
-                  min="2020-06-03"
-                  max="2021-06-00"
-                  required
-                />
-                <span class="validity col-12"></span>
-              </label>
-            </div>
+        <div class="row">
+            <form class="reservation-form">
+                <div class="form-row reservation-info">
+                    <h4 class="page-heading col-12">
+                        Would you like to reserve a table?
+                    </h4>
+                    <p class="form-p col-12">
+                        Please fill the information needed for reservation. We are going to inform you about your reservation as soon as possible.
+                    </p>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" class="col-12" name="fname" required />
+                    </div>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" class="col-12" name="lname" required />
+                    </div>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <label for="PhoneNumber">Phone number:</label>
+                        <input type="tel" id="PhoneNumber" class="col-12" name="PhoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="072-555-5555" />
+                        <small id="small-phone" class="col-12 form-text text-muted small">
+                                We'll never share your number with anyone else.(Enter your number with this pattern: xxx-xxx-xxxx)
+                            </small>
+                    </div>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <label for="inputEmail">Email address:</label>
+                        <input type="email" id="inputEmail" class="col-12" name="inputEmail" required />
+                        <small id="small-email" class="col-12 form-text text-muted small">
+                                We'll never share your email with anyone else.
+                            </small>
+                    </div>
+                    <h4 class="page-heading col-12">
+                        Which date would you like to book a table?
+                    </h4>
+                    <p class="form-p col-12">
+                        Please fill the date you would like to reserve.
+                    </p>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <label for="date" class="col-12">
+                                Date:
+                                <input pattern="\d{4}-\d{2}-\d{2}" type="date" id="date" class="col-12" name="date" min="2020-06-03" max="2021-06-00" required />
+                                <span class="validity col-12"></span>
+                            </label>
+                    </div>
 
-            <h4 class="page-heading col-12">
-              Which time would you like to book the table?
-            </h4>
-            <p class="form-p col-12">
-              Please fill the time you would like to reserve.<br>(opening hours
-              <strong>5:00 pm to 11:00 pm</strong>
-              )<br> Please note the time gap between time reservations are
-              <strong>15 minutes</strong>
-              .
-            </p>
-            <div class="col-12 col-lg-10 offset-lg-1">
-              <label for="time" class="col-10">
-                Time:
-                <input
-                  type="time"
-                  id="time"
-                  class="col-12"
-                  min="61200"
-                  max="79200"
-                  step="900"
-                  name="time"
-                  required
-                />
-                <span class="validity col-12"></span>
-              </label>
-            </div>
+                    <h4 class="page-heading col-12">
+                        Which time would you like to book the table?
+                    </h4>
+                    <p class="form-p col-12">
+                        Please fill the time you would like to reserve.<br /> (opening hours
+                        <strong>5:00 pm to 11:00 pm</strong> )
+                        <br /> Please note the time gap between time reservations are
+                        <strong>15 minutes</strong> .
+                    </p>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <label for="time" class="col-10">
+                                Time:
+                                <input type="time" id="time" class="col-12" min="61200" max="79200" step="900" name="time" required />
+                                <span class="validity col-12"></span>
+                            </label>
+                    </div>
 
-            <h4 class="page-heading col-12">
-              How many seats would you like to reserve?
-            </h4>
-            <p class="form-p col-12">
-              Please note that you can only reserve up to 20 seats from filling
-              this form. If you want to reserve more seats please contact us
-              through the restaurant phone number.
-            </p>
-            <div class="col-12 col-lg-10 offset-lg-1">
-              <label for="seats" class="col-8">
-                Number of seats:
-                <input
-                  type="number"
-                  id="seats"
-                  class="col-12"
-                  min="1"
-                  max="20"
-                  required
-                />
-              </label>
-            </div>
-            <div class="row center radio-questions">
-            <h4 class="page-heading col-12">Where would you like to sit?</h4>
-            <p class="form-p col-12">
-              Here you can choose where you would like to sit if you have any
-              favorite spot in the restaurant.
-            </p>
-              <div class="form-check col-6">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="exampleRadios"
-                  id="exampleRadios1-1"
-                  value="option1-1"
-                  checked
-                />
-                <label class="form-check-label" for="exampleRadios1-1">
-                  Shiraz
-                </label>
-              </div>
-              <div class="form-check col-6">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="exampleRadios"
-                  id="exampleRadios2-1"
-                  value="option2-1"
-                />
-                <label class="form-check-label" for="exampleRadios2-1">
-                  Tehran
-                </label>
-              </div>
-              <div class="form-check col-6">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="exampleRadios"
-                  id="exampleRadios3-1"
-                  value="option3-1"
-                  checked
-                />
-                <label class="form-check-label" for="exampleRadios3-1">
-                  Kashan
-                </label>
-              </div>
-              <div class="form-check col-6">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="exampleRadios"
-                  id="exampleRadios4-1"
-                  value="option4-1"
-                />
-                <label class="form-check-label" for="exampleRadios4-1">
-                  Tabriz
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-            <button
-              type="submit"
-              class="btn btn-primary reservation-submit-btn col-6 col-md-3"
-            >
-              Submit
-            </button>
-            </div>
-          </div>
-        </form>
-      </div>
+                    <h4 class="page-heading col-12">
+                        How many seats would you like to reserve?
+                    </h4>
+                    <p class="form-p col-12">
+                        Please note that you can only reserve up to 20 seats from filling this form. If you want to reserve more seats please contact us through the restaurant phone number.
+                    </p>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <label for="seats" class="col-8">
+                                Number of seats:
+                                <input type="number" id="seats" class="col-12" min="1" max="20" required />
+                            </label>
+                    </div>
+                    <div class="row center radio-questions">
+                        <h4 class="page-heading col-12">Where would you like to sit?</h4>
+                        <p class="form-p col-12">
+                            Here you can choose where you would like to sit if you have any favorite spot in the restaurant.
+                        </p>
+                        <div class="form-check col-6">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1-1" value="option1-1" checked />
+                            <label class="form-check-label" for="exampleRadios1-1">
+                                    Shiraz
+                                </label>
+                        </div>
+                        <div class="form-check col-6">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2-1" value="option2-1" />
+                            <label class="form-check-label" for="exampleRadios2-1">
+                                    Tehran
+                                </label>
+                        </div>
+                        <div class="form-check col-6">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3-1" value="option3-1" checked />
+                            <label class="form-check-label" for="exampleRadios3-1">
+                                    Kashan
+                                </label>
+                        </div>
+                        <div class="form-check col-6">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4-1" value="option4-1" />
+                            <label class="form-check-label" for="exampleRadios4-1">
+                                    Tabriz
+                                </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary reservation-submit-btn col-6 col-md-3">
+                                Submit
+                            </button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </section>
     <footer class="container-fluid reservation-footer">
-      <div id="footer-details" class="row">
-        <div class="col-sm-4 center">
-          <h5 class="uppercase general-sub">Sign Up / Sign in</h5>
-          <p>
-            Sign up / sign in and track your loyality chart progress.
-          </p>
-          <button
-            type="button"
-            class="btn btn-primary sign-in-btn"
-            data-toggle="modal"
-            data-target="#sign-in-btn"
-          >
-            Sign In / Sign Up
-          </button>
+        <div id="footer-details" class="row">
+            <div class="col-sm-4 center">
+                <h5 class="uppercase general-sub">Sign Up / Sign in</h5>
+                <p>
+                    Sign up / sign in and track your loyality chart progress.
+                </p>
+                <button type="button" class="btn btn-primary sign-in-btn" data-toggle="modal" data-target="#sign-in-btn">
+                        Sign In / Sign Up
+                    </button>
+            </div>
+            <div class="col-sm-4 center">
+                <div class="contacts row">
+                    <h5 class="uppercase general-sub">Contact Us</h5>
+                    <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                        <i class="fa fa-clock-o col-3" aria-hidden="true">
+                                <span class="sr-only">Opening hours</span>
+                            </i>
+                        <p class="inline col-3">17-23 (5pm-11pm)</p>
+                        <br />
+                    </div>
+                    <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                        <i class="fa fa-phone col-3" aria-hidden="true">
+                                <span class="sr-only">Phone</span>
+                            </i>
+                        <p class="inline col-3">5555 123 456</p>
+                        <br />
+                    </div>
+                    <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                        <i class="fa fa-fax col-3" aria-hidden="true">
+                                <span class="sr-only">Fax</span>
+                            </i>
+                        <p class="inline col-3">5555 123 123</p>
+                        <br />
+                    </div>
+                    <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                        <i class="fa fa-envelope-o col-3" aria-hidden="true">
+                                <span class="sr-only">Email</span>
+                            </i>
+                        <p class="inline">tadig@restaurant.com</p>
+                        <br />
+                    </div>
+                    <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
+                        <i class="fa fa-map-marker col-3" aria-hidden="true">
+                                <span class="sr-only">Address</span>
+                            </i>
+                        <p class="inline">Fridhmesplan galleria</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 center">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline-item social-links">
+                    <li class="list-inline-item col-2">
+                        <a href="#" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item col-2">
+                        <a href="#" target="_blank">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item col-2">
+                        <a href="#" target="_blank">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item col-2">
+                        <a href="#" target="_blank">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item col-2">
+                        <a href="#" target="_blank">
+                                <i class="fa fa-slack" aria-hidden="true"></i>
+                                <span class="sr-only">Slack</span>
+                            </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col-sm-4 center">
-          <div class="contacts row">
-            <h5 class="uppercase general-sub">Contact Us</h5>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-clock-o col-3" aria-hidden="true">
-                <span class="sr-only">Opening hours</span>
-              </i>
-              <p class="inline col-3">17-23 (5pm-11pm)</p>
-              <br />
-            </div>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-phone col-3" aria-hidden="true">
-                <span class="sr-only">Phone</span>
-              </i>
-              <p class="inline col-3">5555 123 456</p>
-              <br />
-            </div>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-fax col-3" aria-hidden="true">
-                <span class="sr-only">Fax</span>
-              </i>
-              <p class="inline col-3">5555 123 123</p>
-              <br />
-            </div>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-envelope-o col-3" aria-hidden="true">
-                <span class="sr-only">Email</span>
-              </i>
-              <p class="inline">tadig@restaurant.com</p>
-              <br />
-            </div>
-            <div class="inline offset-3 offset-sm-2 offset-md-3 offset-lg-4">
-              <i class="fa fa-map-marker col-3" aria-hidden="true">
-                <span class="sr-only">Address</span>
-              </i>
-              <p class="inline">Fridhmesplan galleria</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 center">
-          <h5 class="uppercase general-sub">Social</h5>
-          <ul class="list-inline-item social-links">
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-pinterest" aria-hidden="true"></i>
-                <span class="sr-only">Pinterest</span>
-              </a>
-            </li>
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item col-2">
-              <a href="#" target="_blank">
-                <i class="fa fa-slack" aria-hidden="true"></i>
-                <span class="sr-only">Slack</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </footer>
     <div class="modal" tabindex="-1" role="dialog" id="sign-in-btn">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title center">
-              Please Sign Up / Sign in and follow your loyality chart.
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="sign-in-email">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="sign-in-email"
-                  aria-describedby="emailHelp"
-                />
-                <small id="emailHelp" class="form-text text-muted">
-                  We'll never share your email with anyone else.
-                </small>
-              </div>
-              <div class="form-group">
-                <label for="sign-in-passworld">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="sign-in-passworld"
-                />
-              </div>
-              <div class="form-group form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label class="form-check-label" for="exampleCheck1">
-                  Remember me
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary sign-in-btn">
-                Submit
-              </button>
-            </form>
-          </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title center">
+                        Please Sign Up / Sign in and follow your loyality chart.
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="sign-in-email">Email address</label>
+                            <input type="email" class="form-control" id="sign-in-email" aria-describedby="emailHelp" />
+                            <small id="emailHelp" class="form-text text-muted">
+                                    We'll never share your email with anyone else.
+                                </small>
+                        </div>
+                        <div class="form-group">
+                            <label for="sign-in-passworld">Password</label>
+                            <input type="password" class="form-control" id="sign-in-passworld" />
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                            <label class="form-check-label" for="exampleCheck1">
+                                    Remember me
+                                </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary sign-in-btn">
+                                Submit
+                            </button>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
 </html>
