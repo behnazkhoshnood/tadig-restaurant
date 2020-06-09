@@ -146,7 +146,7 @@ header {
 
 footer {
   color: #fafafa;
-  min-height: 325px;
+  min-height: 382px;
   overflow-y: hidden;
 }
 
@@ -158,6 +158,8 @@ footer {
   border-color: #daa520;
   margin: 0 auto;
   margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 #sign-in-passworld,
@@ -181,7 +183,7 @@ footer {
 }
 
 .contact-items {
-  height: 200px;
+  min-height: 200px;
 }
 
 .contacts p {
@@ -192,13 +194,10 @@ footer {
 }
 
 .contacts i {
-  padding-right: 3px;
   width: 20px;
   height: 20px;
-  text-align: right;
   font-size: 22px;
-  color: #fafafa;
-  padding-bottom: 30px;
+  padding-left: 0px;
 }
 
 .social-links {
@@ -207,7 +206,9 @@ footer {
 }
 
 .social-links li {
+  padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 15px;
 }
 
 .social-links a i {
@@ -229,6 +230,12 @@ footer {
   padding-top: 25px;
   padding-bottom: 25px;
   margin: 0 auto;
+}
+
+.sign-in-note{
+    padding-right: 10px;
+    margin-bottom: 5px;
+    margin-top: -25px;
 }
 
 form,
@@ -259,7 +266,9 @@ form,
   background-color: #7e7e7e;
   color: #fafafa;
   padding-top: 5px;
-  padding-bottom: 5px;
+  margin-right: auto;
+    margin-left: auto;
+    width: 100%;
 }
 
 .footer-content,
@@ -283,8 +292,17 @@ form,
   font-family: "Roboto", sans-serif;
   text-align: justify;
   margin: 10px;
+  margin-bottom: 20px;
   font-size: 16px;
-  margin-bottom: 0
+}
+
+.jumbotron-fluid p{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.index-note{
+    margin-bottom: 15px;
 }
 
 
@@ -521,7 +539,7 @@ label.custom-control-label {
   }
 
   .contact-items div {
-    margin-left: 5px;
+    margin-left: 15px;
   }
 }
 
@@ -545,6 +563,12 @@ label.custom-control-label {
   }
 }
 
+@media only screen and (min-width:301) and(max-width: 500px) {
+    {
+        margin-left: 20%;
+    }
+}
+
 @media only screen and (min-width: 700px) {
   footer p,
   .jumbotron-fluid p,
@@ -560,9 +584,3 @@ label.custom-control-label {
     width: 75%;
   }
 }
-
-@media only screen and (min-height:1350px) {
-    .index-section,
-    .carousel-item img{
-        height: 700px;
-    }
