@@ -28,6 +28,13 @@ body {
 
 /* -------------------------------------------------------------------general */
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 .inline {
   display: inline;
 }
@@ -140,15 +147,14 @@ header {
 
 footer {
   color: #fafafa;
-  min-height: 240px;
 }
 
-#footer-details {
-  text-align: center;
+footer .row,
+.contacts{
+    height: 100%;
 }
-
 .sign-in-btn {
-  border-radius: 5px;
+  border-radius: 50px;
   background-color: #daa520;
   height: 60px;
   min-width: 120px;
@@ -172,26 +178,25 @@ footer {
 
 .btn-primary:hover {
   color: #fafafa;
-  background-color: #a38948;
-  border-color: #a38948;
-}
-
-.contacts {
-  margin-bottom: 20px;
+  background-color: #c5a34b;
+  border-color:  #c5a34b; 
 }
 
 .contacts p {
   text-align: left;
-  line-height: 20px;
+  line-height: 1.5;
+  width: 350px;
+  padding-left: 20px;
 }
 
 .contacts i {
-  width: 40px;
-  height: 40px;
-  padding: 20px 2px 20px 2px;
-  text-align: left;
+  padding-left: 0px;
+  padding-right: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: right;
   font-size: 22px;
-  line-height: 20px;
+  line-height: 1.5;
   color: #fafafa;
 }
 
@@ -217,11 +222,15 @@ footer {
 }
 
 .general-sub {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 300px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin: 0 auto;
 }
+
+form,
+  .form-control {
+    max-width: 80%;
+  }
 
 /* --------------------------------------------------------------------:index */
 
@@ -231,7 +240,7 @@ footer {
   background-size: cover;
   padding-left: 0;
   padding-right: 0;
-  height: 660px;
+  height: 675px;
 }
 
 .carousel-item h5 {
@@ -246,6 +255,7 @@ footer {
   padding: 30px;
   background-color: #b8b2b2;
   color: #fafafa;
+  min-height: 320px;
 }
 
 .jumbotron-fluid p {
@@ -351,7 +361,7 @@ input:valid + span:after {
 
 .reservation-submit-btn {
   background-color: #aa58aa;
-  border-radius: 5px;
+  border-radius: 50px;
   padding: 0px;
   margin: 0 auto;
   margin-top: 20px;
@@ -363,7 +373,6 @@ input:valid + span:after {
 
 .reservation-submit-btn:hover {
   background-color: #804580;
-  border-radius: 5px;
 }
 
 .reservation-info {
@@ -382,6 +391,8 @@ input:valid + span:after {
   text-align: center;
   color: #808080;
   height: 30px;
+  padding-bottom: 2px;
+  font-size: 14px;
 }
 
 .reservation-info input:focus {
@@ -425,12 +436,11 @@ small {
 .rate-us-submit-btn {
   background-color: #bb6363;
   border-color: #bb6363;
-  border-radius: 5px;
+  border-radius: 50px;
   padding: 0px;
   margin: 0 auto;
   margin-bottom: 30px;
   text-align: center;
-
   height: 70px;
   max-width: 200px;
   margin-top: 20px;
@@ -438,7 +448,6 @@ small {
 
 .rate-us-submit-btn:hover {
   background-color: #945757;
-  border-radius: 5px;
 }
 
 .rate-us-info {
@@ -499,16 +508,11 @@ label.custom-control-label {
 /* --------------------------------------------------------------------@media */
 @media only screen and (max-width: 250px) {
   .index-section {
-    height: 570px;
+    height: 720px;
   }
 
   .drinks-header {
     width: 250px;
-  }
-
-  form,
-  .form-control {
-    width: 80%;
   }
 }
 
@@ -520,11 +524,6 @@ label.custom-control-label {
   .drinks-header {
     width: 300px;
   }
-
-  form,
-  .form-control {
-    width: 80%;
-  }
 }
 
 @media only screen and (min-width: 359px) and (max-width: 598) {
@@ -535,54 +534,24 @@ label.custom-control-label {
   .drinks-header {
     width: 400px;
   }
-
-  form,
-  .form-control {
-    width: 80%;
-  }
 }
 
-@media only screen and (min-width: 576px) {
-  form {
-    width: 65%;
-  }
-
-  .votes {
-    max-width: 60%;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  body,
-  header,
-  footer,
-  section {
-    min-width: 300px;
-  }
-}
-
-@media only screen and (min-width: 599px) and (max-width: 801px) {
-  header,
-  body,
-  footer,
-  section {
-    min-width: 920px;
-  }
-}
-
-@media only screen and (min-width: 599px) {
-  .jumbotron-fluid p,
+@media only screen and (min-width: 598px) {
   footer p,
+  .jumbotron-fluid p,
   .index-note {
-    line-height: 2.5;
+    line-height: 1.5;
   }
   
-  .jumbotron-fluid,
   footer {
-    height: 300px;
+    height: 335px;
   }
-  
+
   .drinks-header {
     width: 500px;
+  }
+
+  form {
+    width: 75%;
   }
 }
