@@ -32,7 +32,6 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
 .inline {
@@ -147,12 +146,10 @@ header {
 
 footer {
   color: #fafafa;
+  min-height: 325px;
+  overflow-y: hidden;
 }
 
-footer .row,
-.contacts{
-    height: 100%;
-}
 .sign-in-btn {
   border-radius: 50px;
   background-color: #daa520;
@@ -160,6 +157,7 @@ footer .row,
   min-width: 120px;
   border-color: #daa520;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #sign-in-passworld,
@@ -179,31 +177,37 @@ footer .row,
 .btn-primary:hover {
   color: #fafafa;
   background-color: #c5a34b;
-  border-color:  #c5a34b; 
+  border-color: #c5a34b;
+}
+
+.contact-items {
+  height: 200px;
 }
 
 .contacts p {
   text-align: left;
-  line-height: 1.5;
   width: 350px;
-  padding-left: 20px;
+  height: 40px;
+  padding-left: 17px;
 }
 
 .contacts i {
-  padding-left: 0px;
-  padding-right: 20px;
-  width: 50px;
-  height: 50px;
+  padding-right: 3px;
+  width: 20px;
+  height: 20px;
   text-align: right;
   font-size: 22px;
-  line-height: 1.5;
   color: #fafafa;
+  padding-bottom: 30px;
 }
 
 .social-links {
   margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.social-links li {
+  padding-bottom: 10px;
 }
 
 .social-links a i {
@@ -228,9 +232,9 @@ footer .row,
 }
 
 form,
-  .form-control {
-    max-width: 80%;
-  }
+.form-control {
+  max-width: 80%;
+}
 
 /* --------------------------------------------------------------------:index */
 
@@ -240,7 +244,7 @@ form,
   background-size: cover;
   padding-left: 0;
   padding-right: 0;
-  height: 675px;
+  height:575px;
 }
 
 .carousel-item h5 {
@@ -252,15 +256,15 @@ form,
 
 .jumbotron-fluid {
   margin: 0 auto;
-  padding: 30px;
-  background-color: #b8b2b2;
+  background-color: #7e7e7e;
   color: #fafafa;
-  min-height: 320px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.jumbotron-fluid p {
-  text-align: center;
-  margin: 0 auto;
+.footer-content,
+.jumbotron-fluid{
+    padding-top: 10px;
 }
 
 .page-heading {
@@ -274,14 +278,15 @@ form,
   margin-top: 5px;
 }
 
+.jumbotron-fluid p,
 .index-note {
   font-family: "Roboto", sans-serif;
   text-align: justify;
   margin: 10px;
-  padding: 10px;
-  padding-top: 0;
   font-size: 16px;
+  margin-bottom: 0
 }
+
 
 .food-guide h6 {
   margin-top: 20px;
@@ -506,7 +511,7 @@ label.custom-control-label {
 }
 
 /* --------------------------------------------------------------------@media */
-@media only screen and (max-width: 250px) {
+@media only screen and (max-width: 300px) {
   .index-section {
     height: 720px;
   }
@@ -514,9 +519,13 @@ label.custom-control-label {
   .drinks-header {
     width: 250px;
   }
+
+  .contact-items div {
+    margin-left: 5px;
+  }
 }
 
-@media only screen and (min-width: 251px) and (max-width: 358) {
+@media only screen and (min-width: 300px) and (max-width: 358) {
   .index-section {
     height: 660px;
   }
@@ -536,15 +545,11 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-width: 598px) {
+@media only screen and (min-width: 700px) {
   footer p,
   .jumbotron-fluid p,
   .index-note {
     line-height: 1.5;
-  }
-  
-  footer {
-    height: 335px;
   }
 
   .drinks-header {
@@ -555,3 +560,9 @@ label.custom-control-label {
     width: 75%;
   }
 }
+
+@media only screen and (min-height:1350px) {
+    .index-section,
+    .carousel-item img{
+        height: 700px;
+    }

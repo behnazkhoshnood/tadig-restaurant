@@ -302,6 +302,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - In some emulated divices, the right to left scroll appears. In most of them after reloading the page the scroll disapears and the whole page is shown again.
 
+- Sometimes the browser won't open and I should reload the page to see the website.
+
 ## **Deployment**
 
 Following steps has been taken to deploy Tadig restaurant website on GitHub pages;
