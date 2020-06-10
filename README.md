@@ -315,7 +315,7 @@ I used the code below from stack overflow to fix the problem:
              overflow-x: hidden;
         }
 
-
+- Clicking the submit button in modal wasn't resulting in closing the modal.
 
 ## **Deployment**
 

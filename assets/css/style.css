@@ -29,7 +29,8 @@ body {
 /* -------------------------------------------------------------------general */
 
 html,
-body {
+body,
+footer {
   max-height: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -149,7 +150,8 @@ header {
 
 footer {
   color: #fafafa;
-  min-height: 382px;
+  overflow-y: hidden;
+  bottom: 0;
 }
 
 .sign-in-btn {
@@ -160,8 +162,7 @@ footer {
   border-color: #daa520;
   margin: 0 auto;
   margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-top: 10px;
 }
 
 #sign-in-passworld,
@@ -184,22 +185,20 @@ footer {
   border-color: #c5a34b;
 }
 
-.contact-items {
-  min-height: 200px;
+.contacts{
+    margin-bottom: 10px;
 }
 
-.contacts p {
-  text-align: left;
-  width: 350px;
-  height: 40px;
-  padding-left: 17px;
+.contacts-info{
+  text-align: center;
+  padding-top: 20px;
 }
 
 .contacts i {
-  width: 20px;
-  height: 20px;
-  font-size: 22px;
-  padding-left: 0px;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  margin-right: 10px;
 }
 
 .social-links {
@@ -217,8 +216,9 @@ footer {
   width: 40px;
   height: 40px;
   padding: 17px 2px 20px 2px;
+  margin-bottom: 10px;
   border-radius: 50%;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 7px;
   text-align: center;
   color: #fafafa;
@@ -237,7 +237,7 @@ footer {
 .sign-in-note{
     padding-right: 10px;
     margin-bottom: 5px;
-    margin-top: -25px;
+    line-height: 1;
 }
 
 form,
@@ -565,12 +565,6 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-width:301) and(max-width: 500px) {
-    {
-        margin-left: 20%;
-    }
-}
-
 @media only screen and (min-width: 700px) {
   footer p,
   .jumbotron-fluid p,
@@ -585,4 +579,26 @@ label.custom-control-label {
   form {
     width: 75%;
   }
+}
+
+@media only screen and (min-height: 1200px){
+ #nav,
+ #nav li,
+ .menuitem,
+ .hvr-sweep-to-bottom:before,
+ header{
+     height: 220px;
+     overflow: hidden;
+ }
+ 
+ .menuitem span {
+     font-size: 25px;
+     padding-top: 95px;
+ }
+ 
+ .sign-in-note,
+ .social-links a i{
+     line-height: 2;
+ }
+ 
 }
