@@ -185,21 +185,22 @@ footer {
   border-color: #c5a34b;
 }
 
-.contacts{
-    margin-bottom: 10px;
+.contacts-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.contacts-icon{
+    font-size: 25px;
+    color: #fafafa;
 }
 
 .contacts-info{
-  text-align: center;
-  padding-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
-.contacts i {
-  width: 40px;
-  height: 40px;
-  font-size: 25px;
-  margin-right: 10px;
-}
 
 .social-links {
   margin: 0 auto;
