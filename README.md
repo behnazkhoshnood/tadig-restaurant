@@ -236,55 +236,55 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
 
-  - [ ] a.Upon entering the site, users are greeted with a clean and easily readable welcome note and a colorful navigation bar which guides the user to the page of their choice. Underneath the navigation bar there is a Hero carousel slider that makes the visitor interested and shows the main purpose of the site.
+  - [x] a.Upon entering the site, users are greeted with a clean and easily readable welcome note and a colorful navigation bar which guides the user to the page of their choice. Underneath the navigation bar there is a Hero carousel slider that makes the visitor interested and shows the main purpose of the site.
 
-  - [ ] b.The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign up / sign in, Contact us informations and social media links.
+  - [x] b.The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign up / sign in, Contact us informations and social media links.
 
   ii. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-  - [ ] a. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+  - [x] a. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 
-  - [ ] b. At the bottom of all the order pages there is another food menu navbar which redirect the visitor to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+  - [x] b. At the bottom of all the order pages there is another food menu navbar which redirect the visitor to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
-  - [ ] c. On form Pages, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+  - [x] c. On form Pages, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
   iii. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
-  - [x] a. The user can scroll to the bottom of any page on the site to locate social media links in the footer. But the links are not conected to the real page since our restaurant don't have functional social media page.
+  - [ ] a. The user can scroll to the bottom of any page on the site to locate social media links in the footer. But the links are not conected to the real page since our restaurant don't have functional social media page.
 
 - **Returning Visitor Goals**
 
   i. As a Returning Visitor, I want to find the new discount and / or benefit.
 
-  - [x] a. They will find some benefits and discounts after they sign in and become a member. But since this project is just based on HTML and CSS this part in not functional yet.
+  - [ ] a. They will find some benefits and discounts after they sign in and become a member. But since this project is just based on HTML and CSS this part in not functional yet.
 
   ii. As a Returning Visitor, I want to find the best way to get in contact with the restaurant with any questions I may have.
 
-  - [ ] a. Contact information is located on the foother of all pages.
+  - [x] a. Contact information is located on the foother of all pages.
 
-  - [x] b. The footer also contains links to the restaurant's Facebook, Pinterest, Instagram, Twitter and Slack page. But these pages are not conected to the restaurant social media pages yet.
+  The footer contains links to the restaurant's Facebook, Pinterest, Instagram, Twitter and Slack page. But these pages are not conected to the restaurant social media pages yet.
 
-  - [ ] c. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+  - [x] b. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
 - **Frequent User Goals**
 
   i. As a Frequent User, I want to check to see if there are any new discounts or benefits.
 
-  - [x] a. The user would already be comfortable with the website layout. By signing in, Loyal Member's get a discount after ordering food for a number of times. This part is not made yet since it needs to be made with javascript. to 
+  - [ ] a. The user would already be comfortable with the website layout. By signing in, Loyal Member's get a discount after ordering food for a number of times. This part is not made yet since it needs to be made with javascript. to 
 
   ii. As a Frequent User, I want to check to see if there are any new blog posts.
 
-  - [ ] a. The user would already be comfortable with the website layout and can easily click the blog link.
+  - [x] a. The user would already be comfortable with the website layout and can easily click the blog link.
 
   iii. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
 
-  - [ ] a. At the bottom of every page there is a footer which content is consistent throughout all pages.
+  - [x] a. At the bottom of every page there is a footer which content is consistent throughout all pages.
 
-  - [ ] b. To the left side of the footer the user can see Sign in / Sign up button. By clicking on that they can fill in the alternative "Subscribe to our Newsletter".
+  - [x] b. To the left side of the footer the user can see Sign in / Sign up button. By clicking on that they can fill in the alternative "Subscribe to our Newsletter".
 
-  - [ ] c. There is a "Submit" button under the input field which is located close to the field and can easily be distinguished.
+  - [x] c. There is a "Submit" button under the input field which is located close to the field and can easily be distinguished.
   
-  - [x] d. Newsletter are not made yet.
+  - [ ] d. Newsletter are not made yet.
 
 ### **Further Testing**
 
@@ -300,9 +300,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The sweep to bottom hover effect don't cover the buttons all the way down in some mobile phones.
 
-- In some emulated divices, the right to left scroll appears. In most of them after reloading the page the scroll disapears and the whole page is shown again.
+- Sometimes the browser don't open the site and I should reload the page to see the website.
 
-- Sometimes the browser won't open and I should reload the page to see the website.
+## **Fixed buges**
+
+- When in menu page, clicking on menu button was making an error. The herf for menu page was wrong. The herf attribute was changes from herf="starter.html" to herf="order.html" to fix the problem.
+
+- In some emulated divices, the right to left scroll appeares. In most of them after reloading the page the scroll disapears and the whole page is shown again.
+I used the code below from stack overflow to fix the problem:
+
+         html,
+         body {
+             max-width: 100%;
+             overflow-x: hidden;
+        }
+
+
 
 ## **Deployment**
 

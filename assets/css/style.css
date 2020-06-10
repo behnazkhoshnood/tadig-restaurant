@@ -30,8 +30,11 @@ body {
 
 html,
 body {
+  max-height: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .inline {
@@ -147,7 +150,6 @@ header {
 footer {
   color: #fafafa;
   min-height: 382px;
-  overflow-y: hidden;
 }
 
 .sign-in-btn {
