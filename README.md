@@ -347,6 +347,10 @@ Follow these steps to run website locally on your machine;
 
   - [mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
     - Used for fixing the reservation time and validity.
+    
+  -[Stack overflow](https://stackoverflow.com/)
+  
+    - Used for fixing the buges mentioned in the Fixed bugs above.
 
   - to open my project in the browser I used this code: `python3 -m http.server` 
 

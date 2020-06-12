@@ -27,7 +27,7 @@ body {
 }
 
 /* -------------------------------------------------------------------general */
-
+body,
 html,
 footer {
   max-height: 100%;
@@ -37,14 +37,9 @@ footer {
   padding: 0;
 }
 
-body {
-  height: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
+footer{
+    overflow-y: hidden;
 }
-
 .inline {
   display: inline;
 }
@@ -160,11 +155,6 @@ header {
 
 footer {
   color: #fafafa;
-  overflow-y: hidden;
-}
-
-.footer-row{
-    height: 100%;
 }
 
 .footer-parts {
@@ -261,6 +251,7 @@ footer {
   margin: 0 auto;
   margin-top: 25px;
   font-size: 26px;
+  font-weight: 600;
 }
 
 form,
@@ -276,7 +267,7 @@ form,
   background-size: cover;
   padding-left: 0;
   padding-right: 0;
-  height: 585px;
+  height: 590px;
 }
 
 .carousel-item h5 {
@@ -290,19 +281,12 @@ form,
   margin: 0 auto;
   background-color: #7e7e7e;
   color: #fafafa;
-  padding-top: 5px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 10px;
   width: 100%;
 }
 
-.footer-content,
-.jumbotron-fluid {
+.footer-content{
   padding-top: 10px;
-}
-
-.jumbotron-fluid {
-  padding-bottom: 10px;
 }
 
 .page-heading {
@@ -330,10 +314,6 @@ form,
   text-align: center;
 }
 
-.index-note {
-  margin-bottom: 15px;
-}
-
 .food-guide h6 {
   margin-top: 20px;
   text-align: center;
@@ -349,6 +329,7 @@ form,
   margin-bottom: 20px;
   border-radius: 30px;
   padding: 15px;
+  letter-spacing: 2px;
 }
 
 .food-menu ul {
@@ -375,6 +356,8 @@ form,
   color: #fafafa;
   margin: 0 auto;
   border-radius: 50px;
+  font-size: 30px;
+  padding: 10px;
 }
 
 .guide-span {
@@ -557,10 +540,6 @@ label.custom-control-label {
 
 /* --------------------------------------------------------------------@media */
 @media only screen and (max-width: 300px) {
-  .index-section {
-    height: 720px;
-  }
-
   .drinks-header {
     width: 250px;
   }
@@ -568,26 +547,28 @@ label.custom-control-label {
   .contact-items div {
     margin-left: 15px;
   }
+  
+  .menuitem span{
+      font-size: 10px;
+  }
+  
+  .page-heading{
+      font-size: 25px;
+      font-weight: bold;
+  }
+  
+  .general-sub{
+      font-size: 20px;
+  }
+  
 }
 
-@media only screen and (min-width: 300px) and (max-width: 358) {
-  .index-section {
-    height: 660px;
+@media only screen and (min-width:301px) and (max-width:601px){
+    .page-heading{
+      font-size: 32px;
+      font-weight: bold;
   }
-
-  .drinks-header {
-    width: 300px;
-  }
-}
-
-@media only screen and (min-width: 359px) and (max-width: 575) {
-  .index-section {
-    height: 610px;
-  }
-
-  .drinks-header {
-    width: 400px;
-  }
+    
 }
 
 @media only screen and (min-width: 795px) {
@@ -607,21 +588,36 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-height: 1200px) {
-  html {
-    height: 100vh;
-  }
-  
+@media only screen and (min-width: 1000px){
   #nav,
   #nav li,
   .menuitem,
   .hvr-sweep-to-bottom:before,
   header {
     height: 220px;
-    overflow-y: hidden;
-    overflow-x: hidden;
+  }  
+  
+  .menuitem span {
+    font-size: 21px;
+    padding-top: 95px;
   }
+  
+}
 
+@media only screen and (min-height: 1200px){
+  html,
+  body {
+    height: 100%;
+  }
+  
+  #nav,
+  #nav li,
+  .menuitem,
+  .hvr-sweep-to-bottom:before,
+   header {
+    height: 220px;
+  }
+  
   .menuitem span {
     font-size: 21px;
     padding-top: 95px;
@@ -629,12 +625,12 @@ label.custom-control-label {
 
   footer,
   .jumbotron-fluid {
-    height: 21%;
-    overflow-y: hidden;
+    height: 20.5%;
   }
 
   .general-sub {
     padding-bottom: 35px;
+    padding-top: 15px;
   }
   
   .social-links{

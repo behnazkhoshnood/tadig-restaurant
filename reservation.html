@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<!-- -----------------------------------------------------------------header-->
+    <!--                                                           header-->
     <header>
         <div class="row no-gutters">
             <div class="col">
@@ -52,17 +52,17 @@
                     <p class="form-p col-12">
                         Please fill the information needed for reservation.<br> We are going to inform you about your reservation as soon as possible.
                     </p>
-<!-- --------------------------------------------------------------First name-->
+                    <!--                                           First name-->
                     <div class="col-12 col-lg-10 offset-lg-1">
                         <label for="fname">First name:</label>
                         <input type="text" id="fname" class="col-12" placeholder="Please inter your first name" name="fname" required />
                     </div>
-<!-- ---------------------------------------------------------------Last name-->
+                    <!--                                            Last name-->
                     <div class="col-12 col-lg-10 offset-lg-1">
                         <label for="lname">Last name:</label>
                         <input type="text" id="lname" class="col-12" placeholder="Please inter your last name" name="lname" required />
                     </div>
-<!-- ------------------------------------------------------------Phone number-->
+                    <!--                                         Phone number-->
                     <div class="col-12 col-lg-10 offset-lg-1">
                         <label for="PhoneNumber">Phone number :<br><small> ( pattern : xxx-xxx-xxxx )</small></label>
                         <input type="tel" id="PhoneNumber" class="col-12" name="PhoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx" required/>
@@ -70,7 +70,7 @@
                                 We'll never share your number with anyone else.
                             </small>
                     </div>
-<!-- -----------------------------------------------------------Email address-->
+                    <!--                                        Email address-->
                     <div class="col-12 col-lg-10 offset-lg-1">
                         <label for="inputEmail">Email address:</label>
                         <input type="email" id="inputEmail" class="col-12" name="inputEmail" placeholder="email@example.com" required />
@@ -78,7 +78,7 @@
                                 We'll never share your email with anyone else.
                             </small>
                     </div>
-<!-- --------------------------------------------------------------------date-->
+                    <!--                                                date-->
                     <h4 class="page-heading col-12">
                         Which date would you like to book a table?
                     </h4>
@@ -88,11 +88,11 @@
                     <div class="col-12 col-lg-10 offset-lg-1">
                         <label for="date" class="col-12">
                                 Date:
-                                <input pattern="\d{4}-\d{2}-\d{2}" type="date" id="date" class="col-12" name="date" min="2020-06-03" max="2021-06-00" required />
+                                <input type="date" id="date" class="col-12" name="date" min="2020-06-12" max="2020-08-12" required />
                                 <span class="validity col-12"></span>
                             </label>
                     </div>
-<!-- --------------------------------------------------------------------time-->
+                    <!--                                                 time-->
                     <h4 class="page-heading col-12">
                         Which time would you like to book the table?
                     </h4>
@@ -105,11 +105,11 @@
                     <div class="col-12 col-lg-10 offset-lg-1">
                         <label for="time" class="col-10">
                                 Time:
-                                <input type="time" id="time" class="col-12" min="17:00" max="22:00" step="900" name="time" placeholder="05:00 PM" required />
+                                <input type="time" id="time" class="col-12" min="17:00" max="22:00" step="900" name="time" required />
                                 <span class="validity col-12"></span>
                             </label>
                     </div>
-<!-- -------------------------------------------------------------seat amount-->
+                    <!--                                          seat amount-->
                     <h4 class="page-heading col-12">
                         How many seats would you like to reserve?
                     </h4>
@@ -122,7 +122,7 @@
                                 <input type="number" id="seats" class="col-12" placeholder="1 to 20" min="1" max="20" required />
                             </label>
                     </div>
-<!-- --------------------------------------------------------place-->
+                    <!--                                              place-->
                     <div class="row center radio-questions">
                         <h4 class="page-heading col-12">Where would you like to sit?</h4>
                         <p class="form-p col-12">
@@ -153,7 +153,7 @@
                                 </label>
                         </div>
                     </div>
-<!-- --------------------------------------------------reservation-submit-btn-->
+                    <!--                              reservation-submit-btn-->
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary reservation-submit-btn col-6 col-md-3">
                                 Submit
@@ -163,10 +163,10 @@
             </form>
         </div>
     </section>
-<!-- ----------------------------------------------------------------footer -->
+    <!--                                                            footer -->
     <footer class="container-fluid reservation-footer">
         <div class="row footer-row">
-<!-- ----------------------------------------------------------------sign in -->
+            <!--                                                    sign in -->
             <div class="col-sm-4 center footer-parts">
                 <h4 class="uppercase general-sub">Sign Up / Sign In</h4>
                 <p class="sign-in-note">
@@ -176,7 +176,7 @@
             Sign In / Sign Up
           </button>
             </div>
-<!-- ---------------------------------------------------------------contacts -->
+            <!--                                                    contacts -->
             <div class="col-sm-4 center footer-parts">
                 <div class="contacts">
                     <h4 class="uppercase general-sub">Contact Us</h4>
@@ -208,7 +208,7 @@
                     </div>
                 </div>
             </div>
-<!-- -----------------------------------------------------------------social -->
+            <!--                                                      social -->
             <div class="col-sm-4 center footer-parts">
                 <h4 class="uppercase general-sub">Social</h4>
                 <ul class="list-inline-item social-links row">
@@ -252,7 +252,7 @@
             </div>
         </div>
     </footer>
-<!-- ------------------------------------------------------------------modal -->
+    <!--                                                           modal -->
     <div class="modal" tabindex="-1" role="dialog" id="sign-in-btn">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -299,7 +299,7 @@
             </div>
         </div>
     </div>
-<!-- ---------------------------------------------------------------------js -->
+    <!--                                                              js -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
