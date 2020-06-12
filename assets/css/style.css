@@ -29,9 +29,16 @@ body {
 /* -------------------------------------------------------------------general */
 
 html,
-body,
 footer {
   max-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
   max-width: 100%;
   overflow-x: hidden;
   margin: 0;
@@ -57,14 +64,17 @@ footer {
 h1,
 h2,
 h3,
-h4 {
+h4
+ {
   font-family: "Baloo Bhaina", sans-serif;
   text-align: center;
 }
 
 h5,
 h6,
-p {
+p,
+.btn,
+span {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
 }
@@ -151,7 +161,21 @@ header {
 footer {
   color: #fafafa;
   overflow-y: hidden;
-  bottom: 0;
+}
+
+.footer-row{
+    height: 100%;
+}
+
+.footer-parts {
+  margin-bottom:5px;
+}
+
+.sign-in-note {
+  padding-right: 10px;
+  margin-bottom: 5px;
+  line-height: 20px;
+  font-size: 16px;
 }
 
 .sign-in-btn {
@@ -161,8 +185,8 @@ footer {
   min-width: 120px;
   border-color: #daa520;
   margin: 0 auto;
-  margin-bottom: 20px;
   margin-top: 10px;
+  bottom: 30px;
 }
 
 #sign-in-passworld,
@@ -185,26 +209,29 @@ footer {
   border-color: #c5a34b;
 }
 
-.contacts-column{
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+.contacts {
+  height: 100%;
 }
 
-.contacts-icon{
-    font-size: 25px;
-    color: #fafafa;
+.contact-items {
+  height: 60%;
 }
 
-.contacts-info{
-    margin-bottom: 15px;
-    text-align: left;
+.contacts p {
+  width: 350px;
+  height: 40px;
+  padding-left: 17px;
 }
 
+.contacts i {
+  width: 20px;
+  height: 20px;
+  font-size: 22px;
+  padding-left: 0px;
+}
 
 .social-links {
   margin: 0 auto;
-  padding-bottom: 30px;
 }
 
 .social-links li {
@@ -217,7 +244,7 @@ footer {
   width: 40px;
   height: 40px;
   padding: 17px 2px 20px 2px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   border-radius: 50%;
   font-size: 25px;
   line-height: 7px;
@@ -230,15 +257,10 @@ footer {
 }
 
 .general-sub {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   margin: 0 auto;
-}
-
-.sign-in-note{
-    padding-right: 10px;
-    margin-bottom: 5px;
-    line-height: 1;
+  margin-top: 25px;
+  font-size: 26px;
 }
 
 form,
@@ -254,7 +276,7 @@ form,
   background-size: cover;
   padding-left: 0;
   padding-right: 0;
-  height:575px;
+  height: 585px;
 }
 
 .carousel-item h5 {
@@ -270,13 +292,17 @@ form,
   color: #fafafa;
   padding-top: 5px;
   margin-right: auto;
-    margin-left: auto;
-    width: 100%;
+  margin-left: auto;
+  width: 100%;
 }
 
 .footer-content,
-.jumbotron-fluid{
-    padding-top: 10px;
+.jumbotron-fluid {
+  padding-top: 10px;
+}
+
+.jumbotron-fluid {
+  padding-bottom: 10px;
 }
 
 .page-heading {
@@ -299,15 +325,14 @@ form,
   font-size: 16px;
 }
 
-.jumbotron-fluid p{
-    margin-bottom: 0;
-    text-align: center;
+.jumbotron-fluid p {
+  margin-bottom: 0;
+  text-align: center;
 }
 
-.index-note{
-    margin-bottom: 15px;
+.index-note {
+  margin-bottom: 15px;
 }
-
 
 .food-guide h6 {
   margin-top: 20px;
@@ -318,14 +343,12 @@ form,
 /* -----------------------------------------------------------------food-menu */
 
 .food-menu-header {
-  padding: 10px 2px 10px 2px;
   margin-top: 40px;
-  width: 90px;
   text-transform: uppercase;
   text-align: center;
-  padding-left: 0px;
   margin-bottom: 20px;
   border-radius: 30px;
+  padding: 15px;
 }
 
 .food-menu ul {
@@ -356,6 +379,7 @@ form,
 
 .guide-span {
   float: right;
+  font-size: 18px;
 }
 
 .food-menu-images {
@@ -556,7 +580,7 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-width: 359px) and (max-width: 598) {
+@media only screen and (min-width: 359px) and (max-width: 575) {
   .index-section {
     height: 610px;
   }
@@ -566,11 +590,12 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 795px) {
   footer p,
   .jumbotron-fluid p,
-  .index-note {
-    line-height: 1.5;
+  .index-note,
+  .food-guide h6 {
+    line-height: 2.25;
   }
 
   .drinks-header {
@@ -582,24 +607,37 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-height: 1200px){
- #nav,
- #nav li,
- .menuitem,
- .hvr-sweep-to-bottom:before,
- header{
-     height: 220px;
-     overflow: hidden;
- }
- 
- .menuitem span {
-     font-size: 25px;
-     padding-top: 95px;
- }
- 
- .sign-in-note,
- .social-links a i{
-     line-height: 2;
- }
- 
+@media only screen and (min-height: 1200px) {
+  html {
+    height: 100vh;
+  }
+  
+  #nav,
+  #nav li,
+  .menuitem,
+  .hvr-sweep-to-bottom:before,
+  header {
+    height: 220px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .menuitem span {
+    font-size: 21px;
+    padding-top: 95px;
+  }
+
+  footer,
+  .jumbotron-fluid {
+    height: 21%;
+    overflow-y: hidden;
+  }
+
+  .general-sub {
+    padding-bottom: 35px;
+  }
+  
+  .social-links{
+      height: 75%;
+  }
 }

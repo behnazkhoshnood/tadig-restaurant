@@ -15,7 +15,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
      
      c. As a General customer, I want to easly find the opening time and location of the restaurant.
 
-     d. As a General customer, I would like to see a menu of products and their description.
+     d. As a General customer, I would like to see a menu of dishes and their description and ingridients.
 
      e. As a General customer, I would like to reserve a table in a specefic time and date in the restaurant.
 
@@ -29,7 +29,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
   - #### Returning Visitor Goals
 
-     a. As a Returning Visitor, I want to find information about discount and loyality benefits.
+     a. As a Returning Visitor, I want to find information about any discounts and loyality benefits.
 
   - #### Frequent User Goals
 
@@ -61,9 +61,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
   - #### Imagery and content
 
-    - Home page large, background hero carousel slider is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    - Home page large, background hero carousel slide is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
-    - In Menu pages all the items have their image next to them and item informations are all taken from wikipedia except the one's mentioned below in the table. Source of all images used in this site is mentioned below:
+    - In Order pages all the dishes have their image next to them. The informations about the dishes are all taken from wikipedia except the one's mentioned below in the table. Source of all images used in this site is mentioned in the table below:
 
     <br>
 
@@ -80,9 +80,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 * ### **Structure**
 
-  - #### First and third sections(header and footer):
+  - #### First and third section(header and footer):
 
-    - The website consist of 7 pages named: index, order, order main, order desserts, order drinks, reservation and rate us. Each page has three sections.
+    - The website consist of 7 pages named: index(Home), order(Menu), order main, order dessert, order drinks, reservation and rate us. Each page has three sections.
 
     - The main content of header and footer sections are the same in all the pages. The Header section consist of the navbar menu for navigation through the website and the footer section consist of Sign in / sign up button, contacts and social media links.
 
@@ -90,11 +90,11 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
     - **Home page**
 
-      This section consist of 2 part, Introduction note and a carousel slider for food images.
+      This section consist of 3 part: Introduction and greeting note, carousel slide with food images and a jumbotron with some guide note.
 
     - **Order pages**
 
-      This sections consist of two food menu headers on top and the bottom of the section. These pages also consist of the list of items with their image, description and ingridients in each category.
+      This sections consist of two food menu headers on top and the bottom of the section to make the navigation easier throughout the order pages. These pages also consist of the list of dishes with their image, description and ingridients guide.
 
    - **Reservation page**
 
@@ -114,36 +114,33 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 * ### **Wireframes**
 
-  - Home Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/HOME-page-desktop-view.png)
+  - Home Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/HOME-page-desktop-view.png)
 
-    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/HOME-page-mobile-view.png)
+    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/HOME-page-mobile-view.png)
 
-  - Menu Pages Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/MENU-pages-desktop-view.png)
+  - Menu Pages Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/MENU-pages-desktop-view.png)
 
-    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/MENU-page-mobile-view.png)
+    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/MENU-page-mobile-view.png)
 
-  - Reservation Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/RESERVATION-page-desktop-view.png)
+  - Reservation Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/RESERVATION-page-desktop-view.png)
 
-    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/RESERVATION-page-mobile-view.png)
+    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/RESERVATION-page-mobile-view.png )
 
-  - Rate us Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/RATE-US-page-desktop-view.png)
+  - Rate us Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/RATE-US-page-desktop-view.png)
 
-    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/f4229e264361d733eaed9ee84ba05501ea11096d/wireframes/RATE-US-page-mobile-view.png)
+    - Mobile Wireframe - [ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/RATE-US-page-mobile-view.png)
 
 ## **Features**
 
-- Responsive on all emulated device provided in chorom browser including:
-Black Berry Z30 and play Book, Gallaxy Note 3, Note II and S III, Kindle fire HDX, LG optimus L70, Laptop with HiDPI screen, MDPI screen and touch, Microsoft Lumia 550 and 950, Moto G4, Nexus 10, 4, 5, 6, 6P and 7, Nokia Lumia 520 and N9, iphad Mini, Jio phone 2, Galaxy S5, Pixel 2 and 2XL, iphone 4, 5, SE, 6, 7, 8, 6 Plus, 7 Plus, 8 Plus and X, i pad and ipad Pro.
-
-- Interactive elements
+- Interactive elements.
 
 - Informetive item descriptions with their images.
 
 - Easy to use.
 
-- Colorful navbar menu which is unik for each page which makes the navigation easier.
+- Colorful navbar menu which is unique for each page which makes the navigation easier.
 
-- A carousel slider for food images in the home page to attract the customers.
+- A carousel slide for food images in the home page to attract the customers.
 
 - It's easy to find navbar, contacts, social media links and sign in / sign up button in all the pages.
 
@@ -151,9 +148,9 @@ Black Berry Z30 and play Book, Gallaxy Note 3, Note II and S III, Kindle fire HD
 
 - Beautiful photos of the dishes and drinks attract the customers.
 
-- reserving seats through the website is easy.
+- reserving seats throughout the website is easy.
 
-- writing a review through the website is easy.
+- writing a review throughout the website is easy.
 
 ## **Features Left to Implement**
 
@@ -176,6 +173,8 @@ Black Berry Z30 and play Book, Gallaxy Note 3, Note II and S III, Kindle fire HD
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+- Basic [JavaScreept](https://en.wikipedia.org/wiki/JavaScript)
 
 ### **Frameworks, Libraries & Programs Used**
 
@@ -201,19 +200,19 @@ Black Berry Z30 and play Book, Gallaxy Note 3, Note II and S III, Kindle fire HD
 
   - Hover.css was used on the Reservation and Rate us button.
 
-* [Git](https://en.wikipedia.org/wiki/Git)
+- [Git](https://en.wikipedia.org/wiki/Git)
 
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-* [github](https://github.com/)
+- [github](https://github.com/)
 
   - GitHub is used to store the projects code after being pushed from Git.
 
-* [gitpod](https://www.gitpod.io/)
+- [gitpod](https://www.gitpod.io/)
 
   - Gitpod is used for testing the project.
 
-* [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq)
+- [Balsamiq](https://en.wikipedia.org/wiki/Balsamiq)
 
   - Balsamiq was used to create the wireframes during the design process.
 
@@ -225,58 +224,43 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service)
 
-  Further the testing of the project has been carried out from the beginning using google developer tools.
+- Further the testing of the project has been carried out from the beginning using google developer tools.
 
-  User stories from the UX section were tested to ensure that they all work as intended, with the project providing an
-  easy and straightforward way for the users to achieve their goals
+- User stories from the UX section that didn't need need usage of javascreept were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 ### **Testing User Stories from User Experience (UX) Section**
 
-- **First Time Visitor Goals**
+- **General Customer Goals**
 
-  i. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the restaurant.
+  i. As a General Customer, I want to easily understand the main purpose of the site and learn more about the restaurant.
 
-  - [x] a.Upon entering the site, users are greeted with a clean and easily readable welcome note and a colorful navigation bar which guides the user to the page of their choice. Underneath the navigation bar there is a Hero carousel slider that makes the visitor interested and shows the main purpose of the site.
+  - [x] a. Upon entering the site, users are greeted with a clean and easily readable welcome note and a colorful navigation bar which guides the user to the page of their choice. Underneath the navigation bar there is a Hero carousel slide that makes the visitor interested and shows the main purpose of the site.
 
-  - [x] b.The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign up / sign in, Contact us informations and social media links.
+  - [x] b. The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign up / sign in, Contact us informations and social media links.
 
-  ii. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+  ii. As a General Customer, I want to be able to easily navigate throughout the site to find content.
 
   - [x] a. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 
   - [x] b. At the bottom of all the order pages there is another food menu navbar which redirect the visitor to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
-  - [x] c. On form Pages, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+  - [x] c. On reservation and rate us page and the modal form of all pages, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
-  iii. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+  iii. As a General Customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
-  - [ ] a. The user can scroll to the bottom of any page on the site to locate social media links in the footer. But the links are not conected to the real page since our restaurant don't have functional social media page.
-
-- **Returning Visitor Goals**
-
-  i. As a Returning Visitor, I want to find the new discount and / or benefit.
-
-  - [ ] a. They will find some benefits and discounts after they sign in and become a member. But since this project is just based on HTML and CSS this part in not functional yet.
-
-  ii. As a Returning Visitor, I want to find the best way to get in contact with the restaurant with any questions I may have.
-
+  - [x] a. The user can scroll to the bottom of any page on the site to locate social media links in the footer; although the links for now are conected to the home page of each media since our restaurant don't have functional social media pages yet.
+  
+  iiii. As a General Customer, I want to find the best way to get in contact with the restaurant with any questions I may have.
+  
   - [x] a. Contact information is located on the foother of all pages.
-
-  The footer contains links to the restaurant's Facebook, Pinterest, Instagram, Twitter and Slack page. But these pages are not conected to the restaurant social media pages yet.
-
-  - [x] b. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-
+  
+  - [x] b. The footer contains links to the restaurant's Facebook, Pinterest, Instagram, Twitter, Whatsapp and Telegram page. although these pages are not conected to the restaurant social media pages they open the home page of each corresponding media.
+  
+  - [x] c. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+  
 - **Frequent User Goals**
 
-  i. As a Frequent User, I want to check to see if there are any new discounts or benefits.
-
-  - [ ] a. The user would already be comfortable with the website layout. By signing in, Loyal Member's get a discount after ordering food for a number of times. This part is not made yet since it needs to be made with javascript. to 
-
-  ii. As a Frequent User, I want to check to see if there are any new blog posts.
-
-  - [x] a. The user would already be comfortable with the website layout and can easily click the blog link.
-
-  iii. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
+  i. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
 
   - [x] a. At the bottom of every page there is a footer which content is consistent throughout all pages.
 
@@ -284,29 +268,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   - [x] c. There is a "Submit" button under the input field which is located close to the field and can easily be distinguished.
   
-  - [ ] d. Newsletter are not made yet.
-
 ### **Further Testing**
 
-- The Website was tested on Google Chrome, Microsoft Edge and Firefox browsers.
+- [x] The Website was tested on Google Chrome, Microsoft Edge and Firefox browser.
 
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+- [x] The website was shown responsive on a variety of emulated devices such as Jio phone, iphone4, 5, SE, 6, 6 plus, 7, 7plus, 8, 8plus and X, Nokia Lumia 520 and N9, Moto G4, Galexy S5, Blackberry Z30 and play book, Galexy note, Microsoft Lumia 950 and 550, LG optimus L70, Nexus 4, 5, 6, 7 and 10 , 6P, Pixel 2 and 2XL, ipad mini, iphad, Kindle fire, ipad pro and laptop with MDPI, touch and HiDPI.
 
-- A large amount of testing was done to ensure that all pages were linking correctly.
+- [x] A large amount of testing was done to ensure that all pages were linking correctly.
 
-- Friends and family members were asked to review the sit and documentation to point out any bugs and/or user experience issues.
+- [x] Friends and family members were asked to review the sit and documentation to point out any bugs and/or user experience issues.
 
 ## **Known Bugs**
 
 - The sweep to bottom hover effect don't cover the buttons all the way down in some mobile phones.
 
-- Sometimes the browser don't open the site and I should reload the page to see the website.
+- Sometimes the browser don't open the site but after reloading the page it workes properly.
 
 ## **Fixed buges**
 
-- When in menu page, clicking on menu button was making an error. The herf for menu page was wrong. The herf attribute was changes from herf="starter.html" to herf="order.html" to fix the problem.
+- [x] When in menu page, clicking on menu button was making an error. The herf for menu page was wrong. The herf attribute was changes from herf="starter.html" to herf="order.html" to fix the problem.
 
-- In some emulated divices, the right to left scroll appeares. In most of them after reloading the page the scroll disapears and the whole page is shown again.
+- [x] In some emulated divices, the right to left scroll appeares. In most of them after reloading the page the scroll disapears and the whole page is shown again.
+
 I used the code below from stack overflow to fix the problem:
 
          html,
@@ -315,7 +298,12 @@ I used the code below from stack overflow to fix the problem:
              overflow-x: hidden;
         }
 
-- Clicking the submit button in modal wasn't resulting in closing the modal.
+- [x] Clicking the submit button in modal wasn't resulting in closing the modal.
+
+I used the code below from stack overflow to fix the problem:
+
+        <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary sign-in-btn" data-dismiss="modal">
 
 ## **Deployment**
 
