@@ -78,7 +78,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 | [Watermelon juice](https://images.eatthismuch.com/site_media/img/854541_Shamarie84_45b61cdb-ddfc-43dd-bf1f-6c366caf07a5.png) | [Orange juice](https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg) | [Masala chai](https://wendypolisi.com/wp-content/uploads/2018/09/dirty-chai-latte-2.jpg) | [Bloody mary](https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg) |
 | [White russian](https://i.pinimg.com/originals/af/d2/4c/afd24c5047e6aaa1cfbe4dd8e8d7468f.jpg) |  [Espresso](https://kaffeexperterna.com/wp-content/uploads/2015/08/espresso-crema-kaffe.jpg) |
 
-* ### **Structure**
+- ### **Structure**
 
   - #### First and third section(header and footer):
 
@@ -104,7 +104,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
      This section consist of a form for review and feedbacks.
 
-* ### **Skeleton**
+- ### **Skeleton**
 
   - Wireframes are created using balsamiq.
   
@@ -112,7 +112,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
   - The design of the website is mainly the same for desktop and tablet however on mobile screen the content will be re-arranged. The user will move from top to the bottom.
 
-* ### **Wireframes**
+- ### **Wireframes**
 
   - Home Page Wireframe -[ View](https://github.com/behnazkhoshnood/my-first-milestone-project/blob/master/wireframes/HOME-page-desktop-view.png)
 
@@ -344,9 +344,11 @@ Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 - ### **Code**
 
   - [Bootstrap4](getbootstrap.com)
+  
     - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
   - [MDN Web Docs](developer.mozilla.org)
+  
     - For reservation time and validity. Code was modified to better fit my needs. Tutorial Found [Here]((https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
 
   -[Stack overflow](https://stackoverflow.com/)
