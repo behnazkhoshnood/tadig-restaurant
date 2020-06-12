@@ -309,7 +309,9 @@ I used the code below from stack overflow to fix the problem:
 
 Following steps has been taken to deploy Tadig restaurant website on GitHub pages;
 
-1. Go to GitHub and click on repository [behnazkhoshnood/my-first-milestone-project](https://github.com/behnazkhoshnood/my-first-milestone-project)
+1. Go to GitHub and click on repository [behnazkhoshnood
+/
+Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 
 1. Click on **Settings** on the top right of the page
 
@@ -323,7 +325,9 @@ Following steps has been taken to deploy Tadig restaurant website on GitHub page
 
 Follow these steps to run website locally on your machine;
 
-1. Go to Github repository [behnazkhoshnood/my-first-milestone-project](https://github.com/behnazkhoshnood/my-first-milestone-project)
+1. Go to Github repository [behnazkhoshnood
+/
+Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 
 1. Click on **Clone or Download**
 
@@ -339,15 +343,12 @@ Follow these steps to run website locally on your machine;
 
 - ### **Code**
 
-  - [Bootstrap4](getbootstra.com)
+  - [Bootstrap4](getbootstrap.com)
     - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
   - [MDN Web Docs](developer.mozilla.org)
-    - For Pattern Validation code. Code was modified to better fit my needs. Tutorial Found [Here](developer.mozilla.org)
+    - For reservation time and validity. Code was modified to better fit my needs. Tutorial Found [Here]((https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
 
-  - [mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
-    - Used for fixing the reservation time and validity.
-    
   -[Stack overflow](https://stackoverflow.com/)
   
     - Used for fixing the buges mentioned in the Fixed bugs above.
