@@ -319,7 +319,9 @@ Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 
 1. Click on **dropdown menu** under **Source** section and select **Master Branch as Source**
 
-1. **Save**
+1. The page will automatically refresh.
+
+1. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### **Local Deployment**
 
