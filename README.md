@@ -280,9 +280,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## **Known Bugs**
 
-- [ ]The sweep to bottom hover effect don't cover the buttons all the way down in some mobile phones.
+- [ ] The sweep to bottom hover effect don't cover the buttons all the way down in some mobile phones.
 
-- [ ]Sometimes the browser don't open the site but after reloading the page it workes properly.
+- [ ] Sometimes the browser don't open the site but after reloading the page it workes properly.
 
 ## **Fixed buges**
 
@@ -362,6 +362,7 @@ Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 - All Images are from external source which are mentioned in the table in Imagery section and are used only for educational purposes.
 
 ### **Acknowledgements**
+
 1. A special thanks to my mentor for his valuable feedback during mentoring sessions.
 
 1. Also I like to thank all of Code Institute support groups.
