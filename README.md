@@ -280,9 +280,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## **Known Bugs**
 
-- The sweep to bottom hover effect don't cover the buttons all the way down in some mobile phones.
+- [ ]The sweep to bottom hover effect don't cover the buttons all the way down in some mobile phones.
 
-- Sometimes the browser don't open the site but after reloading the page it workes properly.
+- [ ]Sometimes the browser don't open the site but after reloading the page it workes properly.
 
 ## **Fixed buges**
 
