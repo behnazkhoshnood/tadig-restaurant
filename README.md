@@ -220,9 +220,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) 
+- [W3C Markup Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) : [Result](https://validator.w3.org/nu/#textarea)
 
-- [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service)
+- [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) : [Result](https://validator.w3.org/nu/#textarea)
 
 - Further the testing of the project has been carried out from the beginning using google developer tools.
 
