@@ -6,7 +6,6 @@
 This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made-up Persian restaurant.
 It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers.
 
-![Tadig reataurant](images/HOME.png)
 
 ## **User Experience (UX)**
 
