@@ -61,7 +61,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
   - #### Typography
 
-    - Roboto and Baloo Bhaina font are the main fonts used throughout the whole website with Sans Serif as the fallback font in a case for any reason the font isn't being imported into the site correctly.
+    - Siracha and Source Sans Pro font are the main fonts used throughout the whole website with Cursive and Sans Serif as the fallback font in a case for any reason the font isn't being imported into the site correctly.
 
   - #### Imagery and content
 

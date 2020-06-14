@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200;1,400;1,600;1,700;1,900&family=Sriracha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200;1,400;1,600;1,700;1,900&family=Sriracha&display=swap");
 
 /* --------------------------------------------------------------------Colors */
 
@@ -37,8 +37,8 @@ footer {
   padding: 0;
 }
 
-footer{
-    overflow-y: hidden;
+footer {
+  overflow-y: hidden;
 }
 
 .inline {
@@ -61,18 +61,23 @@ h1,
 h2,
 h3,
 h4,
-.uppercase,
-body
- {
+label,
+.btn {
   font-family: "Sriracha", cursive;
   text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-h5
- {
-  font-family: "Source San Pro", sans-serif;
-  font-weight: 600;
+h5,
+input {
+  font-family: "Sriracha", cursive;
   text-align: left;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
 }
 
 ul {
@@ -84,7 +89,18 @@ a {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 900;
+  font-family: "Source Sans Pro";
+}
+
+em {
+  font-weight: 800;
+  font-family: "Source Sans Pro";
+}
+
+.small {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
 }
 
 /* --------------------------------------------------------------------header */
@@ -160,7 +176,7 @@ footer {
 }
 
 .footer-parts {
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
 .sign-in-note {
@@ -256,7 +272,6 @@ footer {
   padding-bottom: 10px;
   font-size: 26px;
   font-weight: 600;
-  
 }
 
 form,
@@ -290,7 +305,7 @@ form,
   width: 100%;
 }
 
-.footer-content{
+.footer-content {
   padding-top: 10px;
 }
 
@@ -307,7 +322,6 @@ form,
 .jumbotron-fluid p,
 .index-note {
   font-family: "Sriracha", cursive;
-  font-weight: 300;
   text-align: justify;
   margin: 10px;
   margin-bottom: 20px;
@@ -424,17 +438,17 @@ input:valid + span:after {
   color: #808080;
 }
 
-.reservation-info label{
-    margin-bottom: 0;
-    margin-top: 15px;
+.reservation-info label {
+  margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .reservation-info input:active {
   background-color: #aa58aa;
 }
 
-.views label{
-    padding-left: 5px;
+.views label {
+  padding-left: 5px;
 }
 
 form {
@@ -445,6 +459,8 @@ form {
 .form-p {
   margin: 0 auto;
   margin-bottom: 20px;
+  font-family: "Siracha", CURSIVE;
+  font-weight: 200;
 }
 
 small {
@@ -551,36 +567,33 @@ label.custom-control-label {
   .contact-items div {
     margin-left: 15px;
   }
-  
-  .menuitem span{
-      font-size: 10px;
+
+  .menuitem span {
+    font-size: 10px;
   }
-  
-  .page-heading{
-      font-size: 25px;
-      font-weight: bold;
+
+  .page-heading {
+    font-size: 25px;
+    font-weight: bold;
   }
-  
-  .general-sub{
-      font-size: 20px;
+
+  .general-sub {
+    font-size: 20px;
   }
-  
 }
 
-@media only screen and (min-width:301px) and (max-width:601px){
-    .page-heading{
-      font-size: 32px;
+@media only screen and (min-width: 301px) and (max-width: 601px) {
+  .page-heading {
+    font-size: 32px;
   }
-    
 }
 
-@media only screen and (min-width: 580px){
-    .sign-in-btn {
-        margin-right: 10px;
-        height: 50px;
-    }
+@media only screen and (min-width: 580px) {
+  .sign-in-btn {
+    margin-right: 10px;
+    height: 50px;
+  }
 }
-
 
 @media only screen and (min-width: 795px) {
   footer p,
@@ -599,36 +612,35 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px) {
   #nav,
   #nav li,
   .menuitem,
   .hvr-sweep-to-bottom:before,
   header {
     height: 220px;
-  }  
-  
+  }
+
   .menuitem span {
     font-size: 21px;
     padding-top: 95px;
   }
-  
 }
 
-@media only screen and (min-height: 1200px){
+@media only screen and (min-height: 1200px) {
   html,
   body {
     height: 100%;
   }
-  
+
   #nav,
   #nav li,
   .menuitem,
   .hvr-sweep-to-bottom:before,
-   header {
+  header {
     height: 220px;
   }
-  
+
   .menuitem span {
     font-size: 21px;
     padding-top: 95px;
@@ -643,8 +655,8 @@ label.custom-control-label {
     padding-bottom: 20px;
     padding-top: 25px;
   }
-  
-  .social-links{
-      height: 75%;
+
+  .social-links {
+    height: 75%;
   }
 }
