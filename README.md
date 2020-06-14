@@ -2,7 +2,7 @@
 
 ## **Description**
 
-[View the live project here.]()
+[View the live project here.](https://behnazkhoshnood.github.io/tadig-restaurant/)
 This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made-up Persian restaurant.
 It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers.
 
@@ -316,7 +316,7 @@ Following steps has been taken to deploy Tadig restaurant website on GitHub page
 
 1. Go to GitHub and click on repository [behnazkhoshnood
 /
-tadig-restaurant]()
+tadig-restaurant](https://github.com/behnazkhoshnood/tadig-restaurant)
 
 1. Click on **Settings** on the top right of the page
 
@@ -334,7 +334,7 @@ Follow these steps to run the website locally on your machine;
 
 1. Go to Github repository [behnazkhoshnood
 /
-tadig-restaurant]()
+tadig-restaurant](https://github.com/behnazkhoshnood/tadig-restaurant)
 
 1. Click on **Clone or Download**
 
