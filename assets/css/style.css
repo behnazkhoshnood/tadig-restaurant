@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500&family=Roboto+Condensed:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200;1,400;1,600;1,700;1,900&family=Sriracha&display=swap');
 
 /* --------------------------------------------------------------------Colors */
 
@@ -40,6 +40,7 @@ footer {
 footer{
     overflow-y: hidden;
 }
+
 .inline {
   display: inline;
 }
@@ -59,19 +60,19 @@ footer{
 h1,
 h2,
 h3,
-h4
+h4,
+.uppercase,
+body
  {
-  font-family: "Baloo Bhaina", sans-serif;
+  font-family: "Sriracha", cursive;
   text-align: center;
 }
 
-h5,
-h6,
-p,
-.btn,
-span {
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
+h5
+ {
+  font-family: "Source San Pro", sans-serif;
+  font-weight: 600;
+  text-align: left;
 }
 
 ul {
@@ -143,6 +144,7 @@ header {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 300;
+  font-family: "Sriracha", cursive;
   letter-spacing: 2px;
 }
 
@@ -247,11 +249,14 @@ footer {
 }
 
 .general-sub {
-  padding-bottom: 10px;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 26px;
   font-weight: 600;
+  
 }
 
 form,
@@ -267,7 +272,7 @@ form,
   background-size: cover;
   padding-left: 0;
   padding-right: 0;
-  height: 590px;
+  height: 655px;
 }
 
 .carousel-item h5 {
@@ -290,7 +295,6 @@ form,
 }
 
 .page-heading {
-  font-family: "Baloo Bhaina", sans-serif;
   font-weight: 400;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -302,7 +306,8 @@ form,
 
 .jumbotron-fluid p,
 .index-note {
-  font-family: "Roboto", sans-serif;
+  font-family: "Sriracha", cursive;
+  font-weight: 300;
   text-align: justify;
   margin: 10px;
   margin-bottom: 20px;
@@ -318,6 +323,7 @@ form,
   margin-top: 20px;
   text-align: center;
   line-height: 1.5;
+  font-family: "Source Sans Pro";
 }
 
 /* -----------------------------------------------------------------food-menu */
@@ -564,10 +570,17 @@ label.custom-control-label {
 @media only screen and (min-width:301px) and (max-width:601px){
     .page-heading{
       font-size: 32px;
-      font-weight: bold;
   }
     
 }
+
+@media only screen and (min-width: 580px){
+    .sign-in-btn {
+        margin-right: 10px;
+        height: 50px;
+    }
+}
+
 
 @media only screen and (min-width: 795px) {
   footer p,
@@ -623,12 +636,12 @@ label.custom-control-label {
 
   footer,
   .jumbotron-fluid {
-    height: 20.5%;
+    height: 21%;
   }
 
   .general-sub {
-    padding-bottom: 35px;
-    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-top: 25px;
   }
   
   .social-links{
