@@ -1,7 +1,12 @@
 # **Tadig Restaurant Website**
 
+## **Description**
+
+[View the live project here.](https://behnazkhoshnood.github.io/tadig-restaurant/)
 This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made up persian restaurant.
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
+
+![Image of Yaktocat](/images/Home-page.png)
 
 ## **User Experience (UX)**
 
@@ -70,9 +75,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 | Starter page | Main page | Desserst page | Drink page |
 |:---------------|:---------------|:---------------|:---------------|
 | [Kashke bademjan](https://persianfoodtours.com/wp-content/uploads/2019/10/Kashk-e-Bademjan.jpg) | [Baghali polo](https://www.behesht.co.uk/images/behesht/foods/maincourse/baghali-polo.jpg) | [Baklava](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyftLKhAJzlAmscp5fLjIjBYzrP-Vy1_7xsl9SHiQAFTu8vCeM&usqp=CAU) | [Doogh](https://www.thedeliciouscrescent.com/wp-content/uploads/2020/03/Doogh_5.jpg) |
-| [Mirza ghasemi](https://claudiacanu.com/wp-content/uploads/2018/07/Mirza-Ghasemi-eggplant-sauce.jpg) | [Zereshk polo ba morgh](https://yummynotes.net/wp-content/uploads/2020/04/Zereshk-Polo.jpg) <br> Info : [Persian Mama](https://persianmama.com/zereshk-polo-ba-morgh/) | [Faloodeh shirazi](https://i.pinimg.com/originals/1b/d9/12/1bd9124c6ffb8cdfbc0e5e2c536dd2b1.jpg) | [Araghe bid meshek](https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg) <br> Info : [Diba](https://dibaonline.de/NIK-Aragh-Bidmeshk-Willow-blossoms-430ml) |
-| [Do piaze alo](https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG) | [Khoreshte gheyme bademjan](https://igotitfrommymaman.com/wp-content/uploads/2020/01/Khoreshe-Gheymeh-11-scaled.jpg) <br> Info : [Persian food tours](http://www.persianfoodtours.com/khoresht-gheymeh-bademjan-yellow-split-peas-stew/) | [Bastani sonnati](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU) | [Gol gav zaban](https://images-na.ssl-images-amazon.com/images/I/61-KwamytGL._A.jpg) <br> Info : [The persian pot](http://www.thepersianpot.com/recipe/gol-gav-zaban-borage-tea/) |
-| [Salad olvie](https://i.pinimg.com/originals/39/37/be/3937be2fea7c0c2fb2c9987b7a63bc4b.jpg) <br> Info : [Persian mama](https://persianmama.com/salad-olivieh-persian-chicken-salad/) | [Khoreshte ghorme Sabzi](https://www.196flavors.com/wp-content/uploads/2017/03/ghormeh-sabzi-3.jpg) | [Noon khamei](https://image.shutterstock.com/z/stock-photo-profiteroles-fresh-cream-puffs-cakes-filled-with-pastry-cream-and-topped-with-chocolate-sauce-in-a-705988894.jpg) | [Mojito](https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg) |
+| [Mirza ghasemi](https://claudiacanu.com/wp-content/uploads/2018/07/Mirza-Ghasemi-eggplant-sauce.jpg) | [Zereshk polo ba morgh](https://yummynotes.net/wp-content/uploads/2020/04/Zereshk-Polo.jpg) <br> Info : [Persian Mama](https://persianmama.com/zereshk-polo-ba-morgh/) | [Faloodeh shirazi](https://i.pinimg.com/originals/1b/d9/12/1bd9124c6ffb8cdfbc0e5e2c536dd2b1.jpg) | [Araghe bidmeshek](https://en.snapptrip.com/blog/wp-content/uploads/2017/05/Sharbat-e-Khakshi-1024x805.jpg) <br> Info : [Diba](https://dibaonline.de/NIK-Aragh-Bidmeshk-Willow-blossoms-430ml) |
+| [Do piaze alo](https://3.bp.blogspot.com/-psIKWaAbLDc/Wt4mpNShYGI/AAAAAAAAKzM/Z4Rb5Bj-7Mka3VhIoJb6NAtpSwbJ0pQEgCLcBGAs/s1600/DoPiazeh_TurmericSaffron.JPG) | [Khoreshte gheyme bademjan](https://igotitfrommymaman.com/wp-content/uploads/2020/01/Khoreshe-Gheymeh-11-scaled.jpg) <br> Info : [Persian food tours](http://www.persianfoodtours.com/khoresht-gheymeh-bademjan-yellow-split-peas-stew/) | [Bastani sonnati](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgL85WQFb-72OdGFDShM4gpfIt5z1tGWhmIha_Tv8XBehXtcKE&usqp=CAU) | [Gol gav zaboon](https://images-na.ssl-images-amazon.com/images/I/61-KwamytGL._A.jpg) <br> Info : [The persian pot](http://www.thepersianpot.com/recipe/gol-gav-zaban-borage-tea/) |
+| [Salad olvie](https://i.pinimg.com/originals/39/37/be/3937be2fea7c0c2fb2c9987b7a63bc4b.jpg) <br> Info : [Persian mama](https://persianmama.com/salad-olivieh-persian-chicken-salad/) | [Khoreshte ghorme Sabzi](https://www.196flavors.com/wp-content/uploads/2017/03/ghormeh-sabzi-3.jpg) | [Noon khamei](https://i1.wp.com/www.littleswissbaker.com/wp-content/uploads/2016/04/DSC_1897v2.jpg?w=680&ssl=1) | [Mojito](https://alldayidreamaboutfood.com/wp-content/uploads/2013/05/Honest-Mojitos-3.jpg) |
 | [Noon panir sabzi](https://cdn.shortpixel.ai/spai/q_lossless+ret_img/https://3nkq72bhhp51kv1h2do55o5r-wpengine.netdna-ssl.com/wp-content/uploads/2.3_NAT_American-Herbal-Cookbook_NEW-Wordpress.jpg) <br> Info : [Clean plates](https://www.cleanplates.com/eat/recipes-eat/panir-sabzi/) | [Khoreshte fesenjoon ba morgh](https://3.bp.blogspot.com/-RaW9e0WBdAA/T_7DZs4o5sI/AAAAAAAACxs/xTdy-dEqpVQ/s1600/Fesenjoon-TS.jpg) | [Ranginak](https://4.bp.blogspot.com/-LBlaXdUqrYo/Tba1gvjYyHI/AAAAAAAACvs/l1bm02mG7-s/s1600/227458_206016996087508_100000376264948_606452_2793162_n.jpg) | [Berry juice](https://5.imimg.com/data5/LY/KU/OD/GLADMIN-7061725/berryjuice-500x500.jpg) |
 | **More Drinks** |                                                                                                                                                                                                                                                                                  |
 | [Watermelon juice](https://images.eatthismuch.com/site_media/img/854541_Shamarie84_45b61cdb-ddfc-43dd-bf1f-6c366caf07a5.png) | [Orange juice](https://www.earthfoodandfire.com/wp-content/uploads/2018/04/Homemade-Orange-Juice.jpg) | [Masala chai](https://wendypolisi.com/wp-content/uploads/2018/09/dirty-chai-latte-2.jpg) | [Bloody mary](https://www.bbcgoodfood.com/sites/default/files/user-collections/my-colelction-image/2015/12/bloody-mary.jpg) |
@@ -174,7 +179,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-- Basic [JavaScreept](https://en.wikipedia.org/wiki/JavaScript)
+- [JavaScreept](https://en.wikipedia.org/wiki/JavaScript)
 
 ### **Frameworks, Libraries & Programs Used**
 
@@ -284,11 +289,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [ ] Sometimes the browser don't open the site but after reloading the page it workes properly.
 
-## **Fixed buges**
+## **Fixed  bugs**
 
-- [x] When in menu page, clicking on menu button was making an error. The herf for menu page was wrong. The herf attribute was changes from herf="starter.html" to herf="order.html" to fix the problem.
+- [x] When in menu page, clicking on menu button was making an error. The href for menu page was wrong. The href attribute was changes from href="starter.html" to href="order.html" to fix the problem.
 
-- [x] In some emulated divices, the right to left scroll appeares. In most of them after reloading the page the scroll disapears and the whole page is shown again.
+- [x] In some emulated divices, the right to left scroll appears. In most of them after reloading the page the scroll disapears and the whole page is shown again.
 
 I used the code below from stack overflow to fix the problem:
 
@@ -355,7 +360,7 @@ Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 
   -[Stack overflow](https://stackoverflow.com/)
   
-    - Used for fixing the buges mentioned in the Fixed bugs above.
+    - Used for fixing the  bugs mentioned in the Fixed bugs above.
 
   - to open my project in the browser I used this code: `python3 -m http.server` 
 
@@ -365,7 +370,7 @@ Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 
 ### **Acknowledgements**
 
-1. A special thanks to my mentor for his valuable feedback during mentoring sessions.
+1. A special thanks to my mentor, Rohit Sharma, for his valuable feedback during mentoring sessions.
 
 1. Also I like to thank all of Code Institute support groups.
 
@@ -375,4 +380,4 @@ Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 
 1. Code Institute tutorials were very helpful throughout the whole project.
 
-1. Bootstrap is also used in the project. (Bootstrap grid, Bootstrap Moodle and Bootstrap classes)
+1. Bootstrap is also used in the project. (Bootstrap grid, Bootstrap Modal and Bootstrap classes)
