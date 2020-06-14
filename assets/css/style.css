@@ -408,29 +408,27 @@ input:valid + span:after {
   background-color: #804580;
 }
 
-.reservation-info {
-  margin: 0 auto;
-}
-
-.reservation-info label {
-  margin-top: 20px;
-}
-
 .reservation-info input {
   border-width: 2px;
   border-color: #e0e0e0;
   border-radius: 20px;
   background-color: #f5eaf5;
+  height: 45px;
   text-align: center;
   color: #808080;
-  height: 30px;
-  padding-bottom: 2px;
-  font-size: 14px;
 }
 
-.reservation-info input:focus {
-  outline-color: #aa58aa;
-  outline-width: 2px;
+.reservation-info label{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.reservation-info input:active {
+  background-color: #aa58aa;
+}
+
+.views label{
+    padding-left: 5px;
 }
 
 form {
@@ -459,11 +457,11 @@ small {
 .radio-questions label {
   margin-top: 0px;
   margin-left: 5px;
-  vertical-align: middle;
+  vertical-align: -webkit-baseline-middle;
 }
 
 .radio-questions input {
-  height: 20px;
+  height: 30px;
 }
 
 .rate-us-submit-btn {
