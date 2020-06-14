@@ -3,8 +3,8 @@
 ## **Description**
 
 [View the live project here.](https://behnazkhoshnood.github.io/tadig-restaurant/)
-This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made up persian restaurant.
-It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential customers.
+This website is made for restaurants. We named our restaurant "Tadig restaurant" which is a made-up Persian restaurant.
+It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential customers.
 
 ![Image of Yaktocat](/images/Home-page.png)
 
@@ -18,11 +18,11 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
      b. As a General customer, I want to find the best way to get in contact with the restaurant with any questions I may have.
      
-     c. As a General customer, I want to easly find the opening time and location of the restaurant.
+     c. As a General customer, I want to easily find the opening time and location of the restaurant.
 
-     d. As a General customer, I would like to see a menu of dishes and their description and ingridients.
+     d. As a General customer, I would like to see a menu of dishes and their description and ingredients.
 
-     e. As a General customer, I would like to reserve a table in a specefic time and date in the restaurant.
+     e. As a General customer, I would like to reserve a table at a specific time and date in the restaurant.
 
      f. As a General customer, I would like to write a review for the restaurant.
 
@@ -34,15 +34,15 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
   - #### Returning Visitor Goals
 
-     a. As a Returning Visitor, I want to find information about any discounts and loyality benefits.
+     a. As a Returning Visitor, I want to find information about any discounts and loyalty benefits.
 
   - #### Frequent User Goals
 
-     a. As a Frequent User, I would like to get some benefits or discounts from beeing a loyal customer.
+     a. As a Frequent User, I would like to get some benefits or discounts from being a loyal customer.
 
      b. As a Frequent User, I want to check to see if there are any new blog posts.
 
-     c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
+     c. As a Frequent User, I want to sign up for the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
 
 - ### **Design**
 
@@ -62,13 +62,13 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
   - #### Typography
 
-    - Roboto and Baloo Bhaina font are the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+    - Roboto and Baloo Bhaina font are the main fonts used throughout the whole website with Sans Serif as the fallback font in a case for any reason the font isn't being imported into the site correctly.
 
   - #### Imagery and content
 
     - Home page large, background hero carousel slide is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
-    - In Order pages all the dishes have their image next to them. The informations about the dishes are all taken from wikipedia except the one's mentioned below in the table. Source of all images used in this site is mentioned in the table below:
+    - In Order pages, all the dishes have their image next to them. The information about the dishes is all taken from Wikipedia except the ones mentioned below in the table. Source of all images used in this site is mentioned in the table below:
 
     <br>
 
@@ -89,7 +89,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
     - The website consist of 7 pages named: index(Home), order(Menu), order main, order dessert, order drinks, reservation and rate us. Each page has three sections.
 
-    - The main content of header and footer sections are the same in all the pages. The Header section consist of the navbar menu for navigation through the website and the footer section consist of Sign in / sign up button, contacts and social media links.
+    - The main content of the header and footer sections are the same in all the pages. The Header section consists of the navbar menu for navigation through the website and the footer section consists of Sign in / sign up button, contacts, and social media links.
 
   - #### Second section:
 
@@ -99,15 +99,15 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
     - **Order pages**
 
-      This sections consist of two food menu headers on top and the bottom of the section to make the navigation easier throughout the order pages. These pages also consist of the list of dishes with their image, description and ingridients guide.
+      These sections consist of two food menu headers on top and the bottom of the section to make the navigation easier throughout the order pages. These pages also consist of the list of dishes with their image, description, and ingredients guide.
 
    - **Reservation page**
 
-     This section consist of a form for reservation.
+     This section consists of a form for reservation.
 
    - **Rate US page**
 
-     This section consist of a form for review and feedbacks.
+     This section consists of a form for review and feedback.
 
 - ### **Skeleton**
 
@@ -115,7 +115,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
   
   - Link to the wireframes is available under wireframes.
 
-  - The design of the website is mainly the same for desktop and tablet however on mobile screen the content will be re-arranged. The user will move from top to the bottom.
+  - The design of the website is mainly the same for desktop and tablet however on mobile screen the content will be re-arranged. The user will move from top to bottom.
 
 - ### **Wireframes**
 
@@ -139,17 +139,17 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 - Interactive elements.
 
-- Informetive item descriptions with their images.
+- Informative item descriptions with their images.
 
 - Easy to use.
 
-- Colorful navbar menu which is unique for each page which makes the navigation easier.
+- Colorful navbar menu is unique for each page which makes navigation easier.
 
-- A carousel slide for food images in the home page to attract the customers.
+- A carousel slide for food images on the home page to attract the customers.
 
-- It's easy to find navbar, contacts, social media links and sign in / sign up button in all the pages.
+- It's easy to find navbar, contacts, social media links, and sign in / sign up button in all the pages.
 
-- The top and bottom food menu buttons make it easier to navigation throughout the food menus.
+- The top and bottom food menu buttons make it easier to navigate throughout the food menus.
 
 - Beautiful photos of the dishes and drinks attract the customers.
 
@@ -159,15 +159,15 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ## **Features Left to Implement**
 
-- In future I want to make an app for the restaurant.
+- In the future, I want to make an app for the restaurant.
 
-- I want to add the loyality chart which is functional.
+- I want to add a functional loyalty chart.
 
 - I want to make a logo for the restaurant.
 
-- Social media profiles of Tadig restutant will be added in future.
+- Social media profiles of Tadig restaurant will be added in the future.
 
-- Use original photos with same backgrounds.
+- Use original photos with the same backgrounds.
 
 - Add a food delivery system. 
 
@@ -193,7 +193,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 - [Font Awesome](https://fontawesome.com/v4.7.0/icons/)
 
-  - Fontawesome icons was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+  - Fontawesome icons were used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 - [Hover.css](https://ianlunn.github.io/Hover/)
 
@@ -207,11 +207,11 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 - [Git](https://en.wikipedia.org/wiki/Git)
 
-  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 
 - [github](https://github.com/)
 
-  - GitHub is used to store the projects code after being pushed from Git.
+  - GitHub is used to store the project's code after being pushed from Git.
 
 - [gitpod](https://www.gitpod.io/)
 
@@ -229,9 +229,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) : [Result](https://validator.w3.org/nu/#textarea)
 
-- Further the testing of the project has been carried out from the beginning using google developer tools.
+- Further, the testing of the project has been carried out from the beginning using google developer tools.
 
-- User stories from the UX section that didn't need need usage of javascreept were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- User stories from the UX section that didn't need usage of javascript were tested to ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 ### **Testing User Stories from User Experience (UX) Section**
 
@@ -239,61 +239,61 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   i. As a General Customer, I want to easily understand the main purpose of the site and learn more about the restaurant.
 
-  - [x] a. Upon entering the site, users are greeted with a clean and easily readable welcome note and a colorful navigation bar which guides the user to the page of their choice. Underneath the navigation bar there is a Hero carousel slide that makes the visitor interested and shows the main purpose of the site.
+  - [x] a. Upon entering the site, users are greeted with a clean and easily readable welcome note and a colorful navigation bar that guides the user to the page of their choice. Underneath the navigation bar, there is a Hero carousel slide that makes the visitor interested and shows the main purpose of the site.
 
-  - [x] b. The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign up / sign in, Contact us informations and social media links.
+  - [x] b. The user has two options, click the navigation bar buttons and go to the page of their choice or scroll down and locate the sign-up / sign-in, Contact us information and social media links.
 
   ii. As a General Customer, I want to be able to easily navigate throughout the site to find content.
 
-  - [x] a. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+  - [x] a. The site has been designed to be fluid and never to entrap the user. At the top of each page, there is a clean navigation bar, each link describes what the page they will end up at clearly.
 
-  - [x] b. At the bottom of all the order pages there is another food menu navbar which redirect the visitor to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+  - [x] b. At the bottom of all the order pages, there is another food menu navbar that redirects the visitor to the top of the page to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
   - [x] c. On reservation and rate us page and the modal form of all pages, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
   iii. As a General Customer, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
-  - [x] a. The user can scroll to the bottom of any page on the site to locate social media links in the footer; although the links for now are conected to the home page of each media since our restaurant don't have functional social media pages yet.
+  - [x] a. The user can scroll to the bottom of any page on the site to locate social media links in the footer; although the links, for now, are connected to the home page of each media since our restaurant doesn't have functional social media pages yet.
   
-  iiii. As a General Customer, I want to find the best way to get in contact with the restaurant with any questions I may have.
+  iii. As a General Customer, I want to find the best way to get in contact with the restaurant with any questions I may have.
   
-  - [x] a. Contact information is located on the foother of all pages.
+  - [x] a. Contact information is located on the footer of all pages.
   
-  - [x] b. The footer contains links to the restaurant's Facebook, Pinterest, Instagram, Twitter, Whatsapp and Telegram page. although these pages are not conected to the restaurant social media pages they open the home page of each corresponding media.
+  - [x] b. The footer contains links to the restaurant's Facebook, Pinterest, Instagram, Twitter, Whatsapp, and Telegram page. although these pages are not connected to the restaurant social media pages they open the home page of each corresponding media.
   
   - [x] c. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
   
 - **Frequent User Goals**
 
-  i. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
+  i. As a Frequent User, I want to sign up for the Newsletter so that I am emailed any major updates and/or changes to the website or restaurant.
 
-  - [x] a. At the bottom of every page there is a footer which content is consistent throughout all pages.
+  - [x] a. At the bottom of every page, there is a footer which content is consistent throughout all pages.
 
-  - [x] b. To the left side of the footer the user can see Sign in / Sign up button. By clicking on that they can fill in the alternative "Subscribe to our Newsletter".
+  - [x] b. To the left side of the footer, the user can see the Sign in / Sign up button. By clicking on that they can fill in the alternative "Subscribe to our Newsletter".
 
   - [x] c. There is a "Submit" button under the input field which is located close to the field and can easily be distinguished.
   
 ### **Further Testing**
 
-- [x] The Website was tested on Google Chrome, Microsoft Edge and Firefox browser.
+- [x] The Website was tested on Google Chrome, Microsoft Edge, and Firefox browser.
 
-- [x] The website was shown responsive on a variety of emulated devices such as Jio phone, iphone4, 5, SE, 6, 6 plus, 7, 7plus, 8, 8plus and X, Nokia Lumia 520 and N9, Moto G4, Galexy S5, Blackberry Z30 and play book, Galexy note, Microsoft Lumia 950 and 550, LG optimus L70, Nexus 4, 5, 6, 7 and 10 , 6P, Pixel 2 and 2XL, ipad mini, iphad, Kindle fire, ipad pro and laptop with MDPI, touch and HiDPI.
+- [x] The website was shown responsive on a variety of emulated devices such as Jio phone, iphone4, 5, SE, 6, 6 plus, 7, 7plus, 8, 8plus and X, Nokia Lumia 520 and N9, Moto G4, Galaxy S5, Blackberry Z30 and playbook, Galaxy note, Microsoft Lumia 950 and 550, LG Optimus L70, Nexus 4, 5, 6, 7 and 10, 6P, Pixel 2 and 2XL, iPad mini, iPad, Kindle Fire, iPad pro and laptop with MDPI, touch, and HiDPI.
 
 - [x] A large amount of testing was done to ensure that all pages were linking correctly.
 
-- [x] Friends and family members were asked to review the sit and documentation to point out any bugs and/or user experience issues.
+- [x] Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ## **Known Bugs**
 
-- [ ] The sweep to bottom hover effect don't cover the buttons all the way down in some mobile phones.
+- [ ] The sweep to bottom hover effect doesn't cover the buttons on some mobile phones.
 
-- [ ] Sometimes the browser don't open the site but after reloading the page it workes properly.
+- [ ] Sometimes the browser doesn't open the site but after reloading the page it workes properly.
 
 ## **Fixed  bugs**
 
-- [x] When in menu page, clicking on menu button was making an error. The href for menu page was wrong. The href attribute was changes from href="starter.html" to href="order.html" to fix the problem.
+- [x] When on the menu page, click on the menu button was making an error. The href for the menu page was wrong. The href attribute was changed from href="starter.html" to href="order.html" to fix the problem.
 
-- [x] In some emulated divices, the right to left scroll appears. In most of them after reloading the page the scroll disapears and the whole page is shown again.
+- [x] In some emulated devices, the right to left scroll appears. In most of them after reloading the page, the scroll disappears and the whole page is shown again.
 
 I used the code below from stack overflow to fix the problem:
 
@@ -330,7 +330,7 @@ Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 
 ### **Local Deployment**
 
-Follow these steps to run website locally on your machine;
+Follow these steps to run the website locally on your machine;
 
 1. Go to Github repository [behnazkhoshnood
 /
@@ -356,28 +356,28 @@ Tadig-Restaurant](https://github.com/behnazkhoshnood/Tadig-Restaurant)
 
   - [MDN Web Docs](developer.mozilla.org)
   
-    - For reservation time and validity. Code was modified to better fit my needs. Tutorial Found [Here]((https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
+    - For reservation time and validity. The code was modified to better fit my needs. Tutorial Found [Here]((https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
 
   -[Stack overflow](https://stackoverflow.com/)
   
-    - Used for fixing the  bugs mentioned in the Fixed bugs above.
+    - Used for fixing the bugs mentioned in the Fixed bugs above.
 
   - to open my project in the browser I used this code: `python3 -m http.server` 
 
 ### **Media**
 
-- All Images are from external source which are mentioned in the table in Imagery section and are used only for educational purposes.
+- All Images are from an external source which is mentioned in the table in the Imagery section and is used only for educational purposes.
 
 ### **Acknowledgements**
 
 1. A special thanks to my mentor, Rohit Sharma, for his valuable feedback during mentoring sessions.
 
-1. Also I like to thank all of Code Institute support groups.
+1. Also, I like to thank all of the Code Institute support groups.
 
-1. The design and layout of this website is based on the Rule of Thirds.
+1. The design and layout of this website are based on the Rule of Thirds.
 
-1. All the images in the website have external source and have been used for only educational purposes.
+1. All the images on the website have an external source and have been used for only educational purposes.
 
 1. Code Institute tutorials were very helpful throughout the whole project.
 
-1. Bootstrap is also used in the project. (Bootstrap grid, Bootstrap Modal and Bootstrap classes)
+1. Bootstrap is also used in the project. (Bootstrap grid, Bootstrap Modal, and Bootstrap classes)
