@@ -65,8 +65,13 @@ label,
 .btn {
   font-family: "Sriracha", cursive;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 20px;
+ 
+}
+
+h4{
+    font-size: 25px;
 }
 
 h5,
@@ -78,6 +83,7 @@ input {
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
+  font-size: 18px;
 }
 
 ul {
@@ -91,6 +97,7 @@ a {
 strong {
   font-weight: 900;
   font-family: "Source Sans Pro";
+  font-size: 20px;
 }
 
 em {
@@ -158,8 +165,8 @@ header {
   padding-top: 50px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 17px;
+  font-weight: 600;
   font-family: "Sriracha", cursive;
   letter-spacing: 2px;
 }
@@ -183,7 +190,7 @@ footer {
   padding-right: 10px;
   margin-bottom: 5px;
   line-height: 20px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .sign-in-btn {
@@ -195,6 +202,7 @@ footer {
   margin: 0 auto;
   margin-top: 10px;
   bottom: 30px;
+  font-size: 17px;
 }
 
 #sign-in-passworld,
@@ -229,12 +237,13 @@ footer {
   width: 350px;
   height: 40px;
   padding-left: 17px;
+  font-size: 17px;
 }
 
 .contacts i {
-  width: 20px;
-  height: 20px;
-  font-size: 22px;
+  width: 1px;
+  height: 35px;
+  font-size: 25px;
   padding-left: 0px;
 }
 
@@ -293,8 +302,8 @@ form,
 .carousel-item h5 {
   background-color: #fafafa;
   color: #686464;
-  width: 250px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .jumbotron-fluid {
@@ -310,7 +319,8 @@ form,
 }
 
 .page-heading {
-  font-weight: 400;
+    font-size: 43px;
+  font-weight: 600;
   padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
@@ -323,9 +333,12 @@ form,
 .index-note {
   font-family: "Sriracha", cursive;
   text-align: justify;
+  text-align-last: center;
+  word-spacing: -0.5px;
   margin: 10px;
   margin-bottom: 20px;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .jumbotron-fluid p {
@@ -338,6 +351,7 @@ form,
   text-align: center;
   line-height: 1.5;
   font-family: "Source Sans Pro";
+  font-size: 18px;
 }
 
 /* -----------------------------------------------------------------food-menu */
@@ -350,6 +364,7 @@ form,
   border-radius: 30px;
   padding: 15px;
   letter-spacing: 2px;
+  font-size: 18px;
 }
 
 .food-menu ul {
@@ -372,11 +387,13 @@ form,
 }
 
 .drinks-header {
+  font-family: "Source Sans Pro", sans-serif;
   background-color: #638f21;
   color: #fafafa;
   margin: 0 auto;
   border-radius: 50px;
   font-size: 30px;
+  font-weight: 600;
   padding: 10px;
 }
 
@@ -449,6 +466,7 @@ input:valid + span:after {
 
 .views label {
   padding-left: 5px;
+  font-weight: 400;
 }
 
 form {
@@ -469,6 +487,16 @@ small {
   margin: 0 auto;
 }
 
+.page-questions{
+  font-size: 21px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
 /* -------------------------------------------------------------------rate-us */
 
 .form-check {
@@ -480,6 +508,7 @@ small {
   margin-top: 0px;
   margin-left: 5px;
   vertical-align: -webkit-baseline-middle;
+  font-weight: 400;
 }
 
 .radio-questions input {
@@ -584,7 +613,8 @@ label.custom-control-label {
 
 @media only screen and (min-width: 301px) and (max-width: 601px) {
   .page-heading {
-    font-size: 32px;
+    font-size: 35px;
+    font-weight: 600;
   }
 }
 
@@ -600,7 +630,7 @@ label.custom-control-label {
   .jumbotron-fluid p,
   .index-note,
   .food-guide h6 {
-    line-height: 2.25;
+    font-size: 20px;
   }
 
   .drinks-header {
