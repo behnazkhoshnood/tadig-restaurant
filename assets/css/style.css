@@ -70,20 +70,18 @@ label,
  
 }
 
-h4{
-    font-size: 25px;
-}
-
 h5,
+h6,
 input {
   font-family: "Sriracha", cursive;
   text-align: left;
+  font-weight: 600;
 }
 
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 ul {
@@ -102,12 +100,13 @@ strong {
 
 em {
   font-weight: 800;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .small {
-  font-family: "Source Sans Pro";
-  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 /* --------------------------------------------------------------------header */
@@ -187,7 +186,9 @@ footer {
 }
 
 .sign-in-note {
-  padding-right: 10px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-bottom: 5px;
   line-height: 20px;
   font-size: 18px;
@@ -258,10 +259,9 @@ footer {
 }
 
 .social-links a i {
-  width: 40px;
-  height: 40px;
-  padding: 17px 2px 20px 2px;
-  margin-bottom: 5px;
+  width: 50px;
+  height: 50px;
+  padding: 20px 2px 0px 2px;
   border-radius: 50%;
   font-size: 25px;
   line-height: 7px;
@@ -399,7 +399,7 @@ form,
 
 .guide-span {
   float: right;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .food-menu-images {
@@ -590,7 +590,7 @@ label.custom-control-label {
 /* --------------------------------------------------------------------@media */
 @media only screen and (max-width: 300px) {
   .drinks-header {
-    width: 250px;
+    width: 210px;
   }
 
   .contact-items div {
@@ -598,7 +598,7 @@ label.custom-control-label {
   }
 
   .menuitem span {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .page-heading {
@@ -608,6 +608,15 @@ label.custom-control-label {
 
   .general-sub {
     font-size: 20px;
+  }
+  
+  .food-menu-header {
+      letter-spacing: 0;
+      font-size: 16px;
+  }
+  
+  .guide-span{
+      font-size: 14px;
   }
 }
 
@@ -625,12 +634,13 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-width: 795px) {
-  footer p,
+@media only screen and (min-width: 801px) {
+  .contacts p,
+  .General-sub,
   .jumbotron-fluid p,
   .index-note,
   .food-guide h6 {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .drinks-header {
@@ -657,6 +667,24 @@ label.custom-control-label {
   }
 }
 
+@media only screen and (min-height: 955px) and (max-height: 1300px){
+    
+    .logo,
+.carousel-item img {
+  background-position: center;
+  background-size: cover;
+  padding-left: 0;
+  padding-right: 0;
+  height: 486px;
+}
+
+.jumbotron-fluid p, .index-note{
+    font-size: 15px;
+    font-weight: 600;
+}
+    
+}
+
 @media only screen and (min-height: 1200px) {
   html,
   body {
@@ -666,8 +694,10 @@ label.custom-control-label {
   #nav,
   #nav li,
   .menuitem,
+  .menuitem a,
   .hvr-sweep-to-bottom:before,
-  header {
+  header
+   {
     height: 220px;
   }
 
@@ -678,12 +708,12 @@ label.custom-control-label {
 
   footer,
   .jumbotron-fluid {
-    height: 21%;
+    height: 19.5%;
   }
 
   .general-sub {
-    padding-bottom: 20px;
-    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-top: 15px;
   }
 
   .social-links {
