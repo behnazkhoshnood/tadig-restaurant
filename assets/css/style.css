@@ -4,325 +4,328 @@
 
 .ui-menu-color-home,
 .home-footer {
-  background-color: #2c89a5;
+    background-color: #2c89a5;
 }
 
 .ui-menu-color-order,
 .order-footer {
-  background-color: #638f21;
+    background-color: #638f21;
 }
 
 .ui-menu-color-reservation,
 .reservation-footer {
-  background-color: #aa58aa;
+    background-color: #aa58aa;
 }
 
 .ui-menu-color-rate-us,
 .rate-us-footer {
-  background-color: #bb6363;
+    background-color: #bb6363;
 }
 
 body {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 /* -------------------------------------------------------------------general */
 body,
 html {
-  max-height: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-footer{
+footer {
     overflow-y: hidden;
     max-height: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .inline {
-  display: inline;
+    display: inline;
 }
 
 .block {
-  display: block;
+    display: block;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .uppercase {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 h1,
 h2,
-h3
- {
-  font-family: "Sriracha", cursive;
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #fafafa;
+h3 {
+    font-family: "Sriracha", cursive;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fafafa;
 }
 
 label,
 h4 {
-  font-family: "Sriracha", cursive;
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #000000;
+    font-family: "Sriracha", cursive;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000000;
 }
 
 h5,
 h6,
 input {
-  font-family: "Sriracha", cursive;
-  text-align: left;
-  font-weight: 600;
+    font-family: "Sriracha", cursive;
+    text-align: left;
+    font-weight: 600;
 }
 
-.btn{
+.btn {
     font-family: "Sriracha", cursive;
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 20px;
-  font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 25px;
 }
 
 p {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
+}
+
+ul li:hover {
+    opacity: 1;
 }
 
 a {
-  color: #fafafa;
+    color: #fafafa;
 }
 
 strong {
-  font-weight: 900;
-  font-family: "Source Sans Pro";
-  font-size: 18px;
+    font-weight: 900;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
 }
 
 em {
-  font-weight: 800;
-  font-family: "Source Sans Pro", sans-serif;
+    font-weight: 800;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .small {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 /* --------------------------------------------------------------------header */
 
 header {
-  min-height: 120px;
-  margin: 0 auto;
+    min-height: 120px;
+    margin: 0 auto;
 }
 
 .list-inline-item:not(:last-child) {
-  margin: 0;
+    margin: 0;
 }
 
 .list-inline-item {
-  margin-top: 0;
-  padding-left: 0px;
+    margin-top: 0;
+    padding-left: 0px;
 }
 
 .menucontainer {
-  font-size: 0;
+    font-size: 0;
 }
 
 #nav {
-  margin: 0;
+    margin: 0;
 }
 
 #nav li {
-  padding: 0;
-  font-size: 14px;
+    padding: 0;
+    font-size: 14px;
 }
 
 .menuitem {
-  height: 120px;
-  text-align: center;
-  padding: 0;
+    height: 120px;
+    text-align: center;
+    padding: 0;
 }
 
 .menuitem a {
-  width: 100%;
-  text-decoration: none;
-  color: #fafafa;
-  height: 120px;
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 120px;
 }
 
 .menuitem a i {
-  padding-top: 22px;
-  display: block;
-  color: #fafafa;
-  font-size: 26px;
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
 }
 
 .menuitem span {
-  display: block;
-  width: 100%;
-  padding-top: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 17px;
-  font-weight: 600;
-  font-family: "Sriracha", cursive;
-  word-spacing: 4px
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Sriracha", cursive;
+    word-spacing: 4px;
 }
 
 .hvr-sweep-to-bottom:before {
-  background: #00000033;
-  height: 120px;
+    background: #00000033;
+    height: 120px;
 }
 
 /* --------------------------------------------------------------------footer */
 
 footer {
-  color: #fafafa;
+    color: #fafafa;
 }
 
 .footer-parts {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .sign-in-note {
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 10px;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-bottom: 5px;
-  line-height: 20px;
-  font-size: 17px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    line-height: 20px;
+    font-size: 17px;
 }
 
 .sign-in-btn {
-  border-radius: 50px;
-  background-color: #daa520;
-  height: 60px;
-  min-width: 120px;
-  border-color: #daa520;
-  margin: 0 auto;
-  margin-top: 10px;
-  bottom: 30px;
-  font-size: 17px;
+    border-radius: 50px;
+    background-color: #daa520;
+    height: 60px;
+    min-width: 120px;
+    border-color: #c5a34b;
+    margin: 0 auto;
+    margin-top: 10px;
+    bottom: 30px;
+    font-size: 17px;
 }
 
 #sign-in-passworld,
 #sign-in-email {
-  background-color: #faf5e4;
-  border-width: 3px;
-  text-align: center;
+    background-color: #faf5e4;
+    border-width: 3px;
+    text-align: center;
 }
 
 #sign-in-passworld:focus,
 #sign-in-email:focus {
-  border-color: #daa520;
-  border-width: 3px;
-  background-color: #fafafa;
+    border-color: #daa520;
+    border-width: 3px;
+    background-color: #fafafa;
 }
 
 .btn-primary:hover {
-  color: #fafafa;
-  background-color: #c5a34b;
-  border-color: #c5a34b;
+    color: #fafafa;
+    background-color: #c5a34b;
+    border-color: #daa520;
 }
 
 .contacts {
-  height: 100%;
+    height: 100%;
 }
 
 .contact-items {
-  height: 60%;
+    height: 60%;
 }
 
 .contacts p {
-  font-family: "Source Sans Pro", sans-serif;
-  width: 350px;
-  height: 40px;
-  padding-left: 17px;
-  font-size: 17px;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 350px;
+    height: 40px;
+    padding-left: 17px;
+    font-size: 17px;
 }
 
 .contacts i {
-  width: 1px;
-  height: 35px;
-  font-size: 25px;
-  padding-left: 0px;
+    width: 1px;
+    height: 35px;
+    font-size: 25px;
+    padding-left: 0px;
 }
 
 .social-links {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .social-links li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
 }
 
 .social-links a i {
-  width: 50px;
-  height: 50px;
-  padding: 20px 2px 0px 2px;
-  border-radius: 50%;
-  font-size: 25px;
-  text-align: center;
-  color: #fafafa;
+    width: 50px;
+    height: 50px;
+    padding: 20px 2px 0px 2px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    color: #fafafa;
 }
 
 .social-links li a i:hover {
-  background: #686464;
+    background: #686464;
 }
 
 .general-sub {
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 26px;
-  font-weight: 600;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 26px;
+    font-weight: 600;
 }
 
 form,
 .form-control {
-  max-width: 80%;
+    max-width: 80%;
 }
 
 /* --------------------------------------------------------------------index */
 
 .logo,
 .carousel-item img {
-  background-position: center;
-  background-size: cover;
-  padding-left: 0;
-  padding-right: 0;
-  height: 655px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+    height: 675px;
 }
 
-.carousel-item h3{
-background-color: rgba(39, 39, 39, 0.5);
-border-radius: 50px;
-margin-bottom: 0px;
-max-width: 350px;
+.carousel-item h3 {
+    background-color: rgba(39, 39, 39, 0.5);
+    border-radius: 50px;
+    margin-bottom: 0px;
+    max-width: 350px;
     text-align: center;
     margin: 0 auto;
     font-size: 25px;
@@ -330,549 +333,535 @@ max-width: 350px;
 }
 
 .jumbotron-fluid {
-  margin: 0 auto;
-  background-color: #7e7e7e;
-  color: #fafafa;
-  padding: 10px;
-  width: 100%;
+    margin: 0 auto;
+    background-color: #7e7e7e;
+    color: #fafafa;
+    padding: 10px;
+    width: 100%;
 }
 
 .footer-content {
-  padding-top: 10px;
+    padding-top: 10px;
 }
 
 .page-heading {
-  font-size: 43px;
-  font-weight: 600;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  color: #000;
+    font-size: 43px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: #000;
 }
 
 .jumbotron-fluid p,
 .index-note {
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: justify;
-  text-align-last: center;
-  word-spacing: -0.5px;
-  margin: 10px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: 600;
-  -webkit-transform: translateZ(0px);
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: justify;
+    text-align-last: center;
+    word-spacing: -0.5px;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transform: translateZ(0px);
 }
 
 .jumbotron-fluid p {
-  margin-bottom: 0;
-  text-align: center;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .food-guide h6 {
-  margin-top: 20px;
-  text-align: center;
-  line-height: 1.5;
-  font-family: "Source Sans Pro";
-  font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
 }
 
 /* -----------------------------------------------------------------food-menu */
 
 .food-menu-header {
-  margin-top: 40px;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 20px;
-  border-radius: 30px;
-  padding: 15px;
-  font-size: 20px;
-  color: #000000;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 20px;
+    color: #000000;
 }
 
 .food-menu ul {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .food-menu-header li {
-  text-align: center;
+    text-align: center;
 }
 
 .food-menu-header:hover {
-  background-color: #547522;
-  color: #fafafa;
+    background-color: #547522;
+    color: #fafafa;
 }
 
 .active-btn {
-  background-color: #638f21;
-  border-color: #638f21;
-  color: #fafafa;
+    background-color: #638f21;
+    border-color: #547522;
+    color: #fafafa;
 }
 
 .drinks-header {
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: #638f21;
-  color: #fafafa;
-  margin: 0 auto;
-  border-radius: 50px;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #638f21;
+    color: #fafafa;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
 }
 
 .guide-span {
-  float: right;
-  font-size: 16px;
+    float: right;
+    font-size: 16px;
 }
 
 .food-menu-images {
-  height: 200px;
+    height: 200px;
 }
 
 /*-----------------------------------------------------------------reservation*/
 
 .validity {
-  padding-left: 0;
-  padding-right: 30px;
+    padding-left: 0;
+    padding-right: 30px;
 }
 
 input:invalid + span:after {
-  position: absolute;
-  content: "✖";
-  padding-left: 5px;
+    position: absolute;
+    content: "✖";
+    padding-left: 5px;
 }
 
 input:valid + span:after {
-  position: absolute;
-  content: "✓";
-  padding-left: 5px;
+    position: absolute;
+    content: "✓";
+    padding-left: 5px;
 }
 
 .views {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .reservation-submit-btn {
-  background-color: #aa58aa;
-  border-radius: 50px;
-  padding: 0px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  text-align: center;
-  height: 90px;
+    background-color: #aa58aa;
+    border-radius: 50px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 90px;
 }
 
 .reservation-submit-btn:hover {
-  background-color: #804580;
+    background-color: #804580;
 }
 
 .reservation-info input {
-  border-width: 2px;
-  border-color: #e0e0e0;
-  border-radius: 20px;
-  background-color: #f5eaf5;
-  height: 45px;
-  text-align: center;
-  color: #808080;
+    border-width: 2px;
+    border-color: #e0e0e0;
+    border-radius: 20px;
+    background-color: #f5eaf5;
+    height: 45px;
+    text-align: center;
+    color: #808080;
 }
 
 .reservation-info label {
-  margin-bottom: 0;
-  margin-top: 15px;
-  color: #000;
+    margin-bottom: 0;
+    margin-top: 15px;
+    color: #000;
 }
 
 .reservation-info input:active {
-  background-color: #aa58aa;
+    background-color: #aa58aa;
 }
 
 .views label {
-  padding-left: 5px;
-  font-weight: 400;
-  color: #000;
+    padding-left: 5px;
+    font-weight: 400;
+    color: #000;
 }
 
 form {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .form-p {
-  margin: 0 auto;
-  margin-bottom: 20px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
 }
 
 small {
-  text-align: center;
-  padding-top: 0;
-  margin: 0 auto;
+    text-align: center;
+    padding-top: 0;
+    margin: 0 auto;
 }
 
 .page-questions {
-  font-size: 21px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  margin-top: 5px;
+    font-size: 21px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 /* -------------------------------------------------------------------rate-us */
 
 .form-check {
-  margin-bottom: 20px;
-  margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .radio-questions label {
-  margin-top: 0px;
-  margin-left: 5px;
-  vertical-align: -webkit-baseline-middle;
-  font-weight: 400;
-  color: #000000;
+    margin-top: 0px;
+    margin-left: 5px;
+    vertical-align: -webkit-baseline-middle;
+    font-weight: 400;
+    color: #000000;
 }
 
 .radio-questions input {
-  height: 30px;
+    height: 30px;
 }
 
 .rate-us-submit-btn {
-  background-color: #bb6363;
-  border-color: #bb6363;
-  border-radius: 50px;
-  padding: 0px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  text-align: center;
-  height: 90px;
+    background-color: #bb6363;
+    border-color: #945757;
+    border-radius: 50px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 90px;
 }
 
 .rate-us-submit-btn:hover {
-  background-color: #945757;
+    background-color: #945757;
 }
 
 .rate-us-info {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .rate-us-questions {
-  margin: 0 auto;
-  margin-top: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .text-area {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .votes {
-  margin: 0 auto;
-  margin-top: 15px;
-  padding: 0;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 0;
 }
 
 .form-group {
-  padding-left: 0px;
-  padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 label.custom-control-label {
-  outline-color: #fafafa;
+    outline-color: #fafafa;
 }
 
 .form-control {
-  border-width: 3px;
-  border-radius: 60px;
-  background-color: #e7d8d8;
-  width: 80%;
-  margin: 0 auto;
+    border-width: 3px;
+    border-radius: 60px;
+    background-color: #e7d8d8;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle:focus {
-  color: #fafafa;
-  background-color: #8880809f;
-  border-color: #e0e0e0;
-  box-shadow: 0 0 0 0.2rem #ffffff80;
+    color: #fafafa;
+    background-color: #8880809f;
+    border-color: #e0e0e0;
+    box-shadow: 0 0 0 0.2rem #ffffff80;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
-  box-shadow: none;
+    box-shadow: none;
 }
 
 .form-control:focus {
-  box-shadow: none;
-  border-color: #e0e0e0;
+    box-shadow: none;
+    border-color: #e0e0e0;
 }
 
 /* --------------------------------------------------------------------@media */
 @media only screen and (max-width: 300px) {
-  .drinks-header {
-    width: 210px;
-  }
+    .drinks-header {
+        width: 210px;
+    }
 
-  .contact-items div {
-    margin-left: 15px;
-  }
+    .contact-items div {
+        margin-left: 15px;
+    }
 
-  .menuitem span {
-    font-size: 13px;
-  }
+    .menuitem span {
+        font-size: 13px;
+    }
 
-  .page-heading {
-    font-size: 25px;
-    font-weight: bold;
-  }
+    .page-heading {
+        font-size: 25px;
+        font-weight: bold;
+    }
 
-  .general-sub {
-    font-size: 20px;
-  }
+    .general-sub {
+        font-size: 20px;
+    }
 
-  .food-menu-header {
-    font-size: 16px;
-  }
+    .food-menu-header {
+        font-size: 16px;
+    }
 
-  .guide-span {
-    font-size: 14px;
-  }
+    .guide-span {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (min-width: 301px) and (max-width: 601px) {
-  .page-heading {
-    font-size: 35px;
-    font-weight: 600;
-  }
+    .page-heading {
+        font-size: 35px;
+        font-weight: 600;
+    }
 }
 
 @media only screen and (min-width: 650px) {
-  .sign-in-btn {
-    margin-right: 10px;
-    height: 60px;
-  }
-  
-  .drinks-header{
-    width: 65%;
-    margin-left: 15px;
-  }
+    .sign-in-btn {
+        margin-right: 10px;
+        height: 60px;
+    }
+
+    .drinks-header {
+        width: 65%;
+        margin-left: 15px;
+    }
 }
 
 @media only screen and (min-width: 801px) {
-  .contacts p,
-  .General-sub,
-  .jumbotron-fluid p,
-  .index-note,
-  .food-guide h6 {
-    font-size: 23px;
-  }
+    .contacts p,
+    .General-sub,
+    .jumbotron-fluid p,
+    .index-note,
+    .food-guide h6 {
+        font-size: 23px;
+    }
 
-  form {
-    width: 75%;
-  }
-}
-
-@media only screen and (min-width: 550px) and (max-width:1200) {
-   .logo,
-  .carousel-item img {
-    height: 515px;
-  } 
-
-
-    
+    form {
+        width: 75%;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-  #nav,
-  #nav li,
-  .menuitem,
-  .hvr-sweep-to-bottom:before,
-  header {
-    height: 220px;
-  }
+    #nav,
+    #nav li,
+    .menuitem,
+    .hvr-sweep-to-bottom:before,
+    header {
+        height: 220px;
+    }
 
-  .menuitem span {
-    font-size: 21px;
-    padding-top: 95px;
-  }
+    .menuitem span {
+        font-size: 21px;
+        padding-top: 95px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-  .contacts p,
-  .General-sub,
-  .jumbotron-fluid p,
-  .index-note,
-  .food-guide h6,
-  .sign-in-note {
-    font-size: 29px;
-  }
-  
-  .contacts p{
-      font-family: "Source Sans Pro";
-      margin-left: 10px;
-  }
+    .contacts p,
+    .General-sub,
+    .jumbotron-fluid p,
+    .index-note,
+    .food-guide h6,
+    .sign-in-note {
+        font-size: 29px;
+    }
 
-  .guide-span {
-    font-size: 25px;
-    font-weight: 400;
-  }
+    .contacts p {
+        font-family: "Source Sans Pro";
+        margin-left: 10px;
+    }
 
-  em,
-  h4,
-  h5,
-  h6,
-  .btn,
-  input,
-  .general-sub,
-  .menuitem span
-   {
-    font-family: "Sriracha", cursive;
-    font-weight: 600;
-    font-size: 27px;
-  }
-  
-  .sign-in-note {
-    line-height: 30px;
-  }
-  
-  .contacts i,
-  .social-links a i{
-      font-size: 35px;
-  }
+    .guide-span {
+        font-size: 25px;
+        font-weight: 400;
+    }
 
-   
-   strong,
-  .food-menu-header {
-    color: #000;
-    font-size: 30px;
-  }
+    em,
+    h4,
+    h5,
+    h6,
+    .btn,
+    input,
+    .general-sub,
+    .menuitem span {
+        font-family: "Sriracha", cursive;
+        font-weight: 600;
+        font-size: 27px;
+    }
 
-  .active-btn {
-    color: #fafafa;
-  }
-  
-  .drinks-header{
-      font-size: 40px;
-      margin-left:10px;
-      width: 75%;
-  }
-  
-  .page-questions {
-    font-size: 45px;
-  }
-  
-  .views label,
-  .form-p{
-      font-size: 25px;
-      color: #000000;
-  }
-  
-  .reservation-info label{
-    color: #000000;
-    font-size: 32px;
-    font-weight: 400;
-  }
-  
-  .small{
-      font-size: 25px;
-  }
-  
-  .radio-questions label{
-      color: #000000;
-    font-size: 25px;
-     margin-left: 20px;
-      padding-left: 10px;
-    
-  }
-  
-  .radio-input{
-     width: 30px;
-      margin-right: 20px;
-      padding-right: 10px; 
-  }
-  
-  .reservation-info input{
-      height: 75px;
-      font-weight: 400;
-  }
-  
-  .views input{
-      width: 30px;
-      margin-right: 20px;
-      padding-right: 10px;
-  }
-  
-  .views label{
-      margin-left: 20px;
-      padding-left: 10px;
-  }
-  
-  p {
-    font-size: 28px;
-  }
+    .sign-in-note {
+        line-height: 30px;
+    }
+
+    .contacts i,
+    .social-links a i {
+        font-size: 35px;
+    }
+
+    strong,
+    .food-menu-header {
+        color: #000;
+        font-size: 30px;
+    }
+
+    .active-btn {
+        color: #fafafa;
+    }
+
+    .drinks-header {
+        font-size: 40px;
+        margin-left: 10px;
+        width: 75%;
+    }
+
+    .page-questions {
+        font-size: 45px;
+    }
+
+    .views label,
+    .form-p {
+        font-size: 25px;
+        color: #000000;
+    }
+
+    .reservation-info label {
+        color: #000000;
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+    .small {
+        font-size: 25px;
+    }
+
+    .radio-questions label {
+        color: #000000;
+        font-size: 25px;
+        margin-left: 20px;
+        padding-left: 10px;
+    }
+
+    .radio-input {
+        width: 30px;
+        margin-right: 20px;
+        padding-right: 10px;
+    }
+
+    .reservation-info input {
+        height: 75px;
+        font-weight: 400;
+    }
+
+    .views input {
+        width: 30px;
+        margin-right: 20px;
+        padding-right: 10px;
+    }
+
+    .views label {
+        margin-left: 20px;
+        padding-left: 10px;
+    }
+
+    p {
+        font-size: 28px;
+    }
 }
 
 @media only screen and (min-width: 599px) and (max-width: 1199px) {
-  .logo,
-  .carousel-item img {
-    height: 460px;
-  }
-  
-  .page-heading{
-      font-size: 32px;
-      padding-top: 10px;
-  }
+    .logo,
+    .carousel-item img {
+        height: 460px;
+    }
+
+    .page-heading {
+        font-size: 32px;
+        padding-top: 10px;
+    }
 }
 
-
 @media only screen and (min-height: 955px) and (max-height: 1300px) {
-  .page-heading {
-    padding-top: 7px;
-  }
-
+    .page-heading {
+        padding-top: 5px;
+        margin-top: 5px;
+    }
 }
 
 @media only screen and (min-height: 1200px) {
-  html,
-  body {
-    height: 100%;
-  }
+    html,
+    body {
+        height: 100%;
+    }
 
-  #nav,
-  #nav li,
-  .menuitem,
-  .menuitem a,
-  .hvr-sweep-to-bottom:before,
-  header {
-    height: 220px;
-  }
+    #nav,
+    #nav li,
+    .menuitem,
+    .menuitem a,
+    .hvr-sweep-to-bottom:before,
+    header {
+        height: 220px;
+    }
 
-  .menuitem span {
-    font-size: 25px;
-    padding-top: 95px;
-  }
+    .menuitem span {
+        font-size: 25px;
+        padding-top: 95px;
+    }
 
-  .general-sub {
-    padding-bottom: 5px;
-    padding-top: 15px;
-  }
-  
-  .social-links {
-    height: 75%;
-  }
-  
-  .drinks-header {
-    width: 75%;
+    .general-sub {
+        padding-bottom: 5px;
+        padding-top: 15px;
+    }
+
+    .social-links {
+        height: 75%;
+    }
+
+    .drinks-header {
+        width: 75%;
+    }
 }
 
 @media only screen and (min-height: 1200px) and (max-height: 1400px) {
-  .logo,
-  .carousel-item img {
-    height: 560px;
-  }
+    .logo,
+    .carousel-item img {
+        height: 565px;
+    }
 }
-

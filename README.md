@@ -224,9 +224,9 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) : [Result](https://validator.w3.org/nu/#textarea)
+- [W3C Markup Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) : [Result](images/reservation-page-validator-result.png)
 
-- [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) : [Result](https://validator.w3.org/nu/#textarea)
+- [W3C CSS Validator](https://en.wikipedia.org/wiki/W3C_Markup_Validation_Service) : [Result](images/css-validity-result.png)
 
 - Further, the testing of the project has been carried out from the beginning using google developer tools.
 
@@ -309,13 +309,21 @@ I used the code below from stack overflow to fix the problem:
         <div class="modal-footer">
                     <button type="submit" class="btn btn-primary sign-in-btn" data-dismiss="modal">
                     
-- [x] When slides were changing in the carousel, index-note was getting blurry. Also, menu items were getting blurry when hovering over them.
+- [x] When slides were changing in the carousel, index-note was getting blurry. 
 
 I used the code below from stack overflow for the index-note to fix the problem:
        
         .index-note{
                -webkit-transform: translateZ(0px);
         }
+        
+- [x] List of menu dishes were getting blurry when hovering over them.
+
+I used the code below from stack overflow tofix the problem.
+
+          ul li:hover {
+          opacity: 1;
+         } 
 
 ## **Deployment**
 
