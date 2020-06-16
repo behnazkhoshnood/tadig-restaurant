@@ -28,11 +28,18 @@ body {
 
 /* -------------------------------------------------------------------general */
 body,
-html,
-footer {
+html {
   max-height: 100%;
   max-width: 100%;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
+}
+
+footer{
+    overflow-y: hidden;
+    max-height: 100%;
+  max-width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -55,8 +62,7 @@ footer {
 
 h1,
 h2,
-h3,
-label
+h3
  {
   font-family: "Sriracha", cursive;
   text-align: center;
@@ -65,6 +71,7 @@ label
   color: #fafafa;
 }
 
+label,
 h4 {
   font-family: "Sriracha", cursive;
   text-align: center;
@@ -106,7 +113,7 @@ a {
 strong {
   font-weight: 900;
   font-family: "Source Sans Pro";
-  font-size: 20px;
+  font-size: 18px;
 }
 
 em {
@@ -178,7 +185,7 @@ header {
   font-size: 17px;
   font-weight: 600;
   font-family: "Sriracha", cursive;
-  letter-spacing: 2px;
+  word-spacing: 4px
 }
 
 .hvr-sweep-to-bottom:before {
@@ -197,6 +204,7 @@ footer {
 }
 
 .sign-in-note {
+  font-family: "Source Sans Pro", sans-serif;
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
@@ -246,6 +254,7 @@ footer {
 }
 
 .contacts p {
+  font-family: "Source Sans Pro", sans-serif;
   width: 350px;
   height: 40px;
   padding-left: 17px;
@@ -275,7 +284,6 @@ footer {
   padding: 20px 2px 0px 2px;
   border-radius: 50%;
   font-size: 25px;
-  line-height: 7px;
   text-align: center;
   color: #fafafa;
 }
@@ -347,14 +355,15 @@ max-width: 350px;
 
 .jumbotron-fluid p,
 .index-note {
-  font-family: "Sriracha", cursive;
+  font-family: "Source Sans Pro", sans-serif;
   text-align: justify;
   text-align-last: center;
   word-spacing: -0.5px;
   margin: 10px;
   margin-bottom: 20px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
+  -webkit-transform: translateZ(0px);
 }
 
 .jumbotron-fluid p {
@@ -493,8 +502,8 @@ form {
 .form-p {
   margin: 0 auto;
   margin-bottom: 20px;
-  font-family: "Siracha", CURSIVE;
-  font-weight: 200;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
 }
 
 small {
@@ -626,7 +635,6 @@ label.custom-control-label {
   }
 
   .food-menu-header {
-    letter-spacing: 0;
     font-size: 16px;
   }
 
@@ -642,10 +650,15 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-width: 580px) {
+@media only screen and (min-width: 650px) {
   .sign-in-btn {
     margin-right: 10px;
     height: 60px;
+  }
+  
+  .drinks-header{
+    width: 65%;
+    margin-left: 15px;
   }
 }
 
@@ -658,13 +671,19 @@ label.custom-control-label {
     font-size: 23px;
   }
 
-  .drinks-header {
-    width: 500px;
-  }
-
   form {
     width: 75%;
   }
+}
+
+@media only screen and (min-width: 550px) and (max-width:1200) {
+   .logo,
+  .carousel-item img {
+    height: 515px;
+  } 
+
+
+    
 }
 
 @media only screen and (min-width: 1000px) {
@@ -694,43 +713,41 @@ label.custom-control-label {
   
   .contacts p{
       font-family: "Source Sans Pro";
+      margin-left: 10px;
   }
 
-  h4,
-  .menuitem span{
-    font-size: 40px;
-  }
-  
-  .general-sub{
-  font-size: 30px;
-  }
-  
   .guide-span {
     font-size: 25px;
     font-weight: 400;
   }
 
+  em,
+  h4,
   h5,
   h6,
-  input
+  .btn,
+  input,
+  .general-sub,
+  .menuitem span
    {
     font-family: "Sriracha", cursive;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 27px;
   }
   
-  .btn{
-      font-size: 30px;
-  }
-
   .sign-in-note {
-    line-height: 40px;
+    line-height: 30px;
+  }
+  
+  .contacts i,
+  .social-links a i{
+      font-size: 35px;
   }
 
-   em,
+   
    strong,
   .food-menu-header {
-    color: #000000;
+    color: #000;
     font-size: 30px;
   }
 
@@ -740,6 +757,8 @@ label.custom-control-label {
   
   .drinks-header{
       font-size: 40px;
+      margin-left:10px;
+      width: 75%;
   }
   
   .page-questions {
@@ -797,16 +816,20 @@ label.custom-control-label {
   }
 }
 
-@media only screen and (min-height: 955px) and (max-height: 1300px) {
+@media only screen and (min-width: 599px) and (max-width: 1199px) {
   .logo,
   .carousel-item img {
-    background-position: center;
-    background-size: cover;
-    padding-left: 0;
-    padding-right: 0;
-    height: 515px;
+    height: 460px;
   }
+  
+  .page-heading{
+      font-size: 32px;
+      padding-top: 10px;
+  }
+}
 
+
+@media only screen and (min-height: 955px) and (max-height: 1300px) {
   .page-heading {
     padding-top: 7px;
   }
@@ -838,12 +861,18 @@ label.custom-control-label {
     padding-top: 15px;
   }
   
-  .contacts i,
-  .social-links a i{
-      font-size: 28px;
-  }
-
   .social-links {
     height: 75%;
   }
+  
+  .drinks-header {
+    width: 75%;
 }
+
+@media only screen and (min-height: 1200px) and (max-height: 1400px) {
+  .logo,
+  .carousel-item img {
+    height: 560px;
+  }
+}
+

@@ -88,7 +88,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     - The website consist of 7 pages named: index(Home), order(Menu), order main, order dessert, order drinks, reservation and rate us. Each page has three sections.
 
-    - The main content of the header and footer sections are the same in all the pages. The Header section consists of the navbar menu for navigation through the website and the footer section consists of Sign in / sign up button, contacts, and social media links.
+    - The main content of the header and footer sections are the same in all the pages. The Header section consists of the navbar menu for navigation through the website and the footer section consists of Sign up / sign in button, contacts, and social media links.
 
   - #### Second section:
 
@@ -308,6 +308,14 @@ I used the code below from stack overflow to fix the problem:
 
         <div class="modal-footer">
                     <button type="submit" class="btn btn-primary sign-in-btn" data-dismiss="modal">
+                    
+- [x] When slides were changing in the carousel, index-note was getting blurry. Also, menu items were getting blurry when hovering over them.
+
+I used the code below from stack overflow for the index-note to fix the problem:
+       
+        .index-note{
+               -webkit-transform: translateZ(0px);
+        }
 
 ## **Deployment**
 
