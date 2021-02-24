@@ -65,7 +65,6 @@ h2,
 h3 {
     font-family: "Sriracha", cursive;
     text-align: center;
-    font-weight: 600;
     margin-bottom: 20px;
     color: #fafafa;
 }
@@ -74,7 +73,6 @@ label,
 h4 {
     font-family: "Sriracha", cursive;
     text-align: center;
-    font-weight: 600;
     margin-bottom: 20px;
     color: #000000;
 }
@@ -84,21 +82,16 @@ h6,
 input {
     font-family: "Sriracha", cursive;
     text-align: left;
-    font-weight: 600;
 }
 
 .btn {
     font-family: "Sriracha", cursive;
     text-align: center;
-    font-weight: 600;
     margin-bottom: 20px;
-    font-size: 25px;
 }
 
 p {
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
 }
 
 ul {
@@ -114,20 +107,12 @@ a {
 }
 
 strong {
-    font-weight: 900;
     font-family: "Source Sans Pro";
-    font-size: 16px;
 }
 
-em {
-    font-weight: 800;
-    font-family: "Source Sans Pro", sans-serif;
-}
-
+em,
 .small {
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
 }
 
 /* --------------------------------------------------------------------header */
@@ -208,12 +193,6 @@ footer {
 
 .sign-in-note {
     font-family: "Source Sans Pro", sans-serif;
-    padding: 10px;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 5px;
-    line-height: 20px;
-    font-size: 17px;
 }
 
 .sign-in-btn {
@@ -223,7 +202,7 @@ footer {
     min-width: 120px;
     border-color: #c5a34b;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: -5px;
     bottom: 30px;
     font-size: 17px;
 }
@@ -261,7 +240,6 @@ footer {
     width: 350px;
     height: 40px;
     padding-left: 17px;
-    font-size: 17px;
 }
 
 .contacts i {
@@ -301,7 +279,7 @@ footer {
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -328,7 +306,6 @@ form,
     max-width: 350px;
     text-align: center;
     margin: 0 auto;
-    font-size: 25px;
     color: #fafafa;
 }
 
@@ -345,8 +322,6 @@ form,
 }
 
 .page-heading {
-    font-size: 43px;
-    font-weight: 600;
     padding-top: 30px;
     padding-bottom: 10px;
     text-align: center;
@@ -361,11 +336,6 @@ form,
     font-family: "Source Sans Pro", sans-serif;
     text-align: justify;
     text-align-last: center;
-    word-spacing: -0.5px;
-    margin: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    font-weight: 600;
     -webkit-transform: translateZ(0px);
 }
 
@@ -377,9 +347,7 @@ form,
 .food-guide h6 {
     margin-top: 20px;
     text-align: center;
-    line-height: 1.5;
     font-family: "Source Sans Pro";
-    font-size: 18px;
 }
 
 /* -----------------------------------------------------------------food-menu */
@@ -391,7 +359,6 @@ form,
     margin-bottom: 20px;
     border-radius: 30px;
     padding: 15px;
-    font-size: 20px;
     color: #000000;
 }
 
@@ -420,14 +387,11 @@ form,
     color: #fafafa;
     margin: 0 auto;
     border-radius: 50px;
-    font-size: 30px;
-    font-weight: 600;
     padding: 10px;
 }
 
 .guide-span {
     float: right;
-    font-size: 16px;
 }
 
 .food-menu-images {
@@ -516,7 +480,6 @@ small {
 }
 
 .page-questions {
-    font-size: 21px;
     padding-top: 30px;
     padding-bottom: 10px;
     text-align: center;
@@ -624,36 +587,13 @@ label.custom-control-label {
         margin-left: 15px;
     }
 
-    .menuitem span {
-        font-size: 13px;
-    }
-
     .page-heading {
-        font-size: 25px;
         font-weight: bold;
     }
 
-    .general-sub {
-        font-size: 20px;
-    }
-
-    .food-menu-header {
-        font-size: 16px;
-    }
-
-    .guide-span {
-        font-size: 14px;
-    }
 }
 
-@media only screen and (min-width: 301px) and (max-width: 601px) {
-    .page-heading {
-        font-size: 35px;
-        font-weight: 600;
-    }
-}
-
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 599px) {
     .sign-in-btn {
         margin-right: 10px;
         height: 60px;
@@ -663,46 +603,20 @@ label.custom-control-label {
         width: 65%;
         margin-left: 15px;
     }
+    .contacts{
+        margin: 7px;
+        line-height: 10px;
+    }
 }
 
 @media only screen and (min-width: 801px) {
-    .contacts p,
-    .General-sub,
-    .jumbotron-fluid p,
-    .index-note,
-    .food-guide h6 {
-        font-size: 23px;
-    }
 
     form {
         width: 75%;
     }
 }
 
-@media only screen and (min-width: 1000px) {
-    #nav,
-    #nav li,
-    .menuitem,
-    .hvr-sweep-to-bottom:before,
-    header {
-        height: 220px;
-    }
-
-    .menuitem span {
-        font-size: 21px;
-        padding-top: 95px;
-    }
-}
-
 @media only screen and (min-width: 1200px) {
-    .contacts p,
-    .General-sub,
-    .jumbotron-fluid p,
-    .index-note,
-    .food-guide h6,
-    .sign-in-note {
-        font-size: 29px;
-    }
 
     .contacts p {
         font-family: "Source Sans Pro";
@@ -710,7 +624,6 @@ label.custom-control-label {
     }
 
     .guide-span {
-        font-size: 25px;
         font-weight: 400;
     }
 
@@ -723,23 +636,16 @@ label.custom-control-label {
     .general-sub,
     .menuitem span {
         font-family: "Sriracha", cursive;
-        font-weight: 600;
-        font-size: 27px;
-    }
-
-    .sign-in-note {
-        line-height: 30px;
     }
 
     .contacts i,
     .social-links a i {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     strong,
     .food-menu-header {
         color: #000;
-        font-size: 30px;
     }
 
     .active-btn {
@@ -747,34 +653,21 @@ label.custom-control-label {
     }
 
     .drinks-header {
-        font-size: 40px;
         margin-left: 10px;
         width: 75%;
     }
 
-    .page-questions {
-        font-size: 45px;
-    }
-
     .views label,
     .form-p {
-        font-size: 25px;
         color: #000000;
     }
 
     .reservation-info label {
         color: #000000;
-        font-size: 32px;
-        font-weight: 400;
-    }
-
-    .small {
-        font-size: 25px;
     }
 
     .radio-questions label {
         color: #000000;
-        font-size: 25px;
         margin-left: 20px;
         padding-left: 10px;
     }
@@ -787,7 +680,6 @@ label.custom-control-label {
 
     .reservation-info input {
         height: 75px;
-        font-weight: 400;
     }
 
     .views input {
@@ -801,9 +693,6 @@ label.custom-control-label {
         padding-left: 10px;
     }
 
-    p {
-        font-size: 28px;
-    }
 }
 
 @media only screen and (min-width: 599px) and (max-width: 1199px) {
@@ -813,7 +702,6 @@ label.custom-control-label {
     }
 
     .page-heading {
-        font-size: 32px;
         padding-top: 10px;
     }
 }
@@ -825,24 +713,10 @@ label.custom-control-label {
     }
 }
 
-@media only screen and (min-height: 1200px) {
+@media only screen and (min-height: 1000px) and (max-height: 1500px){
     html,
     body {
         height: 100%;
-    }
-
-    #nav,
-    #nav li,
-    .menuitem,
-    .menuitem a,
-    .hvr-sweep-to-bottom:before,
-    header {
-        height: 220px;
-    }
-
-    .menuitem span {
-        font-size: 25px;
-        padding-top: 95px;
     }
 
     .general-sub {
@@ -856,6 +730,16 @@ label.custom-control-label {
 
     .drinks-header {
         width: 75%;
+    }
+    .lead,
+    .food-guide,
+    .footer-row{
+        margin-top: 27px;
+        margin-bottom: 27px;
+        line-height: 40px;
+    }
+    .sign-in-note{
+        line-height: 25px;
     }
 }
 
